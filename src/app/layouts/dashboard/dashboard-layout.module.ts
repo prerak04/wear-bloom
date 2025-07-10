@@ -11,6 +11,15 @@ const routes = [
     loadChildren: () =>
       import('./../../modules/home/home.module').then((m) => m.HomeModule),
   },
+  {
+    path: 'Category',
+    data: { roles: [Roles.MasterAdmin, Roles.Admin] },
+
+    loadChildren: () =>
+      import('../../modules/category/category.module').then(
+        (m) => m.CategoryModule
+      ),
+  },
 ];
 
 @NgModule({

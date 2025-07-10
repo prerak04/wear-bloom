@@ -35,5 +35,12 @@ export class Menu {
       isOpen: false,
       Role: [Roles.MasterAdmin, Roles.Admin],
     },
+    {
+      label: Routes.CATEGORY.name,
+      icon: Routes.CATEGORY.icon,
+      link: Routes.CATEGORY.url,
+      isOpen: false,
+      Role: [Roles.MasterAdmin, Roles.Admin],
+    },
   ];
 }

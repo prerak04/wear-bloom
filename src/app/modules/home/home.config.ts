@@ -1,5 +1,5 @@
-import { Routes } from '../../../core/classes/routes';
-import { ContainerConfig } from '../../../core/generic-component/common-container/container-config';
+import { Routes } from '../../core/classes/routes';
+import { ContainerConfig } from '../../core/generic-component/common-container/container-config';
 
 export const HomeConfig: ContainerConfig = {
   ListViewTitle: 'Dashbaord',

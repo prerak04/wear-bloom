@@ -1,0 +1,68 @@
+<div class="home-page">
+  <!-- Hero Banner -->
+  <section class="hero-banner">
+    <div class="hero-text">
+      <h1>Own Your Vibe</h1>
+      <p>Trendy • Timeless • Tailored</p>
+      <button>Shop Now</button>
+    </div>
+  </section>
+
+  <!-- Featured Categories -->
+  <section class="featured-categories">
+    <h2>Explore Categories</h2>
+    <div class="category-grid">
+      <div
+        class="category-card"
+        *ngFor="let cat of ['Men', 'Women', 'Accessories']"
+      >
+        <div
+          class="image"
+          [ngStyle]="{
+            'background-image':
+              'url(assets/images/' + cat.toLowerCase() + '.jpg)'
+          }"
+        ></div>
+        <div class="category-name">{{ cat }}</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promo Banner -->
+  <section class="promo-banner">
+    <div class="promo-text">
+      <h3>Up to 50% Off</h3>
+      <p>On selected summer collections</p>
+      <button>Browse Sale</button>
+    </div>
+  </section>
+
+  <!-- Product Showcase -->
+  <div class="product-showcase">
+    <h2>New Arrivals</h2>
+    <div class="product-grid">
+      <div class="product-card" *ngFor="let product of newArrivals">
+        <img [src]="product.image" [alt]="product.name" />
+        <div class="info">
+          <h4>{{ product.name }}</h4>
+          <p>₹{{ product.price }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <h2>Join Our Tribe</h2>
+    <p>Be the first to know about new drops and special offers.</p>
+    <input type="email" placeholder="Enter your email" />
+    <button>Subscribe</button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Wear & Bloom. All rights reserved.</p>
+    </div>
+  </footer>
+</div>

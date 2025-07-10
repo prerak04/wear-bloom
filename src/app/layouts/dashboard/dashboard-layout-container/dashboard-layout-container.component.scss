@@ -2,24 +2,27 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  overflow: hidden;
 }
 
 .dashboard-content {
   flex: 1;
-  margin-top: 60px; // Offset for fixed header
+  margin-top: 60px; // To avoid overlap with header
   padding-left: 0;
   transition: padding-left 0.3s ease;
+  overflow-y: auto;
+  min-height: calc(100vh - 60px); // Ensure content area is tall enough
 }
 
-/* When sidebar is open on desktop: push content */
+.sidebar-open .dashboard-content {
+  padding-left: 250px; // Match your sidebar width
+}
+
 @media (min-width: 1025px) {
   .sidebar-open .dashboard-content {
     padding-left: 250px;
   }
 }
 
-/* On smaller screens: sidebar overlays, no push */
 @media (max-width: 1024px) {
   .sidebar-open .dashboard-content {
     padding-left: 0;
