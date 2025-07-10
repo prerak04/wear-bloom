@@ -1,0 +1,61 @@
+<!-- Page Action Bar ::Start -->
+<div class="page-action-btn">
+  <!-- Left side btns ::Start -->
+  @if (actionBarLeftButtons?.length) {
+  <div class="left-grp-btn">
+    @for (actionBarLeftButton of actionBarLeftButtons; track $index) {
+    <button
+      kw-button-flat
+      [color]="actionBarLeftButton?.Color || 'primary'"
+      type="button"
+      [title]="actionBarLeftButton?.Title || ''"
+      (click)="onLeftActionBtnClick(actionBarLeftButton)"
+    >
+      {{ actionBarLeftButton?.Title }}
+    </button>
+    }
+  </div>
+  }
+  <!-- Left side btns ::End -->
+
+  <div class="page-grp-btn">
+    <!-- Search bar -->
+    @if ( isSearchBar ) {
+    <kw-form-field inputAppearance="label-outside">
+      <button type="button" kwPrefix>
+        <i class="sd sd-search-md"></i>
+      </button>
+      <input
+        type="text"
+        kwInput
+        id="search"
+        [(ngModel)]="searchString"
+        (ngModelChange)="onSearch($event)"
+        placeholder="Search"
+      />
+    </kw-form-field>
+    }
+
+    <!-- Right Action Btns -->
+    @for (actionBarRightButton of actionBarRightButtons; track $index) {
+    <button
+      type="button"
+      kw-button-fab
+      [title]="actionBarRightButton?.Title || ''"
+      [color]="actionBarRightButton?.Color || ''"
+      (click)="onRightActionBtnClick(actionBarRightButton)"
+    >
+      <i class="sd {{ actionBarRightButton?.Icon }}"></i>
+    </button>
+    }
+
+    <!-- toggle btns -->
+    @if (isListGridViewVisible) {
+    <app-kw-toggle-btn
+      [isGridView]="isGridView"
+      (onToggleOutput)="onToggle($event)"
+    ></app-kw-toggle-btn>
+    }
+  </div>
+</div>
+<!-- Page Action Bar ::End -->

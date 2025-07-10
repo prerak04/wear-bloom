@@ -1,0 +1,2466 @@
+{
+  "login": {
+    "welcome": "સ્વાગત છે",
+    "title": "તમારું ઈમેલ અને પાસવર્ડ દાખલ કરો અને તમારું એકાઉન્ટ ઍક્સેસ કરો",
+    "by": "દ્વારા સંચાલિત",
+    "authorization": "ક્વિકવર્ક ટેક સ્ટુડિયો LLP"
+  },
+  "sign-in": {
+    "sign-in": "સાઇન ઇન",
+    "username": "ઉપયોગકર્તા નામ",
+    "email": "ઇમેઇલ",
+    "signing": "સાઇન ઇન થાઈ રહ્યું છે...",
+    "placeholder": {
+      "email": "ઇમેઇલ દાખલ કરો"
+    },
+    "password": "પાસવર્ડ"
+  },
+  "reset-password": {
+    "title": "નવો પાસવર્ડ દાખલ કરો",
+    "new-password": "નવો પાસવર્ડ",
+    "confirm-new-password": "નવો પાસવર્ડ ફરીથી ટાઇપ કરો",
+    "reset-your-password": "તમારો પાસવર્ડ રીસેટ કરો",
+    "error-invalid-match": "નવો પાસવર્ડ અને કન્ફર્મેશન મેળ ખાતા નથી",
+    "resetting": "રીસેટ થઈ રહ્યું છે...",
+    "placeholder": {
+      "enter-new-password": "તમારો નવો પાસવર્ડ દાખલ કરો",
+      "confirm-new-password": "નવો પાસવર્ડ ફરીથી ટાઇપ કરો"
+    }
+  },
+  "profile-image-dialog": {
+    "info": "આપણી ફાઇલો અપલોડ કરવા અથવા છોડવા માટે અહીં ક્લિક કરો",
+    "accepted-file": "માત્ર JPG અથવા PNG ફાઇલો સ્વીકૃત થશે"
+  },
+  "common-translate-fields": {
+    "address": "વિશેષતા",
+    "country": "દેશ",
+    "state": "રાજ્ય",
+    "district": "જિલ્લો",
+    "city": "શહેર",
+    "pin-code": "પિન કોડ",
+    "out-of": "માંથી",
+    "permanent-address": "સ્તાયી સરનામું",
+    "current-address": "વર્તમાન સરનામું",
+    "upload-message": "અપલોડ કરવા માટે અહીં ક્લિક કરો અથવા તમારા ફાઇલો અહીં ડ્રોપ કરો",
+    "form-instruction": " PDF અથવા Word ફાઇલ 200KB કરતાં ઓછા કદમાં સ્વીકારવામાં આવશે।",
+    "upload-successfully": "સફળતાપૂર્વક અપલોડ થયું",
+    "no-data": "કોઈ ડેટા ઉપલબ્ધ નથી",
+    "isLoading": "લોડ થઈ રહ્યું છે...",
+    "totalfee": "કુલ ફી",
+    "remaining-fees": "બાકી ફી",
+    "no-records-found": "કોઈ રેકોર્ડ મળ્યા નથી"
+  },
+  "common-response-handler": {
+    "error-response": "કંઇક ખોટું થયું છે. કૃપા કરીને પછીથી પુનરાવર્તન કરો.",
+    "record-created": "રેકોર્ડ સફળતાપૂર્વક બનાવાયો.",
+    "record-updated": "રેકોર્ડ સફળતાપૂર્વક અપડેટ કરવામાં આવ્યો.",
+    "record-deleted": "રેકોર્ડ સફળતાપૂર્વક કાઢી નાખવામાં આવ્યો."
+  },
+  "sidebar": {
+    "onboarding": "ઓનબોર્ડિંગ",
+    "add-school": "શાળા ઉમેરો",
+    "add-employee": "કર્મચારી ઉમેરો",
+    "add-class": "વર્ગ ઉમેરો",
+    "add-student": "વિદ્યાર્થી ઉમેરો",
+    "dashboard": "ડેશબોર્ડ",
+    "institute": "સંસ્થા",
+    "employee": "કર્મચારી",
+    "student": "વિદ્યાર્થી",
+    "session": "સત્ર",
+    "exam-module": "પરીક્ષા મોડ્યૂલ",
+    "setting": "સેટિંગ",
+    "your-payrolls": "કર્મચારી પે-રોલ",
+    "profile": "પ્રોફાઈલ",
+    "class": "ક્લાસ",
+    "subject": "વિષય",
+    "division": "વિભાગ",
+    "education-year": "શૈક્ષણિક વર્ષ",
+    "fee-component": "ફી ઘટક",
+    "stream": "સ્ટ્રીમ",
+    "medium": "માધ્યમ",
+    "section": "વિભાગ",
+    "shift": "શિફ્ટ",
+    "student-fee": "વિદ્યાર્થી ફી",
+    "staff": "કર્મચારી",
+    "leaves": "છુટ્ટા",
+    "payroll": "પે-રોલ",
+    "my-payroll": "મારું પે-રોલ",
+    "assessment": "મુલ્યાંકન",
+    "theme": "થીમ",
+    "theme-component": "થીમ ઘટક",
+    "board": "બોર્ડ",
+    "holiday": "હોલીડે",
+    "policy": "નીતિ",
+    "announcement": "જાહેરાત",
+    "leave-type": "રજા પ્રકાર",
+    "list": "સંસ્થાઓની યાદી",
+    "attendence": "હાજરી",
+    "salary-component": "વેતન ઘટક",
+    "my-leave": "મારી રજાઓ",
+    "leave-request": "રજા વિનંતી",
+    "menu": "મેનૂ",
+    "menu-component": "મેનૂ ઘટકો",
+    "assets": "સંપત્તિઓ",
+    "brand": "બ્રાન્ડ",
+    "category": "શ્રેણી",
+    "product": "ઉત્પાદન",
+    "Role": "ભૂમિકા",
+    "user-role": "વપરાશકર્તા ભૂમિકા",
+    "fees": "ફી",
+    "master": "માસ્ટર",
+    "user": "ઉપયોગકર્તા",
+    "visitor-book": "આગંતુક પુસ્તક",
+    "student-exam": "વિદ્યાર્થી પરીક્ષા",
+    "student-promotion": "વિદ્યાર્થી પ્રોત્સાહન",
+    "attendance": "હાજરી",
+    "report": "રિપોર્ટ",
+    "class-attendance": "ક્લાસ હાજરી",
+    "class-fees": "ક્લાસ ફી",
+    "class-student": "ક્લાસ વિદ્યાર્થી",
+    "student-attendance": "વિદ્યાર્થી હાજરી",
+    "student-fees-collection": "વિદ્યાર્થી ફી સંકલન",
+    "student-fees": "વિદ્યાર્થી ફી",
+    "fees-collection": "ફી સંગ્રહ અહેવાલ",
+    "student-report": "વિદ્યાર્થી માસિક અહેવાલ",
+    "settings": "સેટિંગ્સ",
+    "notification": "સૂચના",
+    "notification-list": "સૂચના યાદી",
+    "notification-type": "સૂચના પ્રકાર"
+  },
+  "master-header": {
+    "gujarati": "ગુજરાતી",
+    "hindi": "હિન્દી",
+    "english": "અંગ્રેજી",
+    "logout": "લૉગ આઉટ",
+    "loginOut": "લૉગઆઉટ થઈ રહ્યું છે..."
+  },
+  "common-button": {
+    "add": "ઉમેરો",
+    "edit": "સંપાદિત કરો",
+    "close": "બંધ કરો",
+    "cancel": "રદ કરો",
+    "save": "સંગ્રહો",
+    "search": "શોધો",
+    "detail": "વિગત",
+    "delete": "હટાવો",
+    "view": "વ્યૂ",
+    "actions": "ક્રિયાઓ",
+    "clear": "સફા કરો",
+    "list": "યાદી",
+    "accept": "મંજૂર કરો",
+    "reject": "નકારી દો",
+    "revoke": "રદ કરો",
+    "status": "રાજીનામું સ્થિતિ જુઓ",
+    "saving": "સંગ્રહિત કરી રહ્યા છે...",
+    "apply": "અરજી કરી રહ્યા છે...",
+    "change-password": "પાસવર્ડ બદલો",
+    "copy": "નકલી કરો",
+    "user": "વપરાશકર્તા",
+    "download": "ડાઉનલોડ",
+    "back": "પાછા"
+  },
+  "common-errors": {
+    "address-required": "સરનામું આવશ્યક છે",
+    "country-required": "દેશ આવશ્યક છે",
+    "state-required": "રાજ્ય આવશ્યક છે",
+    "district-required": "જિલ્લો આવશ્યક છે",
+    "city-required": "શહેર આવશ્યક છે",
+    "pin-code-required": "પિન કોડ આવશ્યક છે",
+    "required": "ફિલ્ડ આવશ્યક છે",
+    "invalid-contact": "સંપર્ક નંબર અમાન્ય છે",
+    "invalid-input": "કૃપા કરીને માન્ય ફોર્મેટમાં દાખલ કરો",
+    "alphabets-only": "કૃપા કરીને માત્ર અક્ષર દાખલ કરો",
+    "numbers-only": "કૃપા કરીને માત્ર સંખ્યાઓ દાખલ કરો",
+    "alphanumeric-only": "કૃપા કરીને માત્ર અલ્ફાન્યુમેરિક કિંમત દાખલ કરો",
+    "minlength-2": "કમથી કમ 2 અક્ષર આવશ્યક છે",
+    "minlength-5": "કમથી કમ 5 અક્ષર આવશ્યક છે",
+    "minlength-3": "કમથી કમ 3 અક્ષર આવશ્યક છે",
+    "minlength-6": "કમથી કમ 6 અક્ષર આવશ્યક છે",
+    "minlength-7": "કમથી કમ 7 અક્ષર આવશ્યક છે",
+    "minlength-8": "કમથી કમ 8 અક્ષર આવશ્યક છે",
+    "minlength-1": "કમથી કમ 1 અક્ષર આવશ્યક છે",
+    "minlength-11": "કમથી કમ 11 અક્ષર આવશ્યક છે",
+    "maxlength-1": "અધિકતમ 1 અક્ષર આવશ્યક છે",
+    "maxlength-2": "અધિકતમ 2 અક્ષર આવશ્યક છે",
+    "maxlength-3": "અધિકતમ 3 અક્ષર આવશ્યક છે",
+    "maxlength-4": "અધિકતમ 4 અક્ષર આવશ્યક છે",
+    "maxlength-5": "અધિકતમ 5 અક્ષર આવશ્યક છે",
+    "maxlength-6": "અધિકતમ 6 અક્ષર આવશ્યક છે",
+    "maxlength-7": "અધિકતમ 7 અક્ષર આવશ્યક છે",
+    "maxlength-8": "અધિકતમ 8 અક્ષર આવશ્યક છે",
+    "maxlength-9": "અધિકતમ 9 અક્ષર આવશ્યક છે",
+    "maxlength-10": "અધિકતમ 10 અક્ષર આવશ્યક છે",
+    "maxlength-30": "અધિકતમ 30 અક્ષર આવશ્યક છે",
+    "maxlength-50": "અધિકતમ 50 અક્ષર આવશ્યક છે",
+    "maxlength-100": "અધિકતમ 100 અક્ષર આવશ્યક છે",
+    "maxlength-150": "અધિકતમ 150 અક્ષર આવશ્યક છે",
+    "phone-number": "કૃપા કરીને 10 અંકનો નંબર દાખલ કરો",
+    "phone-pattern": "નંબર 6 થી 9 સાથે શરૂ થવો જોઈએ અને 10 અંક લાંબા હોવા જોઈએ",
+    "landline-pattern": "કૃપા કરીને માન્ય ફોન નંબર દાખલ કરો, જેમાં 2-4 અંકવાળા ક્ષેત્ર કોડ (વૈકલ્પિક) અને 6-8 અંકવાળા મુખ્ય નંબર હોવા જોઈએ.",
+    "start-date": "પ્રારંભ તારીખ પૂર્ણ તારીખ કરતા પહેલો હોવો જોઈએ",
+    "end-date": "સમાપ્તિ તારીખ પ્રારંભ તારીખથી પછી હોવી જોઈએ",
+    "start-time": "પ્રારંભ સમય પૂર્ણ સમયથી પહેલાં હોવો જોઈએ",
+    "end-time": "સમાપ્તિ સમય પ્રારંભ સમયથી પછી હોવો જોઈએ",
+    "name-taken": "નામ પહેલેથી લેવામાં આવ્યું છે",
+    "registration-no-taken": "રજિસ્ટ્રેશન નંબર પહેલેથી લેવામાં આવ્યું છે",
+    "no-data-found": "કોઈ ડેટા મળ્યો નથી",
+    "email-same": "બન્ને ઇમેઇલ અલગ હોવી જોઈએ",
+    "default": "એક ડિફોલ્ટ શૈક્ષણિક વર્ષ પહેલેથી હાજર છે.",
+    "overlaping-date": "તારીખ વર્તમાન શિક્ષણ વર્ષોથી ઓવરલેપ થઈ રહી છે",
+    "file-size-exceed": "ફાઇલનું કદ 200KB કરતાં ઓછું હોવું જોઈએ"
+  },
+  "common-placeholder": {
+    "address": "વિશેષતા દાખલ કરો",
+    "country": "દેશ પસંદ કરો",
+    "state": "રાજ્ય પસંદ કરો",
+    "district": "જિલ્લો પસંદ કરો",
+    "city": "શહેર પસંદ કરો",
+    "pin-code": "પિન કોડ દાખલ કરો",
+    "permanent-address": "સ્તાયી સરનામું",
+    "current-address": "વર્તમાન સરનામું"
+  },
+  "common-code": {
+    "duplicate-data": "DPD"
+  },
+  "dashboard": {
+    "dashboard": "ડેશબોર્ડ",
+    "total-student": "કુલ વિદ્યાર્થીઓ",
+    "total-employee": "કુલ કર્મચારીઓ",
+    "total-class": "કુલ વર્ગો",
+    "page": {
+      "dashboard": "ડેશબોર્ડ",
+      "employee": "કર્મચારી",
+      "admin-exam": "મૂલ્યાંકન સૂચિ",
+      "monthly-attendance": "માસિક કર્મચારી હાજરી અહેવાલ",
+      "employee-birthday": "કર્મચારીનો જન્મદિવસ",
+      "leave-status": "કર્મચારી રજા સ્થિતિ",
+      "view-all": "બધું જુઓ",
+      "select-month": "મહિનો પસંદ કરો",
+      "leave-list": "કર્મચારી રજા",
+      "announcement": "જાહેરાત",
+      "holiday": "રજાઓ",
+      "session": "સત્ર",
+      "student-monthly-attendance": "મારી માસિક હાજરી",
+      "student-birthday": "વિદ્યાર્થીનો જન્મદિવસ",
+      "exam": "મારી પરીક્ષા",
+      "fees": "મારા ફી",
+      "time-table": "મારો સાપ્તાહિક સમયપત્રક",
+      "student-subjzect-monthly-attendance": "મારી માસિક વિષય હાજરી અહેવાલ",
+      "subjects": "વિષય",
+      "total-students": "કુલ વિદ્યાર્થીઓ",
+      "total-school": "કુલ સ્કૂલ",
+      "total-employees": "કુલ કર્મચારીઓ",
+      "total-classes": "કુલ વર્ગો",
+      "total-exams": "કુલ પરીક્ષાઓ",
+      "attendance-summary": "હાજરીનો સારાંશ",
+      "present": "હાજર દિવસો",
+      "absent": "ગેરહાજર દિવસો",
+      "fee-summary": "ફીનો સારાંશ",
+      "total-fees": "કુલ ફી",
+      "paid-fees": "ચૂકવેલી ફી",
+      "remaining-fees": "બાકી ફી"
+    }
+  },
+  "institute": {
+    "institute": "સંસ્થા",
+    "logo": "લોગો",
+    "name": "નામ",
+    "tag-line": "ટેગલાઇન",
+    "contact-number": "સંપર્ક નંબર",
+    "landline-number": "લેન્ડલાઇન નંબર",
+    "email": "ઇમેઇલ",
+    "registration-no": "હજાર નંબર",
+    "list": "સંસ્થા યાદી",
+    "theme": "થીમ",
+    "basic-info": "મૂળ માહિતી",
+    "facial-recognition": "ચહેરાની ઓળખ",
+    "sms-config": "એસએમએસ કોન્ફિગ",
+    "placeholder": {
+      "name": "નામ દાખલ કરો",
+      "tagline": "ટેગલાઇન દાખલ કરો",
+      "contact-number": "સંપર્ક નંબર દાખલ કરો",
+      "registration-no": "હજાર નંબર દાખલ કરો",
+      "email": "ઇમેઇલ દાખલ કરો",
+      "theme": "થીમ પસંદ કરો"
+    },
+    "errors": {
+      "name-required": "નામ ક્ષેત્ર ખાલી રહેવું જોઈએ નહીં",
+      "tagline-required": "ટેગલાઇન ખાલી રહેવું જોઈએ નહીં",
+      "number-required": "સંપર્ક નંબર ખાલી રહેવું જોઈએ નહીં",
+      "registration-no-required": "હજાર નંબર ખાલી રહેવું જોઈએ નહીં",
+      "email-required": "ઇમેઇલ ખાલી રહેવું જોઈએ નહીં"
+    },
+    "overview": {
+      "sms-config": {
+        "is-active": "સક્રિય છે",
+        "api-url": "એપીઆઈ યુઆરએલ",
+        "auth-key": "પ્રમાણકી",
+        "table": {
+          "is-active": "સક્રિય છે",
+          "template-id": "ટેમ્પલેટ આઈડી",
+          "template-name": "ટેમ્પલેટ નામ",
+          "code": "કોડ"
+        },
+        "placeholder": {
+          "api-url": "એપીઆઈ યુઆરએલ દાખલ કરો",
+          "auth-key": "પ્રમાણકી દાખલ કરો"
+        }
+      },
+      "template-link": {
+        "is-active": "સક્રિય છે",
+        "template": "ટેમ્પલેટ",
+        "template-name": "ટેમ્પલેટ નામ",
+        "sender-id": "પ્રેષક આઈડી",
+        "template-id": "ટેમ્પલેટ આઈડી",
+        "template-format": "ટેમ્પલેટ ફોર્મેટ",
+        "select-code": "કોડ પસંદ કરો",
+        "placeholder": {
+          "template-name": "ટેમ્પલેટ નામ દાખલ કરો",
+          "sender-id": "પ્રેષક આઈડી દાખલ કરો",
+          "template-id": "ટેમ્પલેટ આઈડી દાખલ કરો",
+          "template-format": "ટેમ્પલેટ ફોર્મેટ દાખલ કરો",
+          "select-code": "ટેમ્પલેટ પ્રકાર પસંદ કરો"
+        }
+      },
+      "facial-recognition": {
+        "facial-recognition-api-url": "ચહેરાની ઓળખ API URL",
+        "api-key": "API કી",
+        "key-name": "કી નામ",
+        "similarity-threshold": "સમાનતા થ્રેશોલ્ડ",
+        "det-prob-threshold": "શોધ সম্ভાવના થ્રેશોલ્ડ",
+        "limit": "મર્યાદા",
+        "is-active": "સક્રિય છે",
+        "placeholder": {
+          "facial-recognition-api-url": "ચહેરાની ઓળખ API URL દાખલ કરો",
+          "api-key": "API કી દાખલ કરો",
+          "key-name": "કી નામ દાખલ કરો",
+          "similarity-threshold": "સમાનતા થ્રેશોલ્ડ દાખલ કરો",
+          "det-prob-threshold": "શોધ সম্ভાવના થ્રેશોલ્ડ દાખલ કરો",
+          "limit": "મર્યાદા દાખલ કરો"
+        },
+        "error": {
+          "facial-recognition-api-url": "ચહેરાની ઓળખ API URL આવશ્યક છે",
+          "api-key": "API કી આવશ્યક છે",
+          "key-name": "કી નામ આવશ્યક છે",
+          "similarity-threshold": "સમાનતા થ્રેશોલ્ડ આવશ્યક છે",
+          "det-prob-threshold": "શોધ সম্ভાવના થ્રેશોલ્ડ આવશ્યક છે",
+          "limit": "મર્યાદા આવશ્યક છે"
+        }
+      }
+    }
+  },
+  "class": {
+    "select-option": {
+      "education-year": "શૈક્ષણિક વર્ષ પસંદ કરો",
+      "boards": "બોર્ડ પસંદ કરો",
+      "division": "વિભાગ પસંદ કરો",
+      "medium": "માધ્યમ પસંદ કરો",
+      "main-subject": "મુખ્ય વિષય પસંદ કરો",
+      "stream": "પ્રવાહ પસંદ કરો"
+    },
+    "select-option-no-data": {
+      "education-year": "કોઈ શિક્ષણ વર્ષ ઉપલબ્ધ નથી",
+      "boards": "કોઈ બોર્ડ્સ ઉપલબ્ધ નથી",
+      "division": "કોઈ ડિવિઝન ઉપલબ્ધ નથી",
+      "medium": "કોઈ માધ્યમ ઉપલબ્ધ નથી",
+      "main-subject": "કોઈ મુખ્ય વિષય ઉપલબ્ધ નથી",
+      "stream": "કોઈ સ્ટ્રીમ ઉપલબ્ધ નથી"
+    },
+    "date": "તારીખ",
+    "class": "વર્ગ",
+    "list": "વર્ગ",
+    "table": {
+      "name": "નામ",
+      "division": "વિભાગ",
+      "main-subject": "મુખ્ય વિષય",
+      "board": "બોર્ડ",
+      "medium": "માધ્યમ",
+      "stream": "પ્રવાહ"
+    },
+    "tab": {
+      "basic-info": "મૂળભૂત માહિતી",
+      "shift": "શિફ્ટ",
+      "student": "વિદ્યાર્થી",
+      "fee": "ફી",
+      "subject": "વિષયો",
+      "session": "અધિવેશન",
+      "overview": "ઝાંખી"
+    },
+    "overview": {
+      "class": "વર્ગ",
+      "board": "બોર્ડ",
+      "medium": "માધ્યમ",
+      "division": "વિભાગ",
+      "stream": "પ્રવાહ",
+      "subject": "મુખ્ય વિષય",
+      "teacher": "વર્ગશિક્ષક",
+      "placeholder": {
+        "class": "વર્ગ દાખલ કરો",
+        "board": "બોર્ડ પસંદ કરો",
+        "medium": "માધ્યમ પસંદ કરો",
+        "division": "વિભાગ પસંદ કરો",
+        "education-year": "શૈક્ષણિક વર્ષ પસંદ કરો",
+        "stream": "પ્રવાહ પસંદ કરો",
+        "teacher": "વર્ગશિક્ષક પસંદ કરો",
+        "subject": "વિષય પસંદ કરો"
+      },
+      "errors": {
+        "same": "સમાન વિગતો સાથે વર્ગ પહેલેથી હાજર છે",
+        "class": "વર્ગ ફીલ્ડ જરૂરી છે",
+        "board": "બોર્ડ ફીલ્ડ જરૂરી છે",
+        "medium": "માધ્યમ ફીલ્ડ જરૂરી છે",
+        "division": "વિભાગ ફીલ્ડ જરૂરી છે",
+        "stream": "પ્રવાહ ફીલ્ડ જરૂરી છે",
+        "teacher": "વર્ગશિક્ષક ફીલ્ડ જરૂરી છે",
+        "no-board": "કોઇ બોર્ડ ઉપલબ્ધ નથી",
+        "no-medium": "કોઇ માધ્યમ ઉપલબ્ધ નથી",
+        "no-subject": "કોઇ વિષય ઉપલબ્ધ નથી",
+        "no-division": "કોઇ વિભાગ ઉપલબ્ધ નથી",
+        "no-stream": "કોઇ પ્રવાહ ઉપલબ્ધ નથી",
+        "no-teacher": "કોઇ વર્ગશિક્ષક ઉપલબ્ધ નથી"
+      }
+    },
+    "shift": {
+      "education-year": "શૈક્ષણિક વર્ષ",
+      "shift": "શિફ્ટ",
+      "section": "વિભાગ",
+      "teacher": "વર્ગશિક્ષક",
+      "add": "શિફ્ટ ઉમેરો",
+      "update": "શિફ્ટ સુધારો",
+      "table": {
+        "section": "વિભાગ",
+        "teacher": "શિક્ષક"
+      },
+      "placeholder": {
+        "education-year": "શૈક્ષણિક વર્ષ",
+        "section": "વિભાગ પસંદ કરો",
+        "teacher": "શિક્ષક પસંદ કરો",
+        "no-shift": "કોઇ શિફ્ટ ઉપલબ્ધ નથી",
+        "no-section": "કોઇ વિભાગ ઉપલબ્ધ નથી",
+        "no-teachers": "કોઇ શિક્ષકો ઉપલબ્ધ નથી"
+      },
+      "errors": {
+        "duplicate": "સમાન શિફ્ટ અને વિભાગ સાથેનો ડેટા પહેલેથી હાજર છે"
+      }
+    },
+    "student": {
+      "education-year": "શૈક્ષણિક વર્ષ",
+      "shift": "શિફ્ટ",
+      "section": "વિભાગ",
+      "index": "અનુક્રમ",
+      "student": "વિદ્યાર્થી",
+      "uniq-number": "અનન્ય નંબર",
+      "action": "ક્રિયા",
+      "add-students": "વિદ્યાર્થીઓ ઉમેરો",
+      "linked-students": "લિંક થયેલા વિદ્યાર્થીઓ જુઓ",
+      "table": {
+        "index": "અનુક્રમ",
+        "uniq-number": "અનન્ય નંબર",
+        "student": "વિદ્યાર્થી",
+        "email": "ઈમેલ",
+        "contact": "સંપર્ક",
+        "shift": "શિફ્ટ",
+        "section": "વિભાગ"
+      },
+      "placeholder": {
+        "education-year": "શૈક્ષણિક વર્ષ",
+        "student": "વિદ્યાર્થી શોધો",
+        "shift": "શિફ્ટ પસંદ કરો",
+        "section": "વિભાગ પસંદ કરો"
+      }
+    },
+    "fee": {
+      "education-year": "શૈક્ષણિક વર્ષ",
+      "name": "નામ",
+      "fee": "ફી",
+      "fee-structure": "ફી માળખું",
+      "fee-type": "ફી પ્રકાર",
+      "component": "ઘટક",
+      "amount": "રકમ",
+      "is-active": "સક્રિય",
+      "total": "કુલ",
+      "placeholder": {
+        "name": "વિદ્યાર્થી દાખલ કરો"
+      },
+      "errors": {
+        "invalid-amount": "રકમ નકારાત્મક ન હોઈ શકે"
+      }
+    },
+    "subject": {
+      "education-year": "શૈક્ષણિક વર્ષ",
+      "select-subject": "વિષય પસંદ કરો",
+      "teacher": "શિક્ષક",
+      "table": {
+        "select": "પસંદ કરો",
+        "subject": "વિષય",
+        "teacher": "શિક્ષક"
+      },
+      "placeholder": {
+        "name": "વિદ્યાર્થી દાખલ કરો",
+        "teacher": "શિક્ષક પસંદ કરો"
+      }
+    },
+    "session": {
+      "education-year": "શૈક્ષણિક વર્ષ",
+      "start-date": "પ્રારંભ તારીખ",
+      "end-date": "અંત તારીખ",
+      "table": {
+        "education-year": "શૈક્ષણિક વર્ષ",
+        "start-date": "પ્રારંભ તારીખ",
+        "end-date": "અંત તારીખ",
+        "shift": "શિફ્ટ",
+        "section": "વિભાગ",
+        "monday": "સોમવાર",
+        "tuesday": "મંગળવાર",
+        "wednsday": "બુધવાર",
+        "thursday": "ગુરુવાર",
+        "friday": "શુક્રવાર",
+        "saturday": "શનિવાર",
+        "sunday": "રવિવાર"
+      },
+      "placeholder": {
+        "education-year": "શૈક્ષણિક વર્ષ પસંદ કરો",
+        "start-date": "પ્રારંભ તારીખ પસંદ કરો",
+        "end-date": "અંત તારીખ પસંદ કરો",
+        "select-weekday": "અઠવાડિયાનો દિવસ પસંદ કરો",
+        "subject": "વિષય પસંદ કરો",
+        "teacher": "શિક્ષક પસંદ કરો",
+        "no-subjects": "કોઇ સંલગ્ન વિષયો નથી",
+        "no-teachers": "કોઇ સંલગ્ન શિક્ષકો નથી"
+      },
+      "errors": {
+        "overlap": "આ દિવસે સમય આછો છે",
+        "shift-overlap": "શિફ્ટ સાથે સમય આછો છે",
+        "education-year": "શૈક્ષણિક વર્ષ ફીલ્ડ જરૂરી છે",
+        "start-date": "પ્રારંભ તારીખ અંત તારીખ કરતા વહેલી હોવી જોઈએ",
+        "end-date": "અંત તારીખ પ્રારંભ તારીખ કરતા પાછળની હોવી જોઈએ",
+        "start-date-overlap": "પ્રારંભ તારીખ અન્ય સત્ર સાથે આછો છે",
+        "end-date-overlap": "અંત તારીખ અન્ય સત્ર સાથે આછો છે",
+        "another-data-overlap": "અન્ય શિફ્ટ અથવા સત્ર સાથે આછો છે",
+        "start-time": "પ્રારંભ સમય ફીલ્ડ જરૂરી છે",
+        "end-time": "અંત સમય ફીલ્ડ જરૂરી છે",
+        "subject": "વિષય ફીલ્ડ જરૂરી છે",
+        "teacher": "શિક્ષક ફીલ્ડ જરૂરી છે"
+      },
+      "add": {
+        "start-time": "પ્રારંભ સમય",
+        "end-time": "અંત સમય",
+        "subject": "વિષયો",
+        "teacher": "શિક્ષક",
+        "weekday": "અઠવાડિયાનો દિવસ",
+        "back-to-list": "પાછા જાઓ",
+        "time": "સમય"
+      }
+    }
+  },
+  "employee": {
+    "employee": "કર્મચારી",
+    "list": "કર્મચારી",
+    "resign": "રાજીનામું",
+    "table": {
+      "image": "છબી",
+      "name": "નામ",
+      "address": "સરનામું",
+      "country": "દેશ",
+      "state": "રાજ્ય",
+      "city": "શહેર",
+      "district": "જીલ્લો",
+      "phone": "ફોન",
+      "personal-email": "વ્યક્તિગત ઈમેઈલ",
+      "work-email": "કામ ઈમેઈલ",
+      "monthly-salary": "માસિક પગાર"
+    },
+    "tab": {
+      "overview": "આવલોકન",
+      "education-history": "શૈક્ષણિક ઇતિહાસ",
+      "education-history-edit": "શિક્ષણ ઇતિહાસ સંપાદિત કરો",
+      "guardian": "રક્ષક",
+      "document": "દસ્તાવેજ",
+      "experience": "અનુભવ",
+      "bank-detail": "બેંક વિગતો",
+      "disability": "અશક્તતા",
+      "salary": "પગાર"
+    },
+    "bar": {
+      "basic": "મુલાકાત વિગતો",
+      "personal-info": "વ્યક્તિગત માહિતી",
+      "address": "સરનામું"
+    },
+    "overview": {
+      "first-name": "પ્રથમ નામ",
+      "middle-name": "મધ્યમ નામ",
+      "last-name": "અંતિમ નામ",
+      "as-per-current-address": "હાલના સરનામા મુજબ",
+      "contact-number": "સંપર્ક નંબર",
+      "personal-email": "વ્યક્તિગત ઈમેઈલ",
+      "work-email": "કામ ઈમેઈલ",
+      "date-of-birth": "જન્મ તારીખ",
+      "blood-group": "લોહી ગટ",
+      "religion": "ધર્મ",
+      "cast": "જાતિ",
+      "category": "શ્રેણી",
+      "date-of-joining": "જોડાવાની તારીખ",
+      "job-type": "નૌકાની પ્રકાર",
+      "monthly-salary": "માસિક પગાર",
+      "alternate-number": "પર્યાય નંબર",
+      "gender": "લિંગ",
+      "designation": "હિસ્સો પ્રકાર",
+      "reporting-to": "પ્રતિસાદ આપવો",
+      "placeholder": {
+        "first-name": "પ્રથમ નામ દાખલ કરો",
+        "middle-name": "મધ્યમ નામ દાખલ કરો",
+        "last-name": "અંતિમ નામ દાખલ કરો",
+        "gender": "લિંગ પસંદ કરો",
+        "contact-number": "સંપર્ક નંબર દાખલ કરો",
+        "personal-email": "વ્યક્તિગત ઈમેઈલ દાખલ કરો",
+        "work-email": "કામ ઈમેઈલ દાખલ કરો",
+        "date-of-birth": "જન્મ તારીખ પસંદ કરો",
+        "blood-group": "લોહી ગટ પસંદ કરો",
+        "religion": "ધર્મ પસંદ કરો",
+        "cast": "જાતિ પસંદ કરો",
+        "category": "શ્રેણી પસંદ કરો",
+        "date-of-joining": "જોડાવાની તારીખ પસંદ કરો",
+        "job-type": "નૌકાની પ્રકાર પસંદ કરો",
+        "monthly-salary": "માસિક પગાર દાખલ કરો",
+        "alternate-number": "પર્યાય નંબર દાખલ કરો",
+        "designation": "હિસ્સો પ્રકાર પસંદ કરો",
+        "reporting-to": "પ્રતિસાદ આપવો"
+      },
+      "errors": {
+        "first-name": "પ્રથમ નામ ફીલ્ડ જરૂરી છે",
+        "name-length": "અલ્પતમ 2 અક્ષરો જરૂરી છે",
+        "last-name": "અંતિમ નામ ફીલ્ડ જરૂરી છે",
+        "gender": "લિંગ ફીલ્ડ જરૂરી છે",
+        "contact-number": "સંપર્ક નંબર ફીલ્ડ જરૂરી છે",
+        "email": "ઈમેઈલ ફીલ્ડ જરૂરી છે",
+        "date-of-birth": "જન્મ તારીખ ફીલ્ડ જરૂરી છે",
+        "date-of-birth-age": "કૃપા કરીને માન્ય તારીખ પસંદ કરો અને ઓછામાં ઓછું 18 વર્ષનો ઉંમર હોવો જોઈએ",
+        "blood-group": "લોહી ગટ ફીલ્ડ જરૂરી છે",
+        "religion": "ધર્મ ફીલ્ડ જરૂરી છે",
+        "cast": "જાતિ ફીલ્ડ જરૂરી છે",
+        "category": "શ્રેણી ફીલ્ડ જરૂરી છે",
+        "date-of-joining": "જોડાવાની તારીખ ફીલ્ડ જરૂરી છે",
+        "job-type": "નૌકાની પ્રકાર ફીલ્ડ જરૂરી છે",
+        "monthly-salary": "માસિક પગાર ફીલ્ડ જરૂરી છે",
+        "designation": "હિસ્સો પ્રકાર ફીલ્ડ જરૂરી છે",
+        "reporting-to": "પ્રતિસાદ આપવો ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "education-history": {
+      "institute-name": "સંસ્થાનું નામ",
+      "degree": "ડિગ્રી",
+      "degree-year": "ડિગ્રી વર્ષ",
+      "start-year": "પ્રારંભ વર્ષ",
+      "end-year": "અંત વર્ષ",
+      "result": "પરિણામ",
+      "result-type": "પરિણામ પ્રકાર",
+      "certificate": "પ્રમાણપત્ર",
+      "tab": {
+        "institute-name": "સંસ્થાનું નામ",
+        "degree": "ડિગ્રી",
+        "start-year": "પ્રારંભ વર્ષ",
+        "end-year": "અંત વર્ષ"
+      },
+      "errors": {
+        "institute-name": "સંસ્થાનું નામ ફીલ્ડ જરૂરી છે",
+        "degree": "ડિગ્રી ફીલ્ડ જરૂરી છે",
+        "start-year": "પ્રારંભ વર્ષ ફીલ્ડ જરૂરી છે",
+        "end-year": "અંત વર્ષ ફીલ્ડ જરૂરી છે",
+        "degree-year": "ડિગ્રી વર્ષ ફીલ્ડ જરૂરી છે",
+        "result": "પરિણામ ફીલ્ડ જરૂરી છે",
+        "result-type": "પરિણામ પ્રકાર ફીલ્ડ જરૂરી છે",
+        "cgp": "10 ની નીચે કિંમત દાખલ કરો",
+        "per": "100 ની નીચે કિંમત દાખલ કરો"
+      },
+      "placeholder": {
+        "institute-name": "સંસ્થાનું નામ દાખલ કરો",
+        "degree": "ડિગ્રી પસંદ કરો",
+        "result": "પરિણામ દાખલ કરો",
+        "start-year": "MM, YYYY",
+        "end-year": "MM, YYYY",
+        "result-type": "પરિણામ પ્રકાર પસંદ કરો"
+      }
+    },
+    "guardian": {
+      "name": "નામ",
+      "relation": "સંબંધ",
+      "education": "શૈક્ષણિક",
+      "contact-number": "સંપર્ક નંબર",
+      "add": "કાકાને ઉમેરો",
+      "edit": "કાકાને એડિટ કરો",
+      "table": {
+        "name": "નામ",
+        "relation": "સંબંધ",
+        "education": "શૈક્ષણિક",
+        "contact-number": "સંપર્ક નંબર"
+      },
+      "placeholder": {
+        "name": "નામ દાખલ કરો",
+        "relation": "સંબંધ પસંદ કરો",
+        "education": "શૈક્ષણિક દાખલ કરો",
+        "contact-number": "સંપર્ક નંબર દાખલ કરો"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે",
+        "relation": "સંબંધ ફીલ્ડ જરૂરી છે",
+        "contact-number": "સંપર્ક નંબર ફીલ્ડ જરૂરી છે",
+        "maxlength": "અલ્પતમ 50 અક્ષરો જરૂરી છે"
+      }
+    },
+    "document": {
+      "aadhar-number": "આધાર નંબર",
+      "aadhaar-photos": "આધાર ફોટોઝ",
+      "pan-number": "પાન નંબર",
+      "pan-photos": "પાન ફોટો",
+      "is-passport-available": "પાસપોર્ટ ઉપલબ્ધ છે",
+      "passport-number": "પાસપોર્ટ નંબર",
+      "passport-expiry": "પાસપોર્ટ Expiry",
+      "document": "દસ્તાવેજ",
+      "placeholder": {
+        "aadhar-number": "આધાર નંબર દાખલ કરો",
+        "pan-number": "પાન નંબર દાખલ કરો",
+        "passport-number": "પાસપોર્ટ નંબર દાખલ કરો",
+        "passport-expiry": "પાસપોર્ટ Expiry તારીખ દાખલ કરો"
+      },
+      "errors": {
+        "aadhar-number": "આધાર નંબર ફીલ્ડ જરૂરી છે",
+        "pan-number": "પાન નંબર ફીલ્ડ જરૂરી છે",
+        "aadhar-minlength": "અલ્પતમ 12 અક્ષરો જરૂરી છે",
+        "valid-pan-number": "માન્ય પાન નંબર દાખલ કરો (ABCDE1234F)",
+        "pan-minlength": "અલ્પતમ 10 અક્ષરો",
+        "passport-minlength": "અલ્પતમ 6 અક્ષરો",
+        "passport-number": "પાસપોર્ટ નંબર ફીલ્ડ જરૂરી છે",
+        "passport-expiry": "પાસપોર્ટ Expiry ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "experience": {
+      "company-name": "કંપની નામ",
+      "start-date": "પ્રારંભ તારીખ",
+      "end-date": "અંત તારીખ",
+      "certificate": "પ્રમાણપત્ર",
+      "relieving-letter": "વિદાય પત્ર",
+      "add": "અનુભવ ઉમેરો",
+      "edit": "અનુભવ એડિટ કરો",
+      "table": {
+        "company-name": "કંપની નામ",
+        "start-date": "પ્રારંભ તારીખ",
+        "end-date": "અંત તારીખ"
+      },
+      "placeholder": {
+        "company-name": "કંપની નામ દાખલ કરો"
+      },
+      "errors": {
+        "company-name": "કંપની નામ ફીલ્ડ જરૂરી છે",
+        "start-date": "પ્રારંભ સમય ફીલ્ડ જરૂરી છે",
+        "end-date": "અંત સમય ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "bank-detail": {
+      "bank-name": "બેંક નામ",
+      "account-number": "ખાતું નંબર",
+      "ifsc": "IFSC",
+      "address": "સરનામું",
+      "branch-name": "શાખાનું નામ",
+      "branch-code": "શાખા કોડ",
+      "account-type": "ખાતું પ્રકાર",
+      "placeholder": {
+        "bank-name": "બેંક નામ દાખલ કરો",
+        "account-number": "ખાતું નંબર દાખલ કરો",
+        "ifsc": "IFSC દાખલ કરો",
+        "address": "સરનામું દાખલ કરો",
+        "branch-name": "શાખાનું નામ દાખલ કરો",
+        "branch-code": "શાખા કોડ દાખલ કરો",
+        "account-type": "ખાતું પ્રકાર પસંદ કરો"
+      },
+      "errors": {
+        "account-number": "આધાર નંબર ફીલ્ડ જરૂરી છે",
+        "ifsc-minlength": "IFSC કોડમાં 11 અક્ષરો હોવા જોઈએ: XXXX0YYYYYY (અક્ષર અને આંકડા)",
+        "account-minlength": "અલ્પતમ 12 અક્ષરો",
+        "branch-minlength": "અલ્પતમ 3 અક્ષરો",
+        "ifsc": "IFSC ફીલ્ડ જરૂરી છે",
+        "address": "સરનામું ફીલ્ડ જરૂરી છે",
+        "bank-name": "બેંક નામ ફીલ્ડ જરૂરી છે",
+        "branch-name": "શાખાનું નામ ફીલ્ડ જરૂરી છે",
+        "branch-code": "શાખા કોડ ફીલ્ડ જરૂરી છે",
+        "account-type": "ખાતું પ્રકાર ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "disability": {
+      "is-disable": "અશક્ત છે",
+      "disibility": "અશક્તતા",
+      "majorillness": "મહત્વપૂર્ણ બિમારી",
+      "allergy": "ઍલર્જી",
+      "yes": "હા",
+      "no": "નહિં",
+      "identification-mark": "પરિચય ચિહ્ન",
+      "family-doctor-name": "કુટુંબ ડોક્ટરનું નામ",
+      "family-doctor-number": "કુટુંબ ડોક્ટર નંબર",
+      "placeholder": {
+        "disibility": "અશક્તતા દાખલ કરો",
+        "majorillness": "મહત્વપૂર્ણ બિમારી દાખલ કરો",
+        "allergy": "ઍલર્જી દાખલ કરો",
+        "identification-mark": "પરિચય ચિહ્ન દાખલ કરો",
+        "family-doctor-name": "કુટુંબ ડોક્ટરનું નામ દાખલ કરો",
+        "family-doctor-number": "કુટુંબ ડોક્ટર નંબર દાખલ કરો"
+      },
+      "errors": {
+        "disibility": "અશક્તતા ફીલ્ડ જરૂરી છે",
+        "majorillness": "મહત્વપૂર્ણ બિમારી ફીલ્ડ જરૂરી છે",
+        "allergy": "ઍલર્જી ફીલ્ડ જરૂરી છે",
+        "identification-mark": "પરિચય ચિહ્ન ફીલ્ડ જરૂરી છે",
+        "family-doctor-name": "કુટુંબ ડોક્ટરનું નામ ફીલ્ડ જરૂરી છે",
+        "family-doctor-number": "કુટુંબ ડોક્ટર નંબર ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "salary": {
+      "basic": "મૂળ પગાર",
+      "receive-salary": "પગાર પ્રાપ્ત કરો",
+      "add-salary": "પગાર ઉમેરો",
+      "overview": {
+        "monthly-salary": "માસિક પગાર",
+        "amount": "રકમ",
+        "earnings": "આવક",
+        "deductions": "કપાત",
+        "total-earnings": "કુલ આવક",
+        "total-deductions": "કુલ કપાત",
+        "net-pay-rupees": "શુદ્ધ પગાર (રૂપિયામાં)",
+        "net-pay-words": "શુદ્ધ પગાર (શબ્દોમાં)"
+      },
+      "placeholder": {
+        "salary": "પગાર દાખલ કરો",
+        "no-salary-component": "કોઈ પગાર ઘટકો ઉપલબ્ધ નથી",
+        "go-to-payroll": "પેરોલ સેટિંગ પર જાઓ"
+      }
+    }
+  },
+  "student": {
+    "student": "વિદ્યાર્થી",
+    "list": "વિદ્યાર્થી ",
+    "table": {
+      "profile": "પ્રોફાઇલ",
+      "name": "નામ",
+      "phone": "ફોન",
+      "email": "ઈમેઈલ"
+    },
+    "tab": {
+      "basic-detail": "મુલાકાત વિગતો",
+      "previous-school": "પૂર્વવત્ શાળા",
+      "document": "દસ્તાવેજ",
+      "disability": "અશક્તતા",
+      "guardian": "કાકા",
+      "overview": "આવલોકન",
+      "student-fee": "ફી",
+      "student-exam": "પરીક્ષાં"
+    },
+    "basic-detail": {
+      "first-name": "પ્રથમ નામ",
+      "middle-name": "મધ્યમ નામ",
+      "last-name": "અંતિમ નામ",
+      "as-per-current-address": "હાલના સરનામા મુજબ",
+      "contact-number": "સંપર્ક નંબર",
+      "email": "ઈમેઈલ",
+      "date-of-birth": "જન્મ તારીખ",
+      "blood-group": "લોહી ગ્રુપ",
+      "religion": "ધર્મ",
+      "cast": "જાતિ",
+      "category": "શ્રેણી",
+      "date-of-admission": "પ્રવેશ તારીખ",
+      "uniq-number": "વિશિષ્ટ નંબર",
+      "alternate-number": "પર્યાય નંબર",
+      "birth-place": "જન્મ સ્થાન",
+      "is-orphan": "અશાહરી છે?",
+      "referance-name": "સંદર્ભ નામ",
+      "mother-tounge": "માતૃભાષા",
+      "nationality": "રાષ્ટ્રીયતા",
+      "isorphan": "અશાહરી છે?",
+      "class": "ક્લાસ",
+      "gender": "લિંગ",
+      "placeholder": {
+        "first-name": "પ્રથમ નામ દાખલ કરો",
+        "middle-name": "મધ્યમ નામ દાખલ કરો",
+        "last-name": "અંતિમ નામ દાખલ કરો",
+        "contact-number": "સંપર્ક નંબર દાખલ કરો",
+        "email": "ઈમેઈલ દાખલ કરો",
+        "date-of-birth": "જન્મ તારીખ પસંદ કરો",
+        "blood-group": "લોહી ગ્રુપ પસંદ કરો",
+        "religion": "ધર્મ પસંદ કરો",
+        "cast": "જાતિ પસંદ કરો",
+        "category": "શ્રેણી પસંદ કરો",
+        "date-of-admission": "પ્રવેશ તારીખ પસંદ કરો",
+        "uniq-number": "વિશિષ્ટ નંબર દાખલ કરો",
+        "alternate-number": "પર્યાય નંબર દાખલ કરો",
+        "birth-place": "જન્મ સ્થાન દાખલ કરો",
+        "referance-name": "સંદર્ભ નામ દાખલ કરો",
+        "mother-tounge": "માતૃભાષા દાખલ કરો",
+        "nationality": "રાષ્ટ્રીયતા દાખલ કરો",
+        "class": "ક્લાસ દાખલ કરો",
+        "gender": "લિંગ પસંદ કરો"
+      },
+      "errors": {
+        "first-name": "પ્રથમ નામ ફીલ્ડ જરૂરી છે",
+        "last-name": "અંતિમ નામ ફીલ્ડ જરૂરી છે",
+        "gender": "લિંગ ફીલ્ડ જરૂરી છે",
+        "contact-number": "સંપર્ક નંબર ફીલ્ડ જરૂરી છે",
+        "alternate-number": "પર્યાય નંબર ફીલ્ડ જરૂરી છે",
+        "email": "ઈમેઈલ ફીલ્ડ જરૂરી છે",
+        "date-of-birth": "જન્મ તારીખ ફીલ્ડ જરૂરી છે",
+        "birth-age": "તમારી ઉંમર ઓછામાં ઓછું 3 વર્ષ હોવી જોઈએ",
+        "valid-date": "કૃપા કરીને માન્ય તારીખ પસંદ કરો",
+        "blood-group": "લોહી ગ્રુપ ફીલ્ડ જરૂરી છે",
+        "religion": "ધર્મ ફીલ્ડ જરૂરી છે",
+        "cast": "જાતિ ફીલ્ડ જરૂરી છે",
+        "category": "શ્રેણી ફીલ્ડ જરૂરી છે",
+        "date-of-joining": "જોડાવાની તારીખ ફીલ્ડ જરૂરી છે",
+        "out-of-range": "તારીખ ડિફોલ્ટ શૈક્ષણિક વર્ષની વચ્ચે હોવી જોઈએ.",
+        "job-type": "જોબ પ્રકાર ફીલ્ડ જરૂરી છે",
+        "referance-name": "સંદર્ભ નામ ફીલ્ડ જરૂરી છે",
+        "mother-tounge": "માતૃભાષા ફીલ્ડ જરૂરી છે",
+        "nationality": "રાષ્ટ્રીયતા નામ ફીલ્ડ જરૂરી છે",
+        "uniq-number": "વિશિષ્ટ નંબર ફીલ્ડ જરૂરી છે",
+        "class": "ક્લાસ ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "guardian": {
+      "name": "નામ",
+      "relation": "સંબંધ",
+      "education": "શૈક્ષણિક",
+      "contact-number": "સંપર્ક નંબર",
+      "table": {
+        "name": "નામ",
+        "relation": "સંબંધ",
+        "education": "શૈક્ષણિક",
+        "contact-number": "સંપર્ક નંબર"
+      },
+      "placeholder": {
+        "name": "નામ દાખલ કરો",
+        "relation": "સંબંધ પસંદ કરો",
+        "education": "શૈક્ષણિક દાખલ કરો",
+        "contact-number": "સંપર્ક નંબર દાખલ કરો"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે",
+        "relation": "સંબંધ ફીલ્ડ જરૂરી છે",
+        "contact-number": "સંપર્ક નંબર ફીલ્ડ જરૂરી છે"
+      },
+      "dialog": {
+        "add-guardian": "કાકાની વિગતો ઉમેરો",
+        "edit-guardian": "કાકાની વિગતો સંપાદિત કરો"
+      }
+    },
+    "previous-school-detail": {
+      "enter-school": "પૂર્વ શાળાની વિગતો દાખલ કરો",
+      "previous-school-name": "પૂર્વ શાળાનું નામ",
+      "previous-school-id": "પૂર્વ શાળા આઈડી",
+      "previous-school-class": "પૂર્વ શાળા ક્લાસ",
+      "contact-number": "સંપર્ક નંબર",
+      "alternate-number": "પર્યાય નંબર",
+      "email": "ઈમેઈલ",
+      "table": {
+        "institute-name": "સંસ્થાનું નામ ",
+        "class": "ક્લાસ",
+        "phone": "ફોન",
+        "email": "ઈમેઈલ"
+      },
+      "placeholder": {
+        "previous-school-name": "પૂર્વ શાળાનું નામ દાખલ કરો",
+        "previous-school-id": "પૂર્વ શાળા આઈડી દાખલ કરો",
+        "previous-school-class": "પૂર્વ શાળા ક્લાસ દાખલ કરો",
+        "contact-number": "સંપર્ક નંબર દાખલ કરો",
+        "alternate-number": "પર્યાય નંબર દાખલ કરો",
+        "email": "ઈમેઈલ દાખલ કરો"
+      },
+      "errors": {
+        "previous-school-name": "પૂર્વ શાળાનું નામ ફીલ્ડ જરૂરી છે",
+        "previous-school-id": "પૂર્વ શાળા આઈડી ફીલ્ડ જરૂરી છે",
+        "previous-school-class": "પૂર્વ શાળા ક્લાસ ફીલ્ડ જરૂરી છે ",
+        "contact-number": "સંપર્ક નંબર ફીલ્ડ જરૂરી છે",
+        "alternate-number": "પર્યાય નંબર ફીલ્ડ જરૂરી છે",
+        "email": "ઈમેઈલ ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "document": {
+      "aadhaar-number": "આધાર નંબર",
+      "aadhaar-photos": "આધાર ફોટા",
+      "placeholder": {
+        "aadhaar-number": "આધાર નંબર દાખલ કરો"
+      },
+      "errors": {
+        "aadhaar-minlength": "લઘુત્તમ 12 અક્ષરો જરૂરી છે",
+        "aadhaar-number": "આધાર નંબર ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "disability": {
+      "is-disable": "અશક્ત છે",
+      "disibility": "અશક્તતા",
+      "majorillness": "મહત્વપૂર્ણ બીમારી",
+      "allergy": "ઍલર્જી",
+      "yes": "હા",
+      "no": "નહી",
+      "identification-mark": "પરિચય ચિહ્ન",
+      "family-doctor-name": "કુટુંબ ડોક્ટરનું નામ",
+      "family-doctor-number": "કુટુંબ ડોક્ટર નંબર",
+      "placeholder": {
+        "disibility": "અશક્તતા દાખલ કરો",
+        "majorillness": "મહત્વપૂર્ણ બીમારી દાખલ કરો",
+        "allergy": "ઍલર્જી દાખલ કરો",
+        "identification-mark": "પરિચય ચિહ્ન દાખલ કરો",
+        "family-doctor-name": "કુટુંબ ડોક્ટરનું નામ દાખલ કરો",
+        "family-doctor-number": "કુટુંબ ડોક્ટર નંબર દાખલ કરો"
+      },
+      "errors": {
+        "disibility": "અશક્તતા ફીલ્ડ જરૂરી છે",
+        "majorillness": "મહત્વપૂર્ણ બીમારી ફીલ્ડ જરૂરી છે",
+        "allergy": "ઍલર્જી ફીલ્ડ જરૂરી છે",
+        "identification-mark": "પરિચય ચિહ્ન ફીલ્ડ જરૂરી છે",
+        "family-doctor-name": "કુટુંબ ડોક્ટરનું નામ ફીલ્ડ જરૂરી છે",
+        "family-doctor-number": "કુટુંબ ડોક્ટર નંબર ફીલ્ડ જરૂરી છે"
+      }
+    }
+  },
+  "session": {
+    "session": "સત્ર",
+    "list": "સત્રની યાદી",
+    "education-year": "શૈક્ષણિક વર્ષ",
+    "class": "ક્લાસ",
+    "date": "તારીખ",
+    "today": "આજે",
+    "day": "દિવસ",
+    "month": "મહિનો",
+    "week": "સપ્તાહ",
+    "attendance": "હાજરી",
+    "overview": {
+      "subject": "વિષય",
+      "medium": "માધ્યમ",
+      "shift": "શિફ્ટ",
+      "section": "વિભાગ",
+      "board": "બોર્ડ",
+      "stream": "પ્રવાહ",
+      "completed": "પૂરું થયું",
+      "upcoming": "આગામી",
+      "current": "વર્તમાન",
+      "attendance": "હાજરી",
+      "updated": "અપડેટ થયું",
+      "pending": "બાકી"
+    },
+    "table": {
+      "logo": "લોગો",
+      "name": "નામ",
+      "address": "સરનામું",
+      "phone": "ફોન",
+      "email": "ઇમેલ",
+      "registration-no": "પંજીકરણ ક્રમ",
+      "time-slot": "સમય સ્લોટ",
+      "subject": "વિષય",
+      "teacher": "શિક્ષક",
+      "profile": "પ્રોફાઇલ",
+      "uniq-number": "યૂનિક નંબર",
+      "student": "વિદ્યાર્થી",
+      "gender": "જાતિ",
+      "present": "હાજર",
+      "available-students": "ઉપલબ્ધ વિદ્યાર્થીઓ"
+    }
+  },
+  "assessment": {
+    "assessment": "મુલ્યાંકન",
+    "list": "મુલ્યાંકન ",
+    "education-year": "શૈક્ષણિક વર્ષ",
+    "class": "ક્લાસ",
+    "table": {
+      "name": "નામ",
+      "start-date": "પ્રારંભ તારીખ",
+      "end-date": "સમાપ્તિ તારીખ",
+      "class": "ક્લાસ",
+      "education-year": "શૈક્ષણિક વર્ષ"
+    },
+    "tab": {
+      "basic-detail": "મુલાકાત વિગતો",
+      "subject": "વિષય",
+      "result": "પરિણામ"
+    },
+    "basic-detail": {
+      "name": "નામ",
+      "start-date": "પ્રારંભ તારીખ",
+      "end-date": "સમાપ્તિ તારીખ",
+      "education-year": "શૈક્ષણિક વર્ષ",
+      "class": "ક્લાસ",
+      "placeholder": {
+        "name": "નામ દાખલ કરો",
+        "start-date": "પ્રારંભ તારીખ પસંદ કરો",
+        "end-date": "સમાપ્તિ તારીખ પસંદ કરો",
+        "education-year": "શૈક્ષણિક વર્ષ પસંદ કરો",
+        "class": "ક્લાસ પસંદ કરો"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે",
+        "start-date": "પ્રારંભ તારીખ ફીલ્ડ જરૂરી છે",
+        "end-date": "સમાપ્તિ તારીખ ફીલ્ડ જરૂરી છે",
+        "education-year": "શૈક્ષણિક વર્ષ ફીલ્ડ જરૂરી છે",
+        "class": "ક્લાસ ફીલ્ડ જરૂરી છે",
+        "invalid-date": "તારીખ શૈક્ષણિક વર્ષની શરૂઆત અને અંત વચ્ચે હોવી જોઈએ"
+      }
+    },
+    "subject": {
+      "checkbox": "ચેકબોક્સ",
+      "subject": "વિષય",
+      "Date": "તારીખ",
+      "start-time": "પ્રારંભ સમય",
+      "end-time": "સમાપ્તિ સમય",
+      "total-marks": "કુલ ગુણ",
+      "cut-off-marks": "કટ ઓફ ગુણ",
+      "actions": "ક્રિયાવિધી",
+      "status": "સ્થિતિ",
+      "table": {
+        "IsActive": "પસંદ કરો",
+        "subject": "વિષય",
+        "date": "તારીખ",
+        "start-time": "પ્રારંભ સમય",
+        "end-time": "સમાપ્તિ સમય",
+        "total-marks": "કુલ ગુણ",
+        "cut-off-marks": "કટ ઓફ ગુણ"
+      },
+      "errors": {
+        "invalid-date": "તારીખ મુલ્યાંકનના પ્રારંભ અને અંત વચ્ચે હોવી જોઈએ",
+        "negative-marks": "ગુણ નકારાત્મક નથી હોઈ શકે",
+        "invalid-marks": "કટ ઓફ ગુણ કુલ ગુણ કરતા ઓછા હોવા જોઈએ"
+      }
+    },
+    "result": {
+      "student": "વિદ્યાર્થી",
+      "checkbox": "ચેકબોક્સ",
+      "subject": "વિષય",
+      "total-marks": "કુલ ગુણ",
+      "cut-off-marks": "કટ ઓફ ગુણ",
+      "obtained-marks": "પ્રાપ્ત ગુણ",
+      "actions": "ક્રિયાવિધીઓ",
+      "start-time": "પ્રારંભ સમય",
+      "end-time": "સમાપ્તિ સમય",
+      "teacher": "શિક્ષક",
+      "table": {
+        "profile": "પ્રોફાઇલ",
+        "is-active": "સક્રિય છે",
+        "student-name": "વિદ્યાર્થી નામ",
+        "attendance": "હાજરી",
+        "obtain-marks": "પ્રાપ્ત ગુણ"
+      },
+      "errors": {
+        "invalid-marks": "પ્રાપ્ત ગુણ કુલ ગુણ કરતા ઓછા હોવા જોઈએ",
+        "negative-marks": "પ્રાપ્ત ગુણ નકારાત્મક નથી હોઈ શકે"
+      }
+    }
+  },
+  "theme": {
+    "theme": "થિમ",
+    "list": "થિમ સૂચિ",
+    "table": {
+      "name": "નામ",
+      "code": "કોડ",
+      "is-active": "સક્રિય છે"
+    },
+    "tab": {
+      "overview": "ઓવરવ્યૂ",
+      "theme-component": "થિમ ઘટક"
+    },
+    "overview": {
+      "name": "નામ",
+      "code": "કોડ",
+      "default": "સક્રિય છે",
+      "placeholder": {
+        "name": "નામ દાખલ કરો",
+        "code": "કોડ દાખલ કરો"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે",
+        "code": "કોડ ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "theme-Component": {
+      "select-theme": "થિમ પસંદ કરો",
+      "Component": "ઘટક",
+      "Value": "મૂલ્ય",
+      "color-picker": "રંગ પસંદ કરો",
+      "action": "ક્રિયા"
+    }
+  },
+  "theme-component": {
+    "theme-component": "થિમ ઘટક",
+    "list": "થિમ ઘટક સૂચિ",
+    "table": {
+      "name": "નામ",
+      "code": "કોડ"
+    },
+    "create": {
+      "name": "નામ",
+      "code": "કોડ",
+      "placeholder": {
+        "name": "નામ દાખલ કરો",
+        "code": "કોડ દાખલ કરો"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે",
+        "code": "કોડ ફીલ્ડ જરૂરી છે"
+      }
+    }
+  },
+  "master": {
+    "subject": {
+      "subject": "વિષય",
+      "list": "વિષય ",
+      "table": {
+        "name": "નામ"
+      },
+      "overview": {
+        "overview": "આગાહ",
+        "name": "નામ"
+      },
+      "placeholder": {
+        "name": "ઉદાહરણ: ગણિત, હિન્દી"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "division": {
+      "division": "વિભાગ",
+      "list": "વિભાગ ",
+      "table": {
+        "name": "નામ"
+      },
+      "overview": {
+        "overview": "આગાહ",
+        "name": "નામ"
+      },
+      "placeholder": {
+        "name": "ઉદાહરણ: પ્રાથમિક, માધ્યમિક"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "education-year": {
+      "education-year": "શૈક્ષણિક વર્ષ",
+      "list": "શૈક્ષણિક વર્ષ ",
+      "table": {
+        "name": "વર્ષ",
+        "start-date": "પ્રારંભ તારીખ",
+        "end-date": "સમાપ્તિ તારીખ",
+        "default": "ડિફોલ્ટ"
+      },
+      "overview": {
+        "overview": "આગાહ",
+        "name": "વર્ષ",
+        "start-date": "પ્રારંભ તારીખ",
+        "end-date": "સમાપ્તિ તારીખ"
+      },
+      "placeholder": {
+        "name": "વર્ષ દાખલ કરો"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે",
+        "start-date": "પ્રારંભ તારીખ ફીલ્ડ જરૂરી છે",
+        "end-date": "સમાપ્તિ તારીખ ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "fee": {
+      "fee-components": "ફી ઘટક",
+      "list": "ફી ઘટક ",
+      "table": {
+        "name": "નામ",
+        "amount": "રકમ",
+        "required": "આવશ્યક"
+      },
+      "overview": {
+        "overview": "આગાહ",
+        "name": "નામ",
+        "amount": "રકમ",
+        "required": "આવશ્યક"
+      },
+      "placeholder": {
+        "name": "નામ દાખલ કરો",
+        "amount": "રકમ દાખલ કરો"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે",
+        "amount": "રકમ ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "stream": {
+      "stream": "પ્રવાહ",
+      "list": "પ્રવાહ ",
+      "table": {
+        "name": "નામ"
+      },
+      "overview": {
+        "overview": "આગાહ",
+        "name": "નામ"
+      },
+      "placeholder": {
+        "name": "ઉદાહરણ: વિજ્ઞાન, કલા"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "medium": {
+      "medium": "માધ્યમ",
+      "list": "માધ્યમ ",
+      "table": {
+        "name": "નામ"
+      },
+      "overview": {
+        "overview": "આગાહ",
+        "name": "નામ"
+      },
+      "placeholder": {
+        "name": "ઉદાહરણ: ગુજરાતી, અંગ્રેજી"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "section": {
+      "section": "વિભાગ",
+      "list": "વિભાગ ",
+      "table": {
+        "name": "નામ"
+      },
+      "overview": {
+        "overview": "આગાહ",
+        "name": "નામ"
+      },
+      "placeholder": {
+        "name": "ઉદાહરણ: A, B, C"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "shift": {
+      "shift": "શિફ્ટ",
+      "list": "શિફ્ટ ",
+      "table": {
+        "name": "નામ",
+        "start-time": "પ્રારંભ સમય",
+        "end-time": "સમાપ્તિ સમય"
+      },
+      "overview": {
+        "overview": "આગાહ",
+        "name": "નામ",
+        "start-time": "પ્રારંભ સમય",
+        "end-time": "સમાપ્તિ સમય"
+      },
+      "placeholder": {
+        "name": "નામ દાખલ કરો"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે",
+        "start-time": "પ્રારંભ સમય ફીલ્ડ જરૂરી છે",
+        "end-time": "સમાપ્તિ સમય ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "student-fee": {
+      "student-fee": "વિદ્યાર્થી ફી",
+      "list": "વિદ્યાર્થી ફી ",
+      "total-fees": "કુલ ફી",
+      "paid-fees": "ચુકવેલ ફી",
+      "remaining-fees": "બાકી ફી",
+      "table": {
+        "student": "વિદ્યાર્થી",
+        "class": "ક્લાસ",
+        "fee-date": "તારીખ",
+        "fee-mode": "મોડ",
+        "fee-amount": "રકમ",
+        "receiver-name": "પ્રાપ્તકર્તાનું નામ",
+        "fee-type": "પ્રકાર"
+      },
+      "overview": {
+        "overview": "આગાહ",
+        "student": "વિદ્યાર્થી",
+        "class": "ક્લાસ",
+        "education-year": "શૈક્ષણિક વર્ષ",
+        "fee-date": "ફી તારીખ",
+        "fee-mode": "ફી મોડ",
+        "fee-amount": "ફી રકમ",
+        "receiver-name": "પ્રાપ્તકર્તાનું નામ",
+        "fee-type": "ફી પ્રકાર",
+        "comment": "ટિપ્પણી",
+        "payment-id": "ચુકવણી આઈડી",
+        "shift": "શિફ્ટ",
+        "section": "વિભાગ"
+      },
+      "placeholder": {
+        "student": "વિદ્યાર્થી પસંદ કરો",
+        "class": "ક્લાસ પસંદ કરો",
+        "eduation-year": "શૈક્ષણિક વર્ષ પસંદ કરો",
+        "fee-date": "ફી તારીખ પસંદ કરો",
+        "fee-mode": "ફી મોડ પસંદ કરો",
+        "fee-amount": "ફી રકમ દાખલ કરો",
+        "receiver-name": "પ્રાપ્તકર્તાનું નામ દાખલ કરો",
+        "fee-type": "ફી પ્રકાર પસંદ કરો",
+        "comment": "ટિપ્પણી દાખલ કરો",
+        "payment-id": "ચુકવણી આઈડી દાખલ કરો",
+        "shift": "શિફ્ટ પસંદ કરો",
+        "section": "વિભાગ પસંદ કરો"
+      },
+      "errors": {
+        "student": "વિદ્યાર્થી ફીલ્ડ જરૂરી છે",
+        "class": "ક્લાસ ફીલ્ડ જરૂરી છે",
+        "eduation-year": "શૈક્ષણિક વર્ષ ફીલ્ડ જરૂરી છે",
+        "fee-date": "ફી તારીખ ફીલ્ડ જરૂરી છે",
+        "fee-mode": "ફી મોડ ફીલ્ડ જરૂરી છે",
+        "fee-amount": "ફી રકમ ફીલ્ડ જરૂરી છે",
+        "receiver-name": "પ્રાપ્તકર્તાનું નામ ફીલ્ડ જરૂરી છે",
+        "fee-type": "ફી પ્રકાર ફીલ્ડ જરૂરી છે",
+        "comment": "ટિપ્પણી ફીલ્ડ જરૂરી છે",
+        "payment-id": "ચુકવણી આઈડી ફીલ્ડ જરૂરી છે",
+        "shift": "શિફ્ટ ફીલ્ડ જરૂરી છે",
+        "section": "વિભાગ ફીલ્ડ જરૂરી છે",
+        "limit-exceed": "રકમ બાકી ફી કરતાં વધુ ન હોઈ શકે"
+      }
+    },
+    "board": {
+      "board": "બોર્ડ",
+      "list": "બોર્ડ ",
+      "table": {
+        "name": "નામ",
+        "start-time": "પ્રારંભ સમય",
+        "end-time": "સમાપ્તિ સમય"
+      },
+      "overview": {
+        "overview": "આગાહ",
+        "name": "નામ",
+        "start-time": "પ્રારંભ સમય",
+        "end-time": "સમાપ્તિ સમય"
+      },
+      "placeholder": {
+        "name": "ઉદાહરણ: GSEB, CBSE"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે",
+        "start-date": "પ્રારંભ સમય ફીલ્ડ જરૂરી છે",
+        "end-date": "સમાપ્તિ સમય ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "notification": {
+      "notification": "વિષય",
+      "list": "વિષય",
+      "table": {
+        "name": "નામ"
+      },
+      "overview": {
+        "overview": "સારાંશ",
+        "name": "નામ"
+      },
+      "placeholder": {
+        "name": "ઉદાહરણ: વર્ગ હાજરી"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ આવશ્યક છે"
+      }
+    }
+  },
+  "policy": {
+    "policy": "નીતિ",
+    "list": "નીતિ યાદી",
+    "table": {
+      "name": "નામ",
+      "effictive-date": "પ્રભાવી તારીખ"
+    },
+    "overview": {
+      "overview": "સારાંશ",
+      "name": "નામ",
+      "effective-date": "પ્રભાવી તારીખ",
+      "description": "વિવરણ"
+    },
+    "placeholder": {
+      "name": " નામ દાખલ કરો"
+    },
+    "errors": {
+      "name": "નામ ક્ષેત્ર જરૂરી છે",
+      "effective-date": "પ્રભાવી તારીખ જરૂરી છે",
+      "description": "વિવરણ ક્ષેત્ર જરૂરી છે"
+    },
+    "view": {
+      "download": "ડાઉનલોડ"
+    }
+  },
+  "holiday": {
+    "holiday": "હોલીડે",
+    "list": "હોલીડે યાદી",
+    "table": {
+      "name": "શીર્ષક",
+      "date": "તારીખ",
+      "day": "દિવસ"
+    },
+    "overview": {
+      "overview": "સમારંભ",
+      "name": "શીર્ષક",
+      "date": "તારીખ",
+      "day": "દિવસ"
+    },
+    "placeholder": {
+      "name": "નામ દાખલ કરો",
+      "day": "દિવસ દાખલ કરો",
+      "date": "તારીખ દાખલ કરો"
+    },
+    "errors": {
+      "name": "હોલીડે નામ ફીલ્ડ જરૂરી છે",
+      "date": "તારીખ ફીલ્ડ જરૂરી છે",
+      "day": "દિવસ ફીલ્ડ જરૂરી છે"
+    }
+  },
+  "leave": {
+    "leave": "છુટ્ટી",
+    "list": "છુટ્ટીની યાદી",
+    "tab": {
+      "leave-application": "છુટ્ટી અરજી",
+      "leave-dashboard": "છુટ્ટી ડેશબોર્ડ",
+      "leave-request": "છુટ્ટી વિનંતીઓ"
+    },
+    "dashboard": {
+      "leave-type": "છુટ્ટીનો પ્રકાર",
+      "total-leaves": "કુલ છુટ્ટીઓ",
+      "used-leave": "ઉપયોગમાં છુટ્ટી",
+      "pending-to-approve": "મંજૂરી માટે બાકી",
+      "available-leave": "લભ્ય છુટ્ટી"
+    },
+    "leave-application": {
+      "table": {
+        "no": "નંબર",
+        "leave-type": "છુટ્ટીનો પ્રકાર",
+        "from": "થી",
+        "to": "દે",
+        "no-of-day": "દિવસોની સંખ્યા",
+        "day": "દિવસ",
+        "reason": "કારણ",
+        "status": "સ્થિતિ",
+        "applied-on": "આરજીના રોજ"
+      },
+      "model": {
+        "type": "પ્રકાર",
+        "start-date": "શરૂઆતની તારીખ",
+        "end-date": "સમાપ્તિની તારીખ",
+        "days": "દિવસો",
+        "reason": "કારણ",
+        "start-date-time-slot": "શરૂઆતની તારીખ અને સમય સ્લોટ",
+        "end-date-time-slot": "સમાપ્તિની તારીખ અને સમય સ્લોટ",
+        "errors": {
+          "type": "પ્રકારનું ફીલ્ડ જરૂરી છે",
+          "start-date": "શરૂઆતની તારીખનું ફીલ્ડ જરૂરી છે",
+          "end-date": "સમાપ્તિની તારીખનું ફીલ્ડ જરૂરી છે",
+          "days": "દિવસોનું ફીલ્ડ જરૂરી છે",
+          "reason": "કારણનું ફીલ્ડ જરૂરી છે",
+          "start-date-time-slot": "શરૂઆતની તારીખ અને સમય સ્લોટનું ફીલ્ડ જરૂરી છે",
+          "end-date-time-slot": "સમાપ્તિની તારીખ અને સમય સ્લોટનું ફીલ્ડ જરૂરી છે"
+        },
+        "placeholder": {
+          "type": "પ્રકાર પસંદ કરો",
+          "start-date": "શરૂઆતની તારીખ પસંદ કરો",
+          "end-date": "સમાપ્તિની તારીખ પસંદ કરો",
+          "days": "દિવસો દાખલ કરો",
+          "reason": "કારણ દાખલ કરો"
+        }
+      }
+    },
+    "leave-application-admin": {
+      "table": {
+        "employeeName": "કર્મચારીનું નામ",
+        "leaveName": "છુટ્ટીનું નામ",
+        "startDate": "શરૂઆતની તારીખ",
+        "endDate": "સમાપ્તિની તારીખ",
+        "day": "દિવસ",
+        "reason": "કારણ",
+        "status": "સ્થિતિ",
+        "applied-on": "આરજીના રોજ"
+      },
+      "model": {
+        "type": "પ્રકાર",
+        "start-date": "શરૂઆતની તારીખ",
+        "end-date": "સમાપ્તિની તારીખ",
+        "days": "દિવસો",
+        "reason": "કારણ",
+        "start-date-time-slot": "શરૂઆતની તારીખ અને સમય સ્લોટ",
+        "end-date-time-slot": "સમાપ્તિની તારીખ અને સમય સ્લોટ",
+        "errors": {
+          "type": "પ્રકારનું ફીલ્ડ જરૂરી છે",
+          "start-date": "શરૂઆતની તારીખનું ફીલ્ડ જરૂરી છે",
+          "end-date": "સમાપ્તિની તારીખનું ફીલ્ડ જરૂરી છે",
+          "days": "દિવસોનું ફીલ્ડ જરૂરી છે",
+          "reason": "કારણનું ફીલ્ડ જરૂરી છે"
+        },
+        "placeholder": {
+          "type": "પ્રકાર પસંદ કરો",
+          "start-date": "શરૂઆતની તારીખ પસંદ કરો",
+          "end-date": "સમાપ્તિની તારીખ પસંદ કરો",
+          "days": "દિવસો દાખલ કરો",
+          "reason": "કારણ દાખલ કરો"
+        }
+      }
+    }
+  },
+  "announcement": {
+    "announcement": "જાહેરાત",
+    "list": "જાહેરાત યાદી",
+    "table": {
+      "title": "શીર્ષક",
+      "start-date": "આરંભ તારીખ",
+      "end-date": "અંત તારીખ",
+      "description": "વર્ણન",
+      "image": "છબી"
+    },
+    "overview": {
+      "overview": "ઝલક",
+      "title": "શીર્ષક",
+      "start-date": "આરંભ તારીખ",
+      "end-date": "અંત તારીખ",
+      "description": "વર્ણન",
+      "select-recepient": "પ્રાપ્તકર્તા",
+      "class": "વર્ગ પસંદ કરો"
+    },
+    "placeholder": {
+      "title": "શીર્ષક દાખલ કરો",
+      "start-date": "આરંભ તારીખ દાખલ કરો",
+      "end-date": "અંત તારીખ દાખલ કરો",
+      "description": "વર્ણન દાખલ કરો",
+      "select-recepient": "પ્રાપ્તકર્તા પસંદ કરો",
+      "class": "વર્ગ પસંદ કરો"
+    },
+    "errors": {
+      "title": "શીર્ષક ક્ષેત્ર જરૂરી છે",
+      "start-date": "આરંભ તારીખ ક્ષેત્ર જરૂરી છે",
+      "end-date": "અંત તારીખ ક્ષેત્ર જરૂરી છે",
+      "description": "વર્ણન ક્ષેત્ર જરૂરી છે",
+      "recepient": "પ્રાપ્તકર્તા ફીલ્ડ જરૂરી છે",
+      "class": "વર્ગ ક્ષેત્ર જરૂરી છે"
+    }
+  },
+  "leave-type": {
+    "leave-type": "છુટ્ટીનો પ્રકાર",
+    "list": "છુટ્ટી પ્રકારોની યાદી",
+    "table": {
+      "name": "નામ",
+      "code": "કોડ",
+      "count": "ગણતરી",
+      "gender": "લિંગ",
+      "duration": "કાલસીમા",
+      "occurrence": "ઘટના"
+    },
+    "overview": {
+      "overview": "સારાંશ",
+      "name": "નામ",
+      "code": "કોડ",
+      "count": "ગણતરી",
+      "gender": "લિંગ",
+      "duration": "કાલસીમા",
+      "occurrence": "ઘટના"
+    },
+    "placeholder": {
+      "name": "નામ દાખલ કરો",
+      "code": "કોડ દાખલ કરો",
+      "count": "ગણતરી દાખલ કરો",
+      "gender": "લિંગ પસંદ કરો",
+      "duration": "કાલસીમા પસંદ કરો",
+      "occurrence": "ઘટના દાખલ કરો"
+    },
+    "errors": {
+      "name": "નામનું ફીલ્ડ જરૂરી છે",
+      "code": "કોડનું ફીલ્ડ જરૂરી છે",
+      "count": "ગણતરીનું ફીલ્ડ જરૂરી છે",
+      "gender": "લિંગનું ફીલ્ડ જરૂરી છે",
+      "duration": "કાલસીમાનું ફીલ્ડ જરૂરી છે",
+      "occurrence": "ઘટનાનું ફીલ્ડ જરૂરી છે"
+    }
+  },
+  "attendence": {
+    "attendence": "હાજરી",
+    "punch": "પંચ",
+    "at": "કલાક",
+    "punch-in-time": "પંચ ઇન સમય",
+    "time-span": "સવારે 9 થી 10 વચ્ચે",
+    "total-working": "કુલ કાર્ય કલાકો",
+    "hours": "8 કલાક",
+    "punch-in": "પંચ ઇન",
+    "punch-out": "પંચ આઉટ",
+    "statistics": "આંકડાશાસ્ત્ર",
+    "table": {
+      "punch": "પંચ",
+      "time": "સમય"
+    }
+  },
+  "right-drawer": {
+    "overview": {
+      "theme-setup": "થીમ સેટઅપ",
+      "theme": "થીમ",
+      "default": "ડિફૉલ્ટ",
+      "mode": "મોડ",
+      "auto": "ઓટો",
+      "dark": "અંધકાર",
+      "light": "પ્રકાશ"
+    }
+  },
+  "payroll": {
+    "add": "પેરોલ ઉમેરો",
+    "please-wait": "કૃપા કરીને રાહ જુઓ...",
+    "my-payroll": "મારો પગાર",
+    "my-payroll-list": "મારી પગાર સૂચિ",
+    "payslip": "પગાર પત્રક",
+    "payroll": "પે-રોલ",
+    "payee-employees": "પે-રોલ કર્મચારીઓ",
+    "faculty": "ફેકલ્ટી",
+    "list": "પે-રોલ યાદી",
+    "setting": "સેટિંગ",
+    "month": "મહિનો",
+    "generating": "પગારપત્રક જનરેટ થઈ રહ્યું છે",
+    "employee": {
+      "name": "નામ",
+      "email": "ઈમેલ",
+      "phone": "ફોન",
+      "designation": "પદ",
+      "joining": "જોઈનિંગ તારીખ",
+      "payment-information": "ચુકવણી માહિતી",
+      "branch-name": "શાખાનું નામ",
+      "branch-code": "શાખા કોડ",
+      "accountnumber": "એકાઉન્ટ નંબર",
+      "overview": {
+        "pay-employees": "બધા કર્મચારીઓને પગાર ચૂકવો",
+        "re-generate": "પગારપત્રક ફરી જનરેટ કરો",
+        "generating": "પગારપત્રક જનરેટ થઈ રહ્યું છે",
+        "please-wait": "કૃપા કરીને થોડા સમય પછી પાછા આવો"
+      },
+      "list": {
+        "select": "પસંદ કરો",
+        "name": "નામ",
+        "work-email": "કામનું ઇમેઇલ",
+        "phone": "ફોન",
+        "used-leaves": "વપરાયેલા રજા",
+        "salary-status": "પગારની સ્થિતિ",
+        "status": "સ્થિતિ"
+      }
+    },
+    "placeholder": {
+      "month": "મહિનો પસંદ કરો"
+    },
+    "settings": {
+      "tab": {
+        "salary-components": "કામકાજી ઘટક",
+        "payroll-config": "પે-રોલ કન્ફિગરેશન",
+        "financial-year": "આર્થિક વર્ષ"
+      },
+      "salary-components": {
+        "salary-component": "કામકાજી ઘટક",
+        "list": "કામકાજી ઘટક ",
+        "table": {
+          "component-name": "ઘટકાનું નામ",
+          "component-type": "ઘટકાનો પ્રકાર",
+          "base-component": "આધાર ઘટક",
+          "value-type": "મુલ્ય પ્રકાર",
+          "value": "મુલ્ય"
+        },
+        "overview": {
+          "name": "નામ",
+          "component-type": "ઘટકાનો પ્રકાર",
+          "base": "આધાર",
+          "value-type": "મુલ્ય પ્રકાર",
+          "value": "મુલ્ય",
+          "sort-index": "સોર્ડ ઇન્ડેક્સ",
+          "code": "કોડ",
+          "percent": "ટકાવારી",
+          "fixed": "નક્કી"
+        },
+        "placeholder": {
+          "name": "નામ દાખલ કરો",
+          "component-type": "ઘટકાનો પ્રકાર પસંદ કરો",
+          "base": "આધાર પસંદ કરો",
+          "value": "મુલ્ય દાખલ કરો",
+          "sort-index": "સોર્ડ ઇન્ડેક્સ દાખલ કરો",
+          "code": "કોડ દાખલ કરો"
+        },
+        "errors": {
+          "name": "નામ ફીલ્ડ જરૂરી છે",
+          "component-type": "ઘટકાનો પ્રકાર ફીલ્ડ જરૂરી છે",
+          "base": "આધાર ફીલ્ડ જરૂરી છે",
+          "value-type": "મુલ્ય પ્રકાર ફીલ્ડ જરૂરી છે",
+          "value": "મુલ્ય ફીલ્ડ જરૂરી છે",
+          "sort-index": "સોર્ડ ઇન્ડેક્સ ફીલ્ડ જરૂરી છે",
+          "code": "કોડ ફીલ્ડ જરૂરી છે",
+          "invalid-value": "ટકાવારી મૂલ્ય 100 થી વધુ ન હોઈ શકે"
+        }
+      },
+      "payroll-config": {
+        "payroll-configuration": "પે-રોલ કન્ફિગરેશન",
+        "overview": {
+          "workday": "કામકાજી દિવસ",
+          "monday": "સોમવાર",
+          "tuesday": "મંગળવાર",
+          "wednsday": "બુધવાર",
+          "thursday": "ગુરુવાર",
+          "friday": "શુક્રવાર",
+          "saturday": "શનિવાર",
+          "sunday": "રવિવાર",
+          "pay-date": "ચુકવણી તારીખ",
+          "first-day": "મહિનાનો પહેલો દિવસ",
+          "last-day": "મહિનાનો છેલ્લો દિવસ",
+          "custom-day": "કસ્ટમ તારીખ",
+          "date-select": "તારીખ પસંદ કરો"
+        }
+      },
+      "financial-year": {
+        "financial-year": "આર્થિક વર્ષ",
+        "list": "આર્થિક વર્ષ ",
+        "table": {
+          "name": "નામ",
+          "start-date": "પ્રારંભ તારીખ",
+          "end-date": "સમાપ્તિ તારીખ"
+        },
+        "overview": {
+          "name": "નામ",
+          "start-date": "પ્રારંભ તારીખ",
+          "end-date": "સમાપ્તિ તારીખ"
+        },
+        "placeholder": {
+          "name": "નામ દાખલ કરો",
+          "start-date": "પ્રારંભ તારીખ પસંદ કરો",
+          "end-date": "સમાપ્તિ તારીખ પસંદ કરો"
+        },
+        "errors": {
+          "name": "નામ ફીલ્ડ જરૂરી છે",
+          "start-date": "પ્રારંભ તારીખ જરૂરી છે",
+          "end-date": "સમાપ્તિ તારીખ જરૂરી છે"
+        }
+      }
+    },
+    "table": {
+      "month": "મહિનો",
+      "component": "ઘટકાનું નામ",
+      "value": "મુલ્ય"
+    },
+    "errors": {
+      "pay-date": "ચુકવણી તારીખ ફીલ્ડ જરૂરી છે"
+    }
+  },
+  "menu": {
+    "menu": "મેનૂ",
+    "list": "મેનૂ યાદી",
+    "table": {
+      "name": "નામ",
+      "code": "કોડ",
+      "sort": "ક્રમ"
+    },
+    "tab": {
+      "overview": "ઝલક",
+      "menu-item": "મેનૂ આઇટમ",
+      "item-link": "આઇટમ લિંક"
+    },
+    "overview": {
+      "name": "નામ",
+      "code": "કોડ",
+      "default": "મૂળભૂત છે",
+      "is-clickable": "ક્લિક કરી શકાય છે",
+      "label": "લેબલ",
+      "sort": "ક્રમ",
+      "url": "યુઆરએલ",
+      "icon": "આઇકન",
+      "placeholder": {
+        "name": "નામ દાખલ કરો",
+        "code": "કોડ દાખલ કરો",
+        "label": "લેબલ દાખલ કરો",
+        "icon": "આઇકન દાખલ કરો",
+        "url": "યુઆરએલ દાખલ કરો",
+        "sort": "ક્રમાંક દાખલ કરો"
+      },
+      "errors": {
+        "name": "નામ ક્ષેત્ર જરૂરી છે",
+        "code": "કોડ ક્ષેત્ર જરૂરી છે",
+        "label": "લેબલ ક્ષેત્ર જરૂરી છે",
+        "icon": "આઇકન ક્ષેત્ર જરૂરી છે",
+        "sort": "ક્રમ ક્ષેત્ર જરૂરી છે",
+        "url": "યુઆરએલ ક્ષેત્ર જરૂરી છે"
+      }
+    }
+  },
+  "menu-item": {
+    "menu-item": "મેનૂ આઇટમ",
+    "list": "મેનૂ આઇટમ યાદી",
+    "create": {
+      "name": "નામ",
+      "label": "લેબલ",
+      "sort": "ક્રમ",
+      "url": "યુઆરએલ",
+      "icon": "આઇકન",
+      "code": "કોડ",
+      "placeholder": {
+        "name": "નામ દાખલ કરો",
+        "code": "કોડ દાખલ કરો",
+        "label": "લેબલ દાખલ કરો",
+        "icon": "આઇકન દાખલ કરો",
+        "url": "યુઆરએલ દાખલ કરો",
+        "sort": "ક્રમાંક દાખલ કરો"
+      },
+      "errors": {
+        "name": "નામ ક્ષેત્ર જરૂરી છે",
+        "code": "કોડ ક્ષેત્ર જરૂરી છે",
+        "label": "લેબલ ક્ષેત્ર જરૂરી છે",
+        "icon": "આઇકન ક્ષેત્ર જરૂરી છે",
+        "sort": "ક્રમ ક્ષેત્ર જરૂરી છે",
+        "url": "યુઆરએલ ક્ષેત્ર જરૂરી છે"
+      }
+    }
+  },
+  "menu-component": {
+    "menu-component": "મેનુ ઘટક",
+    "list": "મેનુ ઘટક સૂચિ",
+    "table": {
+      "name": "નામ",
+      "code": "કોડ"
+    },
+    "create": {
+      "name": "નામ",
+      "code": "કોડ"
+    },
+    "placeholder": {
+      "name": "નામ દાખલ કરો",
+      "code": "કોડ દાખલ કરો"
+    },
+    "errors": {
+      "name": "નામ ફીલ્ડ આવશ્યક છે",
+      "code": "કોડ ફીલ્ડ આવશ્યક છે"
+    }
+  },
+  "brand": {
+    "brand": "બ્રાન્ડ",
+    "list": "બ્રાન્ડ યાદી",
+    "table": {
+      "name": "નામ",
+      "description": "વિવરણ"
+    },
+    "overview": {
+      "overview": "સાંધવા",
+      "name": "નામ",
+      "description": "વિવરણ"
+    },
+    "placeholder": {
+      "name": "નામ દાખલ કરો",
+      "description": "વિવરણ દાખલ કરો"
+    },
+    "errors": {
+      "name": "નામ ફીલ્ડ આવશ્યક છે",
+      "description": "વિવરણ ફીલ્ડ આવશ્યક છે"
+    }
+  },
+  "category": {
+    "category": "શ્રેણી",
+    "list": "શ્રેણી યાદી",
+    "table": {
+      "name": "નામ",
+      "code": "કોડ",
+      "count": "उत्पाद की संख्या"
+    },
+    "overview": {
+      "overview": "આલેખન",
+      "name": "નામ",
+      "code": "કોડ"
+    },
+    "placeholder": {
+      "name": "નામ દાખલ કરો",
+      "code": "કોડ દાખલ કરો"
+    },
+    "errors": {
+      "name": "નામ ક્ષેત્ર જરૂરી છે",
+      "code": "કોડ ક્ષેત્ર જરૂરી છે"
+    }
+  },
+  "product": {
+    "product": "ઉત્પાદ",
+    "list": "ઉત્પાદ યાદી",
+    "table": {
+      "name": "નામ",
+      "serial-number": "આંકડાકીય નંબર",
+      "brand": "બ્રાંડ",
+      "category": "શ્રેણી",
+      "model": "મોડેલ",
+      "status": "સ્થિતિ",
+      "purchase-date": "ખરીદીની તારીખ",
+      "health": "આરોગ્ય",
+      "cost": "ખર્ચ",
+      "assigned": "અસાઇન કરાયેલ"
+    },
+    "overview": {
+      "overview": "સંક્ષિપ્ત વિવરણ",
+      "name": "નામ",
+      "serial-number": "આંકડાકીય નંબર",
+      "model": "મોડેલ",
+      "status": "સ્થિતિ",
+      "purchase-date": "ખરીદીની તારીખ",
+      "health": "આરોગ્ય",
+      "cost": "ખર્ચ",
+      "description": "વિવરણ",
+      "brand": "બ્રાંડ",
+      "notes": "નોટ્સ",
+      "category": "શ્રેણી",
+      "assigned": "અસાઇન કરાયેલ"
+    },
+    "placeholder": {
+      "name": "નામ દાખલ કરો",
+      "serial-number": "આંકડાકીય નંબર દાખલ કરો",
+      "model": "મોડેલ દાખલ કરો",
+      "status": "સ્થિતિ દાખલ કરો",
+      "purchase-date": "ખરીદીની તારીખ પસંદ કરો",
+      "health": "1 થી 3 લાલ, 4 થી 6 નારંગી, 7 થી 10 હરીયા",
+      "cost": "ખર્ચ દાખલ કરો",
+      "description": "વિવરણ દાખલ કરો",
+      "brand": "બ્રાંડ પસંદ કરો",
+      "notes": "નોટ્સ દાખલ કરો",
+      "category": "શ્રેણી પસંદ કરો",
+      "assigned": "કર્મચારી પસંદ કરો"
+    },
+    "errors": {
+      "name": "નામ ક્ષેત્ર જરૂરી છે",
+      "serial-number": "આંકડાકીય નંબર ક્ષેત્ર જરૂરી છે",
+      "model": "મોડેલ ક્ષેત્ર જરૂરી છે",
+      "status": "સ્થિતિ ક્ષેત્ર જરૂરી છે",
+      "purchase-date": "ખરીદીની તારીખ ક્ષેત્ર જરૂરી છે",
+      "health": "આરોગ્ય ક્ષેત્ર જરૂરી છે",
+      "cost": "ખર્ચ ક્ષેત્ર જરૂરી છે",
+      "description": "વિવરણ ક્ષેત્ર જરૂરી છે",
+      "brand": "બ્રાંડ ક્ષેત્ર જરૂરી છે",
+      "notes": "નોટ્સ ક્ષેત્ર જરૂરી છે",
+      "category": "શ્રેણી ક્ષેત્ર જરૂરી છે",
+      "serial-number-taken": "આ આંકડાકીય નંબર પહેલેથી જ લેવામાં આવ્યો છે",
+      "assigned": "અસાઇન કરેલ ક્ષેત્ર જરૂરી છે"
+    }
+  },
+  "role": {
+    "role": "ભુમિકા",
+    "list": "ભુમિકા",
+    "class": "ક્લાસ",
+    "table": {
+      "name": "નામ"
+    },
+    "tab": {
+      "basic-detail": "મૂલભૂત વિગત",
+      "permissions": "અધિકારો"
+    },
+    "basic-detail": {
+      "name": "નામ",
+      "placeholder": {
+        "name": "નામ દાખલ કરો"
+      },
+      "errors": {
+        "name": "નામ ફીલ્ડ જરૂરી છે"
+      }
+    },
+    "permissions": {
+      "checkbox": "ચેકબોક્સ",
+      "subject": "વિષય",
+      "Date": "તારીખ",
+      "start-time": "પ્રારંભ સમય",
+      "end-time": "સમાપ્ત સમય",
+      "total-marks": "કુલ માર્ક્સ",
+      "cut-off-marks": "કટ-ઑફ માર્ક્સ",
+      "actions": "ક્રિયાઓ",
+      "status": "સ્થિતિ",
+      "table": {
+        "IsActive": "સક્રિય છે",
+        "subject": "વિષય",
+        "date": "તારીખ",
+        "start-time": "પ્રારંભ સમય",
+        "end-time": "સમાપ્ત સમય",
+        "total-marks": "કુલ માર્ક્સ",
+        "cut-off-marks": "કટ-ઑફ માર્ક્સ"
+      }
+    },
+    "result": {
+      "student": "વિદ્યાર્થી",
+      "checkbox": "ચેકબોક્સ",
+      "subject": "વિષય",
+      "total-marks": "કુલ માર્ક્સ",
+      "cut-off-marks": "કટ-ઑફ માર્ક્સ",
+      "obtained-marks": "પ્રાપ્ત માર્ક્સ",
+      "actions": "ક્રિયાઓ",
+      "start-time": "પ્રારંભ સમય",
+      "end-time": "સમાપ્ત સમય",
+      "table": {
+        "profile": "પ્રોફાઇલ",
+        "is-active": "સક્રિય છે",
+        "student-name": "વિદ્યાર્થીનું નામ",
+        "attendance": "હાજરી",
+        "obtain-marks": "પ્રાપ્ત માર્ક્સ"
+      }
+    }
+  },
+  "user-role": {
+    "role": "ભૂમિકા",
+    "list": "ભૂમિકા યાદી",
+    "table": {
+      "name": "નામ",
+      "role": "ભૂમિકા"
+    },
+    "detail": {
+      "name": "નામ",
+      "effective-date": "પ્રભાવી તારીખ",
+      "role": "ભૂમિકા"
+    },
+    "placeholder": {
+      "name": " નામ દાખલ કરો",
+      "role": "ભૂમિકા પસંદ કરો"
+    },
+    "errors": {
+      "name": "નામ ફીલ્ડ આવશ્યક છે",
+      "role": "ભૂમિકા ફીલ્ડ આવશ્યક છે"
+    }
+  },
+  "resignation": {
+    "resignation-request": "રાજીનામા અનુરોધ",
+    "greeting": "પ્રિય સર/મેડમ,",
+    "title": "હું મારા પદ પરથી ઔપચારિક રીતે રાજીનામું આપવાનું લખી રહ્યો છું. આ સંસ્થામાં મારી સમયાવધિ દરમ્યાન મળેલા વિકાસ અને પ્રગતિના અવસરો માટે હું આભારી છું।",
+    "applied-on": "આવેદન તારીખ",
+    "resignation": "રાજીનામું",
+    "under-consideration": "રાજીનામું વિચારણા હેઠળ છે",
+    "resignation-dialog": "તમારું રાજીનામું વિચારણા હેઠળ છે. વધુ માહિતી માટે, કૃપા કરીને તમારા સુપરવાઇઝર સાથે સંપર્ક કરો.",
+    "last-date": "કામનો અંતિમ દિવસ",
+    "date": "તારીખ",
+    "reason": "કારણ",
+    "warm-regards": "તમારા શુભેચ્છાઓ,",
+    "status-updated": "સ્થિતિ સફળતાપૂર્વક અપડેટ કરી દીધી છે.",
+    "table": {
+      "name": "નામ",
+      "date": "તારીખ",
+      "reason": "કારણ",
+      "last-date": "અંતિમ કામની તારીખ",
+      "remarks": "ટિપ્પણીઓ",
+      "status": "સ્થિતિ"
+    },
+    "placeholder": {
+      "reason": "કારણ દાખલ કરો",
+      "last-date": "અંતિમ કામની તારીખ દાખલ કરો",
+      "remarks": "તમારું સંદેશ દાખલ કરો:"
+    },
+    "errors": {
+      "date": "તારીખ ક્ષેત્ર જરૂરી છે",
+      "reason": "કારણ ક્ષેત્ર જરૂરી છે",
+      "last-date": "અંતિમ કામની તારીખ ક્ષેત્ર જરૂરી છે"
+    }
+  },
+  "user": {
+    "user": "Users",
+    "list": "Users",
+    "table": {
+      "user": "User",
+      "role": "Role",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "overview": {
+      "overview": "Overview",
+      "school": "School",
+      "employee": "Employee",
+      "student": "Student",
+      "role": "Role",
+      "email": "Email",
+      "phone": "Phone",
+      "user-name": "User Name",
+      "password": "Password",
+      "admin": "Admin"
+    },
+    "placeholder": {
+      "school": "Select School",
+      "student": "Select Student",
+      "employee": "Select Employee",
+      "role": "Select Role"
+    },
+    "errors": {
+      "employee": "Employee field is required",
+      "student": "Student field is required",
+      "no-student": "No student",
+      "email": "Please enter email",
+      "user-name": "Please enter user name",
+      "password": "Please enter password",
+      "user-length": "Minimum 5 characters are required"
+    }
+  },
+  "class-attendance-report": {
+    "reset": "રીસેટ",
+    "apply": "લાગૂ કરો",
+    "applying": "લાગૂ કરી રહ્યા છે",
+    "title": "વર્ગ હાજરી અહેવાલ",
+    "overview": {
+      "report-list": "વર્ગ હાજરી અહેવાલ યાદી",
+      "students": "વિદ્યાર્થીઓ",
+      "education-year": "શૈક્ષણિક વર્ષ",
+      "class": "વર્ગ",
+      "shift": "શિફ્ટ",
+      "section": "વિભાગ",
+      "date": "સત્ર તારીખ"
+    },
+    "placeholder": {
+      "education-year": "શૈક્ષણિક વર્ષ પસંદ કરો",
+      "class": "વર્ગ પસંદ કરો",
+      "shift": "શિફ્ટ પસંદ કરો",
+      "section": "વિભાગ પસંદ કરો",
+      "students": "વિદ્યાર્થીઓ પસંદ કરો"
+    },
+    "table": {
+      "index": "ક્રમ",
+      "profile": "પ્રોફાઇલ",
+      "class": "વર્ગ",
+      "shift": "શિફ્ટ",
+      "section": "વિભાગ",
+      "student": "વિદ્યાર્થી",
+      "attendance": "હાજરી",
+      "date": "તારીખ"
+    }
+  },
+  "class-fee-report": {
+    "applying": "લાગૂ કરી રહ્યા છે",
+    "reset": "રીસેટ",
+    "apply": "લાગૂ કરો",
+    "title": "વર્ગ ફી અહેવાલ",
+    "overview": {
+      "total-fees": "કુલ ફી",
+      "paid-fees": "ચૂકવેલ ફી",
+      "remaining-fees": "બાકી ફી",
+      "report-list": "વર્ગ ફી અહેવાલ યાદી",
+      "students": "વિદ્યાર્થીઓ",
+      "from-date": "તારીખ થી",
+      "to-date": "તારીખ સુધી",
+      "education-year": "શૈક્ષણિક વર્ષ",
+      "class": "વર્ગ",
+      "shift": "શિફ્ટ",
+      "section": "વિભાગ"
+    },
+    "placeholder": {
+      "education-year": "શૈક્ષણિક વર્ષ પસંદ કરો",
+      "class": "વર્ગ પસંદ કરો",
+      "shift": "શિફ્ટ પસંદ કરો",
+      "section": "વિભાગ પસંદ કરો",
+      "student": "વિદ્યાર્થી પસંદ કરો"
+    },
+    "table": {
+      "index": "ક્રમ",
+      "profile": "પ્રોફાઇલ",
+      "education-year": "શૈક્ષણિક વર્ષ",
+      "class": "વર્ગ",
+      "shift": "શિફ્ટ",
+      "section": "વિભાગ",
+      "student": "વિદ્યાર્થી",
+      "attendance": "હાજરી",
+      "total-fees": "કુલ ફી",
+      "paid-fees": "ચૂકવેલ ફી",
+      "remain-fees": "બાકી ફી"
+    }
+  },
+  "class-student-report": {
+    "applying": "લાગૂ કરી રહ્યા છે",
+    "title": "વર્ગ વિદ્યાર્થી અહેવાલ",
+    "reset": "રીસેટ",
+    "apply": "લાગૂ કરો",
+    "overview": {
+      "report-list": "વર્ગ વિદ્યાર્થી અહેવાલ યાદી",
+      "students": "વિદ્યાર્થીઓ",
+      "from-date": "તારીખ થી",
+      "to-date": "તારીખ સુધી",
+      "gender": "લિંગ",
+      "cast": "જાતિ",
+      "category": "વર્ગ",
+      "religion": "ધર્મ",
+      "education-year": "શૈક્ષણિક વર્ષ",
+      "class": "વર્ગ",
+      "shift": "શિફ્ટ",
+      "section": "વિભાગ"
+    },
+    "placeholder": {
+      "education-year": "શૈક્ષણિક વર્ષ પસંદ કરો",
+      "class": "વર્ગ પસંદ કરો",
+      "shift": "શિફ્ટ પસંદ કરો",
+      "section": "વિભાગ પસંદ કરો",
+      "student": "વિદ્યાર્થી પસંદ કરો",
+      "gender": "લિંગ પસંદ કરો",
+      "cast": "જાતિ પસંદ કરો",
+      "category": "વર્ગ પસંદ કરો",
+      "religion": "ધર્મ પસંદ કરો"
+    },
+    "table": {
+      "index": "ક્રમ",
+      "profile": "પ્રોફાઇલ",
+      "education-year": "શૈક્ષણિક વર્ષ",
+      "class": "વર્ગ",
+      "shift": "શિફ્ટ",
+      "section": "વિભાગ",
+      "student": "વિદ્યાર્થી",
+      "email": "ઈમેલ",
+      "phone": "ફોન",
+      "gender": "લિંગ",
+      "admission-date": "પ્રવેશ તારીખ"
+    }
+  },
+  "fee-report": {
+    "table": {
+      "education-year": "શૈક્ષણિક વર્ષ",
+      "class": "ક્લાસ",
+      "shift": "શિફ્ટ",
+      "section": "વિભાગ",
+      "student": "વિદ્યાર્થી",
+      "attendance": "હાજરી",
+      "date": "તારીખ",
+      "total-fees": "કુલ ફી",
+      "paid-fees": "ચૂકવેલ ફી",
+      "pending-fees": "બાકી ફી",
+      "remain-fees": "બાકી ફી",
+      "student-name": "વિદ્યાર્થીનું નામ",
+      "fee-date": "ચૂકવણીની તારીખ",
+      "fee-mode": "ચૂકવણીનો માર્ગ",
+      "fee-amount": "ચૂકવેલ રકમ",
+      "receiver-name": "પ્રાપકનું નામ",
+      "fee-type": "ફીનો પ્રકાર",
+      "comment": "ટિપ્પણી"
+    },
+    "fromdate": "તારીખથી",
+    "todate": "તારીખ સુધી",
+    "totalfee": "કુલ ફી એકત્રિત",
+    "reset": "રીસેટ",
+    "student-summary": {
+      "summary": "સારાંશ",
+      "profile": "પ્રોફાઇલ",
+      "class": "ક્લાસ",
+      "shift": "શિફ્ટ",
+      "section": "વિભાગ",
+      "student-name": "વિદ્યાર્થીનું નામ",
+      "phone": "ફોન",
+      "email": "ઈમેલ",
+      "class-fee": "ક્લાસ ફી",
+      "paid-fee": "ચૂકવેલ ફી",
+      "remain-fee": "બાકી ફી"
+    },
+    "student-fee-placeholder": {
+      "student": "વિદ્યાર્થી પસંદ કરો"
+    },
+    "student-attendance": {
+      "total": "કામકાજ દિવસ",
+      "absent": "અસ્તિત્વમાં નથી",
+      "present": "હાજર",
+      "student-attendance-placeholder": {
+        "to-date": "તારીખ સુધી",
+        "from-date": "તારીખથી"
+      },
+      "table": {
+        "class": "ક્લાસ",
+        "shift": "શિફ્ટ",
+        "section": "વિભાગ",
+        "subject": "વિષય",
+        "date": "તારીખ",
+        "time": "સમય",
+        "status": "સ્થિતિ"
+      }
+    },
+    "student-exam": {
+      "assesment": "મુલ્યાંકન",
+      "start-date": "શરૂઆતની તારીખ",
+      "end-date": "સમાપ્ત થવાની તારીખ",
+      "apply": "લાગુ કરો",
+      "student-exam-table": {
+        "class": "ક્લાસ",
+        "shift": "શિફ્ટ",
+        "section": "વિભાગ",
+        "subject": "વિષય",
+        "date": "પરીક્ષા તારીખ",
+        "total-marks": "કુલ માર્ક્સ",
+        "obtained-marks": "પ્રાપ્ય માર્ક્સ",
+        "passing-status": "ઉત્તીર્ણ સ્થિતિ"
+      },
+      "placeholder": {
+        "assesment": "મુલ્યાંકન પસંદ કરો",
+        "subject": "વિષય પસંદ કરો"
+      }
+    }
+  },
+  "student-report": {
+    "student-monthly-report": "વિદ્યાર્થી માસિક અહેવાલ",
+    "exam-time": "પરીક્ષા સમય",
+    "percentage": "ટકાવારી",
+    "grade": "શ્રેણી",
+    "monthly-attendance": "માસિક વિદ્યાર્થી હાજરી અહેવાલ",
+    "pending-exam": "બાકી રહેલી પરીક્ષાઓ",
+    "completed-exam": "પૂર્ણ થયેલી પરીક્ષા",
+    "report-date": "રિપોર્ટ તારીખ",
+    "student-signature": "વિદ્યાર્થીના સહી",
+    "parent-signature": "માતા-પિતાની સહી"
+  },
+
+  "visitor-book": {
+    "visitor-book": "વિઝિટર બુક",
+    "list": "વિઝિટર બુક યાદી",
+    "date": "તારીખ",
+    "table": {
+      "name": "નામ",
+      "purpose": "ઉદ્દેશ",
+      "phone-number": "ફોન નંબર",
+      "date": "તારીખ",
+      "email": "ઇમેઇલ",
+      "previous-school": "પૂર્વ સ્કૂલ",
+      "in-time": "આગમન સમય",
+      "out-time": "બહાર જવાની સમય"
+    },
+    "overview": {
+      "overview": "ઓવરવ્યૂ",
+      "name": "પૂરૂું નામ",
+      "purpose": "ઉદ્દેશ",
+      "phone-number": "ફોન નંબર",
+      "date": "તારીખ",
+      "email": "ઇમેઇલ",
+      "previous-school": "પૂર્વ સ્કૂલ",
+      "in-time": "આગમન સમય",
+      "out-time": "બહાર જવાની સમય",
+      "to-meet": "મુલાકાત માટે"
+    },
+    "placeholder": {
+      "name": "નામ દાખલ કરો",
+      "purpose": "ઉદ્દેશ દાખલ કરો",
+      "phone-number": "ફોન નંબર દાખલ કરો",
+      "date": "તારીખ દાખલ કરો",
+      "email": "ઇમેઇલ દાખલ કરો",
+      "previous-school": "પૂર્વ સ્કૂલ દાખલ કરો",
+      "to-meet": "મુલાકાત માટે વ્યક્તિનું નામ દાખલ કરો"
+    },
+    "errors": {
+      "name": "નામ ક્ષેત્ર આવશ્યક છે",
+      "date": "તારીખ ક્ષેત્ર આવશ્યક છે",
+      "purpose": "ઉદ્દેશ ક્ષેત્ર આવશ્યક છે",
+      "in-time": "આગમન સમય આવશ્યક છે"
+    }
+  },
+  "student-promotion": {
+    "header": "વિદ્યાર્થી પ્રમોશન",
+    "table": {
+      "select": "પસંદ કરો",
+      "name": "નામ",
+      "uniq-number": "અનન્ય નંબર",
+      "phone": "ફોન"
+    },
+    "class": "વર્ગ",
+    "to-education-year": "શૈક્ષણિક વર્ષમાં પ્રમોશન કરો",
+    "to-class": "વર્ગમાં પ્રમોશન કરો",
+    "class-select": "વર્ગ પસંદ કરો",
+    "education-select": "શૈક્ષણિક વર્ષ પસંદ કરો",
+    "error": {
+      "class": "વર્ગ ક્ષેત્ર જરૂરી છે",
+      "education": "શૈક્ષણિક ક્ષેત્ર જરૂરી છે"
+    }
+  },
+  "fee-report-title": {
+    "report": "અહેવાલ",
+    "class-attendance": "ક્લાસ હાજરી અહેવાલ",
+    "class-fees": "ક્લાસ ફી અહેવાલ",
+    "class-student": "ક્લાસ વિદ્યાર્થીઓનો અહેવાલ",
+    "student-attendance": "વિદ્યાર્થી હાજરી અહેવાલ",
+    "student-fees": "વિદ્યાર્થી ફી અહેવાલ",
+    "student-exam": "વિદ્યાર્થી પરીક્ષા અહેવાલ",
+    "fees-collection": "ફી સંગ્રહ અહેવાલ"
+  },
+  "notification-settings": {
+    "header": "સૂચના",
+    "table": {
+      "select": "પસંદ કરો",
+      "name": "નામ"
+    }
+  }
+}

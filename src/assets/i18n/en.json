@@ -1,0 +1,2472 @@
+{
+  "login": {
+    "welcome": "Welcome",
+    "title": "Enter your email and password to access your account",
+    "by": "Powered by",
+    "authorization": "Kwiqwork Tech Studio LLP"
+  },
+  "sign-in": {
+    "sign-in": "Sign In",
+    "username": "User Name",
+    "email": "Email",
+    "signing": "Signing in...",
+    "placeholder": {
+      "email": "Enter Email"
+    },
+    "password": "Password"
+  },
+  "reset-password": {
+    "title": "Enter a New Password",
+    "new-password": "New Password",
+    "confirm-new-password": "Confirm New Password",
+    "reset-your-password": "Reset Your Password",
+    "error-invalid-match": "The new password and confirmation do not match",
+    "resetting": "Resetting...",
+    "placeholder": {
+      "enter-new-password": "Enter your new password",
+      "confirm-new-password": "Confirm New Password"
+    }
+  },
+  "profile-image-dialog": {
+    "info": "Click Hear To Upload Or Drop Your Filles",
+    "accepted-file": "JPG  Or PNG File Will Be Accepted"
+  },
+  "common-translate-fields": {
+    "address": "Address",
+    "country": "Country",
+    "state": "State",
+    "district": "District",
+    "city": "City",
+    "pin-code": "Pin Code",
+    "out-of": "Out of",
+    "permanent-address": "Permanent Address",
+    "current-address": "Current Address",
+    "upload-message": "Click Hear To Upload Or Drop Your Filles Hear should be less than",
+    "form-instruction": "PDF Or Word File Will Be Accepted below 200kb",
+    "upload-successfully": "Uploaded Successfully",
+    "no-data": "No data available",
+    "isLoading": "isLoading...",
+    "totalfee": "Total Fees",
+    "remaining-fees": "Remaining Fees",
+    "no-records-found": "No Records Found"
+  },
+  "common-response-handler": {
+    "error-response": "Something went wrong. Please try again later.",
+    "record-created": "Record successfully created.",
+    "record-updated": "Record successfully updated.",
+    "record-deleted": "Record successfully deleted."
+  },
+  "sidebar": {
+    "onboarding": "Onboarding",
+    "add-school": "Add School",
+    "add-employee": "Add Employee",
+    "add-class": "Add Class",
+    "add-student": "Add Student",
+    "dashboard": "Dashboard",
+    "institute": "Institute",
+    "employee": "Employee",
+    "student": " Student",
+    "session": "Session",
+    "exam-module": "Exam Module",
+    "setting": "Setting",
+    "your-payrolls": "Staff Payroll",
+    "profile": "Profile",
+    "class": "Class",
+    "subject": "Subjects",
+    "division": "Division",
+    "education-year": "Education Year",
+    "fee-component": "Fee Component",
+    "stream": "Stream",
+    "medium": "Medium",
+    "section": "Section",
+    "shift": "Shift",
+    "student-fee": "Student Fee",
+    "staff": "Staff",
+    "leaves": "Leaves",
+    "payroll": "Payroll",
+    "my-payroll": "My Payroll",
+    "assessment": "Exam",
+    "theme": "Theme",
+    "theme-component": "Theme Component",
+    "board": "Board",
+    "holiday": "Holidays",
+    "policy": "Policy",
+    "announcement": "Announcement",
+    "leave-type": "Leave Type",
+    "list": "Institute ",
+    "attendence": "Attendence",
+    "salary-component": "Salary Component",
+    "my-leave": "My Leaves",
+    "leave-request": "Leave Request",
+    "menu": "Menu",
+    "menu-component": "Menu Components",
+    "assets": "Assets",
+    "brand": "Brand",
+    "category": "Category",
+    "product": "Product",
+    "Role": "Role",
+    "user-role": "User Role",
+    "fees": "Fees",
+    "master": "Master",
+    "user": "User",
+    "visitor-book": "Visitor Book",
+    "student-promotion": "Student Promotion",
+    "student-exam": "Student Exam",
+    "attendance": "Attendance",
+    "report": "Report",
+    "class-attendance": "Class Attendance",
+    "class-fees": "Class Fees",
+    "class-student": "Class Student",
+    "student-attendance": "Student Attendance",
+    "student-fees": "Student Fees",
+    "student-fees-collection": "Student Fees Collection",
+    "fees-collection": "Fees Collection Report",
+    "student-report": "Student Monthly Report",
+    "settings": "Settings",
+    "notification": "Notification",
+    "notification-list": "Notification List",
+    "notification-type": "Notification Type"
+  },
+  "master-header": {
+    "gujarati": "Gujarati",
+    "hindi": "Hindi",
+    "english": "English",
+    "logout": "logout",
+    "loginOut": "Login Out..."
+  },
+  "common-button": {
+    "add": "Add",
+    "edit": "Edit",
+    "close": "Close",
+    "cancel": "Cancel",
+    "save": "Save",
+    "search": "Search",
+    "detail": "Detail",
+    "delete": "Delete",
+    "view": "View",
+    "actions": "Actions",
+    "clear": "Clear",
+    "list": "List",
+    "accept": "Accept",
+    "reject": "Reject",
+    "revoke": "Revoke",
+    "status": "View Resignation Status",
+    "saving": "Saving...",
+    "apply": "Applying...",
+    "change-password": "Change Password",
+    "copy": "Copy",
+    "user": "User",
+    "download": "Download",
+    "back": "Back"
+  },
+  "common-errors": {
+    "address-required": "Address is required",
+    "country-required": "Country is required",
+    "state-required": "State is required",
+    "district-required": "District is required",
+    "city-required": "City is required",
+    "pin-code-required": "Pin Code is required",
+    "required": "field is required",
+    "invalid-contact": "Contact No. is invalid",
+    "invalid-input": "Please enter valid format",
+    "alphabets-only": "Please enter alphabets only",
+    "numbers-only": "Please enter numbers only",
+    "alphanumeric-only": "Please enter alphanumeric value only",
+    "minlength-2": "Minimum 2 characters are required",
+    "minlength-5": "Minimum 5 characters are required",
+    "minlength-3": "Minimum 3 characters are required",
+    "minlength-6": "Minimum 6 characters are required",
+    "minlength-7": "Minimum 7 characters are required",
+    "minlength-8": "Minimum 8 characters are required",
+    "minlength-11": "Minimum 11 characters are required",
+    "minlength-1": "Minimum 1 character is required",
+    "maxlength-1": "Maximum 1 characters are required",
+    "maxlength-2": "Maximum 2 characters are required",
+    "maxlength-3": "Maximum 3 characters are required",
+    "maxlength-4": "Maximum 4 characters are required",
+    "maxlength-5": "Maximum 5 characters are required",
+    "maxlength-6": "Maximum 6 characters are required",
+    "maxlength-7": "Maximum 7 characters are required",
+    "maxlength-8": "Maximum 8 characters are required",
+    "maxlength-9": "Maximum 9 characters are required",
+    "maxlength-10": "Maximum 10 characters are required",
+    "maxlength-30": "Maximum 30 characters are required",
+    "maxlength-50": "Maximum 50 characters are required",
+    "maxlength-100": "Maximum 100 characters are required",
+    "maxlength-150": "Maximum 150 characters are required",
+    "phone-number": "Please enter a 10-digit number",
+    "phone-pattern": " number must start with 6-9 and be 10 digit long",
+    "landline-pattern": " Please enter a valid phone number with 2-4 digits for the area code (optional) and 6-8 digits for the main number",
+    "start-date": "Start date must be earlier than end date",
+    "end-date": "End date must be later than start date",
+    "start-time": "Start time must be earlier than end time",
+    "end-time": "End time must be later than start time",
+    "name-taken": "Name already taken",
+    "registration-no-taken": "Registration No is already taken",
+    "no-data-found": "NO DATA FOUND",
+    "email-same": "Both email should be different",
+    "work-email": "Work Email field is required",
+    "default": "A default education year already exists",
+    "overlaping-date": "Date overlapping existing education years",
+    "file-size-exceed": "File size should be less then 200kb"
+  },
+  "common-placeholder": {
+    "address": "Enter Address",
+    "country": "Select Country",
+    "state": "Select State",
+    "district": "Select District",
+    "city": "Select City",
+    "pin-code": "Enter Pin Code",
+    "permanent-address": "Permanent Address",
+    "current-address": "Current Address"
+  },
+  "common-code": {
+    "duplicate-data": "DPD"
+  },
+  "dashboard": {
+    "dashboard": "Dashboard",
+    "total-student": "Total Students",
+    "total-employee": "Total Employees",
+    "total-class": "Total Classes",
+    "page": {
+      "dashboard": "Dashboard",
+      "employee": "Employee",
+      "admin-exam": "Assesment List",
+      "monthly-attendance": "Monthly Employee Attendance Report ",
+      "employee-birthday": "Employee Birthday",
+      "leave-status": "Employee Leave Status",
+      "view-all": "View All",
+      "select-month": "Select Month",
+      "leave-list": "Employee Leave",
+      "announcement": "Announcement",
+      "holiday": "Holidays",
+      "session": "Session",
+      "student-monthly-attendance": "My Monthly Attendance",
+      "student-birthday": "Student Birthday",
+      "exam": "My exam",
+      "fees": "My Fees",
+      "time-table": "My Weekly Time Table",
+      "student-subject-monthly-attendance": "My Monthly Subject Attendance Report",
+      "subjects": "Subjects",
+      "total-students": "Total Students",
+      "total-school": "Total School",
+      "total-employees": "Total Employees",
+      "total-classes": "Total Classes",
+      "total-exams": "Total Exams",
+      "attendance-summary": "Attendance Summary",
+      "present": "Present Days",
+      "absent": "Absent Days",
+      "fee-summary": "Fee Summary",
+      "total-fees": "Total Fees",
+      "paid-fees": "Paid Fees",
+      "remaining-fees": "Remaining Fees"
+    }
+  },
+  "institute": {
+    "institute": "Institute",
+    "logo": "Logo",
+    "name": "Name",
+    "tag-line": "TagLine",
+    "contact-number": "Contact Number",
+    "landline-number": "Landline Number",
+    "email": "Email",
+    "registration-no": "Registration No",
+    "list": "Institute ",
+    "theme": "Theme",
+    "basic-info": "Basic Info",
+    "facial-recognition": "Facial Recognition",
+    "sms-config": "SMS Config",
+    "placeholder": {
+      "name": "Enter Name",
+      "tagline": "Enter Tagline",
+      "contact-number": "Enter Contact Number",
+      "landline-number": "Enter Landline Number",
+      "registration-no": "Enter Registration No",
+      "email": "Enter Email",
+      "theme": "Select Theme"
+    },
+    "errors": {
+      "name-required": "Name field is required",
+      "tagline-required": "Tagline field is required",
+      "number-required": "Contact Number field is required",
+      "registration-no-required": "Registration Number field is required",
+      "email-required": "Email field is required"
+    },
+    "overview": {
+      "sms-config": {
+        "is-active": "IsActive",
+        "api-url": "Api Url",
+        "auth-key": "Auth Key",
+        "table": {
+          "is-active": "IsActive",
+          "template-id": "TemplateId",
+          "template-name": "Template Name",
+          "code": "Code"
+        },
+        "placeholder": {
+          "api-url": "Enter Api Url",
+          "auth-key": "Enter Auth Key"
+        }
+      },
+      "template-link": {
+        "is-active": "Is Active",
+        "template": "Template",
+        "template-name": "Template Name",
+        "sender-id": "Sender Id",
+        "template-id": "Template Id",
+        "template-format": "Template Format",
+        "select-code": "Select Code",
+        "placeholder": {
+          "template-name": "Enter Template Name",
+          "sender-id": "Enter Sender Id",
+          "template-id": "Enter Template Id",
+          "template-format": "Enter template format",
+          "select-code": "Select Template Type"
+        }
+      },
+      "facial-recognition": {
+        "facial-recognition-api-url": "Facial Recognition Api Url",
+        "api-key": "Api Key",
+        "key-name": "Key Name",
+        "similarity-threshold": "Shimilarity Threshold",
+        "det-prob-threshold": "DetProb Threshold",
+        "limit": "Limit",
+        "is-active": "Is Active",
+        "placeholder": {
+          "facial-recognition-api-url": "Enter FacialRecognition ApiUrl",
+          "api-key": "Enter Api Key",
+          "key-name": "Enter Key Name",
+          "similarity-threshold": "Enter Shimilarity Threshold",
+          "det-prob-threshold": "Enter DetProb Threshold",
+          "limit": "Enter Limit"
+        },
+        "error": {
+          "facial-recognition-api-url": "FacialRecognition ApiUrl is required",
+          "api-key": "Enter Api Key is required",
+          "key-name": "Enter Key Name is required",
+          "similarity-threshold": "Enter Shimilarity Threshold is required",
+          "det-prob-threshold": "Enter DetProb Threshold required",
+          "limit": "Enter Limit required"
+        }
+      }
+    }
+  },
+  "class": {
+    "select-option": {
+      "education-year": "Select Education Year",
+      "boards": "Select Boards",
+      "division": "Select Division",
+      "medium": "Select Medium",
+      "main-subject": "Select Main Subject",
+      "stream": "Select Stream"
+    },
+    "select-option-no-data": {
+      "education-year": "No Education Year available",
+      "boards": "No Boards available",
+      "division": "No Division available",
+      "medium": "No Medium available",
+      "main-subject": "No Main Subject available",
+      "stream": "No Stream available"
+    },
+    "date": "Date",
+    "class": "Class",
+    "list": "Class ",
+    "table": {
+      "name": "Name",
+      "division": "Division",
+      "main-subject": "Main Subject",
+      "board": "Board",
+      "medium": "Medium",
+      "stream": "Stream"
+    },
+    "tab": {
+      "basic-info": "Basic Info",
+      "shift": "Shift",
+      "student": "Student",
+      "fee": "Fee",
+      "subject": "Subjects",
+      "session": "Session",
+      "overview": "Overview"
+    },
+    "overview": {
+      "class": "Class",
+      "board": "Board",
+      "medium": "Medium",
+      "division": "Division",
+      "stream": "Stream",
+      "subject": "Main Subject",
+      "teacher": "Class Teacher",
+      "placeholder": {
+        "class": "Enter Class",
+        "board": "Select Board",
+        "medium": "Select Medium",
+        "division": "Select Division",
+        "education-year": "Select Education Year",
+        "stream": "Select Stream",
+        "teacher": "Select Class Teacher",
+        "subject": "Select Subject"
+      },
+      "errors": {
+        "same": "Class with same details already exist",
+        "class": "Class field is required",
+        "board": "Board field is required",
+        "medium": "Medium field is required",
+        "division": "Division field is required",
+        "stream": "Stream field is required",
+        "teacher": "Class Teacher field is required",
+        "no-board": "No Board available",
+        "no-medium": "No Medium available",
+        "no-subject": "No Subjects available",
+        "no-division": "No Division available",
+        "no-stream": "No Stream available",
+        "no-teacher": "No Class Teacher available"
+      }
+    },
+    "shift": {
+      "education-year": "Education Year",
+      "shift": "Shift",
+      "section": "Section",
+      "teacher": "Class Teacher",
+      "add": "Add Shift",
+      "update": "Update Shift",
+      "table": {
+        "section": "Section",
+        "teacher": "Teacher"
+      },
+      "placeholder": {
+        "education-year": "Education Year",
+        "section": "Select Section",
+        "teacher": "Select Teacher",
+        "no-shift": "No shift available",
+        "no-section": "No section available",
+        "no-teachers": "No teachers available"
+      },
+      "errors": {
+        "duplicate": "Data with same shift an section already exist"
+      }
+    },
+    "student": {
+      "education-year": "Education Year",
+      "shift": "Shift",
+      "section": "Section",
+      "index": "Index",
+      "student": "Student",
+      "uniq-number": "Uniq Number",
+      "action": "Action",
+      "add-students": "Add Students",
+      "linked-students": "View Linked Students",
+      "table": {
+        "index": "Index",
+        "uniq-number": "Uniq Number",
+        "student": "Student",
+        "email": "Email",
+        "contact": "Contact",
+        "shift": "Shift",
+        "section": "Section"
+      },
+      "placeholder": {
+        "education-year": "Education Year",
+        "student": "Search student",
+        "shift": "Select Shift",
+        "section": "Select Section"
+      }
+    },
+    "fee": {
+      "education-year": "Education Year",
+      "name": "Name",
+      "fee": "Fee",
+      "fee-structure": "Fee Structure",
+      "fee-type": "Fee Type",
+      "component": "Component",
+      "amount": "Amount",
+      "is-active": "Active",
+      "total": "Total",
+      "placeholder": {
+        "name": "Enter student"
+      },
+      "errors": {
+        "invalid-amount": "Amount can not be negative"
+      }
+    },
+    "subject": {
+      "education-year": "Education Year",
+      "select-subject": "Select Subject",
+      "teacher": "Teacher",
+      "table": {
+        "select": "Select",
+        "subject": "Subject",
+        "teacher": "Teacher"
+      },
+      "placeholder": {
+        "name": "Enter student",
+        "teacher": "Select Teacher"
+      }
+    },
+    "session": {
+      "education-year": "Education Year",
+      "start-date": " Start Date",
+      "end-date": "End Date",
+      "table": {
+        "education-year": "Education Year",
+        "start-date": " Start Date",
+        "end-date": "End Date",
+        "shift": "Shift",
+        "section": "Section",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednsday": "Wednsday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      },
+      "placeholder": {
+        "education-year": "Select Education Year",
+        "start-date": " Select Start Date",
+        "end-date": "  Select End Date",
+        "select-weekday": "Select Weekday",
+        "subject": "Select Subject",
+        "teacher": "Select Teacher",
+        "no-subjects": "No linked subjects",
+        "no-teachers": "No linked teachers"
+      },
+      "errors": {
+        "overlap": "There is a time overlap in this day session",
+        "shift-overlap": "Time overlaped to shift",
+        "education-year": "Education Year field is required",
+        "start-date": "Start date must be earlier than end date",
+        "end-date": "End date must be later than start date",
+        "start-date-overlap": "StartDate is overlapping with another session",
+        "end-date-overlap": "EndDate is overlapping with another session",
+        "another-data-overlap": "Overlapped with another shift or session",
+        "start-time": "Start Time field is required",
+        "end-time": "End Time field is required",
+        "subject": "Subject field is required",
+        "teacher": "Teacher field is required"
+      },
+      "add": {
+        "start-time": "Start Time",
+        "end-time": "End Time",
+        "subject": "Subjects",
+        "teacher": "Teacher",
+        "weekday": "Weekday",
+        "back-to-list": "Back To List",
+        "time": "Time"
+      }
+    }
+  },
+  "employee": {
+    "employee": "Employee",
+    "list": "Employee ",
+    "resign": "Resign",
+    "table": {
+      "image": "Image",
+      "name": "Name",
+      "address": "Address",
+      "country": "Country",
+      "state": "State",
+      "city": "City",
+      "district": "District",
+      "phone": "Phone",
+      "personal-email": "Personal Email",
+      "work-email": "Work Email",
+      "monthly-salary": "Monthly Salary"
+    },
+    "tab": {
+      "overview": "Overview",
+      "education-history": "Education History",
+      "education-history-edit": "Edit Education History",
+      "guardian": "Guardian",
+      "document": "Document",
+      "experience": "Experience",
+      "bank-detail": "Bank Detail",
+      "disability": "Disability",
+      "salary": "Salary"
+    },
+    "bar": {
+      "basic": "Basic Detail",
+      "personal-info": "Personal Info",
+      "address": "Address"
+    },
+    "overview": {
+      "first-name": "First Name",
+      "middle-name": "Middle Name",
+      "last-name": "Last Name",
+      "as-per-current-address": "As Per Current Address",
+      "contact-number": "Contact Number",
+      "personal-email": "Personal Email",
+      "work-email": "Work Email",
+      "date-of-birth": "Date of Birth",
+      "blood-group": "Blood Group",
+      "religion": "Religion",
+      "cast": "Cast",
+      "category": "Category",
+      "date-of-joining": "Date of Joining",
+      "job-type": "Job Type",
+      "monthly-salary": "Monthly Salary",
+      "alternate-number": "Alternate Number",
+      "gender": "Gender",
+      "designation": "Designation Type",
+      "reporting-to": "Reporting To",
+      "placeholder": {
+        "first-name": "Enter First Name",
+        "middle-name": "Enter Middle Name",
+        "last-name": "Enter Last Name",
+        "gender": "Select Gender",
+        "contact-number": "Enter Contact Number",
+        "personal-email": "Enter Personal Email",
+        "work-email": "Enter Work Email",
+        "date-of-birth": "Select Date of Birth",
+        "blood-group": "Select Blood Group",
+        "religion": "Select Religion",
+        "cast": "Select Cast",
+        "category": "Select Category",
+        "date-of-joining": "Select Date of Joining",
+        "job-type": "Select Job Type",
+        "monthly-salary": "Enter Monthly Salary",
+        "alternate-number": "Enter Alternate Number",
+        "designation": "Select Designation Type",
+        "reporting-to": "Select Reporting To"
+      },
+      "errors": {
+        "first-name": "First Name field is required",
+        "name-length": "Minimun 2 letters is required",
+        "last-name": "Last Name field is required",
+        "gender": "Gender field is required",
+        "contact-number": "Contact Number field is required",
+        "email": "Email field is required",
+        "date-of-birth": "Date of Birth field is required",
+        "date-of-birth-age": "Please select valid date and must be at least 18 years old",
+        "blood-group": "Blood Group field is required",
+        "religion": "Religion field is required",
+        "cast": "Cast field is required",
+        "category": "Category field is required",
+        "date-of-joining": "Date of Joining field is required",
+        "job-type": "Job Type field is required",
+        "monthly-salary": "Monthly Salary field is required",
+        "designation": "Designation Type field is required",
+        "reporting-to": "Reporting To field is required"
+      }
+    },
+    "education-history": {
+      "institute-name": "Institute Name ",
+      "degree": "Degree",
+      "degree-year": "Degree Year",
+      "start-year": "Start Year",
+      "end-year": "End Year",
+      "result": "Result",
+      "result-type": "Result Type",
+      "certificate": "Certificate",
+      "tab": {
+        "institute-name": "Institute Name",
+        "degree": "Degree",
+        "start-year": "Start Year",
+        "end-year": "End Year"
+      },
+      "errors": {
+        "institute-name": "Institute Name field is required",
+        "degree": "Degree field is required",
+        "start-year": "Start Year field is required",
+        "end-year": "End Year field is required",
+        "degree-year": "Degree Year field is required",
+        "result": "Result field is required",
+        "result-type": "Result Type field is required",
+        "cgp": "Enter value under 10",
+        "per": "Enter value under 100"
+      },
+      "placeholder": {
+        "institute-name": "Enter Institute Name",
+        "degree": "Select Degree",
+        "result": "Enter Result",
+        "start-year": "MM , YYYY",
+        "end-year": "MM , YYYY",
+        "result-type": "Select Result Type"
+      }
+    },
+    "guardian": {
+      "name": "Name",
+      "relation": "Relation",
+      "education": "Education",
+      "contact-number": "Contact Number",
+      "add": "Add Guardian",
+      "edit": "Edit Guardian",
+      "table": {
+        "name": "Name",
+        "relation": "Relation",
+        "education": "Education",
+        "contact-number": "Contact Number"
+      },
+      "placeholder": {
+        "name": "Enter Name",
+        "relation": "Select Relation",
+        "education": "Enter Education",
+        "contact-number": "Enter Contact Number"
+      },
+      "errors": {
+        "name": "Name field is required",
+        "relation": "Relation field is required",
+        "contact-number": "Contact Number field is required",
+        "maxlength": "Maximum 50 character is required"
+      }
+    },
+    "document": {
+      "aadhar-number": "Aadhaar Number",
+      "aadhaar-photos": "Aadhaar Photos",
+      "pan-number": "PAN Number",
+      "pan-photos": "PAN Photo",
+      "is-passport-available": "Is Passport Available",
+      "passport-number": "Passport Number",
+      "passport-expiry": "Passport Expiry",
+      "document": "Document",
+      "placeholder": {
+        "aadhar-number": " Enter Aadhaar Number",
+        "pan-number": "Enter PAN Number",
+        "passport-number": "Enter Passport Number",
+        "passport-expiry": " Enter Passport Expiry Date"
+      },
+      "errors": {
+        "aadhar-number": "Aadhar Number field is required",
+        "pan-number": "Pan Number field is required",
+        "aadhar-minlength": "Minimum 12 characters are required",
+        "valid-pan-number": "Enter valid pan number (ABCDE1234F)",
+        "pan-minlength": "Minimum 10 characters are required",
+        "passport-minlength": "Minimum 6 characters are required",
+        "passport-number": "Passport Number field is required",
+        "passport-expiry": "Passport Expiry field is required"
+      }
+    },
+    "experience": {
+      "company-name": "Company Name",
+      "start-date": "Start Date",
+      "end-date": "End Date",
+      "certificate": "Certificate",
+      "relieving-letter": "Relieving Letter",
+      "add": "Add Experiance",
+      "edit": "Edit Experiance",
+      "table": {
+        "company-name": "Company Name",
+        "start-date": " Start Date",
+        "end-date": "End Date"
+      },
+      "placeholder": {
+        "company-name": " Enter Company Name"
+      },
+      "errors": {
+        "company-name": "Name field is required",
+        "start-date": "Start Time field is required",
+        "end-date": "End Time field is required"
+      }
+    },
+    "bank-detail": {
+      "bank-name": "Bank Name",
+      "account-number": "Account Number",
+      "ifsc": "IFSC",
+      "address": "Address",
+      "branch-name": "Branch Name",
+      "branch-code": "Branch Code",
+      "account-type": "Account Type",
+      "placeholder": {
+        "bank-name": "Enter Bank Name",
+        "account-number": "Enter Account Number",
+        "ifsc": "Enter IFSC",
+        "address": "Enter Address",
+        "branch-name": "Enter Branch Name",
+        "branch-code": "Enter Branch Code",
+        "account-type": "Select Account Type"
+      },
+      "errors": {
+        "account-number": "Aadhar Number field is required",
+        "ifsc-minlength": "IFSC Code must be 11 characters: XXXX0YYYYYY (letters and digits)",
+        "account-minlength": "Minimum 12 characters are required",
+        "branch-minlength": "Minimum 3 characters are required",
+        "ifsc": "Ifsc field is required",
+        "address": "Address field is required",
+        "bank-name": "Bank Name field is required",
+        "branch-name": "Branch Name field is required",
+        "branch-code": "Branch Code field is required",
+        "account-type": "Account Type field is required"
+      }
+    },
+    "disability": {
+      "is-disable": "Is Disable",
+      "disibility": "Disibility",
+      "majorillness": "Majorillness",
+      "allergy": "Allergy",
+      "yes": "Yes",
+      "no": "NO",
+      "identification-mark": "Identification Mark",
+      "family-doctor-name": "Family Doctor Name",
+      "family-doctor-number": "Family Doctor Number",
+      "placeholder": {
+        "disibility": "Enter Disibility",
+        "majorillness": "Enter Majorillness",
+        "allergy": "Enter Allergy",
+        "identification-mark": "Enter Identification Mark",
+        "family-doctor-name": "Enter Family Doctor Name",
+        "family-doctor-number": "Enter Family Doctor Number"
+      },
+      "errors": {
+        "disibility": "Disibility field is required",
+        "majorillness": "Majorillness ield is required",
+        "allergy": "Allergy field is required",
+        "identification-mark": "Identification Mark field is required",
+        "family-doctor-name": "Family Doctor Name field is required",
+        "family-doctor-number": "Family Doctor Number field is required"
+      }
+    },
+    "salary": {
+      "basic": "Basic Salary",
+      "receive-salary": "Receive Salary",
+      "add-salary": "Add Salary",
+      "overview": {
+        "monthly-salary": "Monthly Salary",
+        "amount": "Amount",
+        "earnings": "Earnings",
+        "deductions": "Deductions",
+        "total-earnings": "Total Earnings",
+        "total-deductions": "Total Deductions",
+        "net-pay-rupees": "Net Pay (In Rupees)",
+        "net-pay-words": "Net Pay (In Words)"
+      },
+      "placeholder": {
+        "salary": "Enter Salary",
+        "no-salary-component": "No Salary Components Available",
+        "go-to-payroll": "Go to Payroll Setting"
+      }
+    }
+  },
+  "student": {
+    "student": "Student",
+    "list": "Student ",
+    "table": {
+      "profile": "Profile",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "tab": {
+      "basic-detail": "Basic Detail",
+      "previous-school": "Previous school",
+      "document": "Document",
+      "disability": "Disability",
+      "guardian": "Guardian",
+      "overview": "Overview",
+      "student-fee": "Fee",
+      "student-exam": "Exam"
+    },
+    "basic-detail": {
+      "first-name": "First Name",
+      "middle-name": "Middle Name",
+      "last-name": "Last Name",
+      "as-per-current-address": "As Per Current Address",
+      "contact-number": "Contact Number",
+      "email": "Email",
+      "date-of-birth": "Date of Birth",
+      "blood-group": "Blood Group",
+      "religion": "Religion",
+      "cast": "Cast",
+      "category": "Category",
+      "date-of-admission": "Date of Admission",
+      "uniq-number": "Uniq Number",
+      "alternate-number": "Alternate Number",
+      "birth-place": "Birth Place",
+      "is-orphan": "Is Orphan",
+      "referance-name": "Reference Name",
+      "mother-tounge": "Mother Tongue",
+      "nationality": "Nationality",
+      "isorphan": "Orphan?",
+      "class": "Class",
+      "gender": "Gender",
+      "placeholder": {
+        "first-name": "Enter First Name",
+        "middle-name": "Enter Middle Name",
+        "last-name": "Enter Last Name",
+        "contact-number": "Enter Contact Number",
+        "email": "Enter Email",
+        "date-of-birth": "Select Date of Birth",
+        "blood-group": "Select Blood Group",
+        "religion": "Select Religion",
+        "cast": "Select Cast",
+        "category": "Select Category",
+        "date-of-admission": "Select Date of Admission",
+        "uniq-number": "Enter Uniq Number",
+        "alternate-number": "Enter Alternate Number",
+        "birth-place": "Enter Birth Place",
+        "referance-name": "Enter Reference Name",
+        "mother-tounge": "Enter Mother Tongue",
+        "nationality": "Enter Nationality",
+        "class": "Enter Class",
+        "gender": "Select Gender"
+      },
+      "errors": {
+        "first-name": "First Name field is required",
+        "last-name": "Last Name field is required",
+        "gender": "Gender field is required",
+        "contact-number": "Contact Number field is required",
+        "alternate-number": "Alternate Number field is required",
+        "email": "Email field is required",
+        "date-of-birth": "Date of Birth field is required",
+        "birth-age": "You must be at least 3 years old",
+        "valid-date": "Please select valid date",
+        "blood-group": "Blood Group field is required",
+        "religion": "Religion field is required",
+        "cast": "Cast field is required",
+        "category": "Category field is required",
+        "date-of-joining": "Date of Joining field is required",
+        "out-of-range": "Date should be in between default education year",
+        "job-type": "Job Type field is required",
+        "referance-name": "Reference Name field is required",
+        "mother-tounge": "Mother Tongue field is required",
+        "nationality": "Nationality Name field is required",
+        "uniq-number": "Uniq Number field is required",
+        "class": "Class field is required"
+      }
+    },
+    "guardian": {
+      "name": "Name",
+      "relation": "Relation",
+      "education": "Education",
+      "contact-number": "Contact Number",
+      "table": {
+        "name": "Name",
+        "relation": "Relation",
+        "education": "Education",
+        "contact-number": "Contact Number"
+      },
+      "placeholder": {
+        "name": "Enter Name",
+        "relation": "Select Relation",
+        "education": "Enter Education",
+        "contact-number": "Enter Contact Number"
+      },
+      "errors": {
+        "name": "Name field is required",
+        "relation": "Relation field is required",
+        "contact-number": "Contact Number field is required"
+      },
+      "dialog": {
+        "add-guardian": "Add Guardian Detail",
+        "edit-guardian": "Edit Guardian Detail"
+      }
+    },
+    "previous-school-detail": {
+      "enter-school": "Enter Previous School Details",
+      "previous-school-name": "Previous School Name",
+      "previous-school-id": "Previous School Id",
+      "previous-school-class": "Previous School Class",
+      "contact-number": "Contact Number",
+      "alternate-number": "Alternate Number",
+      "email": "Email",
+      "table": {
+        "institute-name": "Institute Name ",
+        "class": "Class",
+        "phone": "Phone",
+        "email": "Email"
+      },
+      "placeholder": {
+        "previous-school-name": "Enter Previous School Name",
+        "previous-school-id": "Enter Previous School Id",
+        "previous-school-class": "Enter Previous School Class",
+        "contact-number": "Enter Contact Number",
+        "alternate-number": "Enter Alternate Number",
+        "email": "Enter Email"
+      },
+      "errors": {
+        "previous-school-name": " Previous School Name field is required",
+        "previous-school-id": " Previous School Id field is required",
+        "previous-school-class": " Previous School Class field is required ",
+        "contact-number": "Contact Number field is required",
+        "alternate-number": " Alternate Number field is required",
+        "email": "Email field is required"
+      }
+    },
+    "document": {
+      "aadhaar-number": "Aadhaar Number",
+      "aadhaar-photos": "Aadhaar Photos",
+      "placeholder": {
+        "aadhaar-number": "Enter Aadhaar Number"
+      },
+      "errors": {
+        "aadhaar-minlength": "Minimum 12 characters are required",
+        "aadhaar-number": "Aadhaar Number field is required"
+      }
+    },
+    "disability": {
+      "is-disable": "Is Disable",
+      "disibility": "Disibility",
+      "majorillness": "Majorillness",
+      "allergy": "Allergy",
+      "yes": "Yes",
+      "no": "NO",
+      "identification-mark": "Identification Mark",
+      "family-doctor-name": "Family Doctor Name",
+      "family-doctor-number": "Family Doctor Number",
+      "placeholder": {
+        "disibility": "Enter Disibility",
+        "majorillness": "Enter Majorillness",
+        "allergy": "Enter Allergy",
+        "identification-mark": "Enter Identification Mark",
+        "family-doctor-name": "Enter Family Doctor Name",
+        "family-doctor-number": "Enter Family Doctor Number"
+      },
+      "errors": {
+        "disibility": "Disibility field is required",
+        "majorillness": "Majorillness ield is required",
+        "allergy": "Allergy field is required",
+        "identification-mark": "Identification Mark field is required",
+        "family-doctor-name": "Family Doctor Name field is required",
+        "family-doctor-number": "Family Doctor Number field is required"
+      }
+    }
+  },
+  "session": {
+    "session": "Session",
+    "list": "Session ",
+    "education-year": "Education Year",
+    "class": "Class",
+    "date": "Date",
+    "today": "today",
+    "day": "Day",
+    "month": "Month",
+    "week": "Week",
+    "attendance": "Attendance",
+    "overview": {
+      "subject": "Subject",
+      "medium": "Medium",
+      "shift": "Shift",
+      "section": "Section",
+      "board": "Board",
+      "stream": "Stream",
+      "completed": "Completed",
+      "upcoming": "UpComing",
+      "current": "Current",
+      "attendance": "Attendance",
+      "updated": "Updated",
+      "pending": "Pending",
+      "available-students": "Available Students"
+    },
+    "table": {
+      "logo": "Logo",
+      "name": "Name",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "registration-no": "Registration No",
+      "time-slot": "Time Slot",
+      "subject": "Subjects",
+      "teacher": "Teacher",
+      "profile": "Profile",
+      "uniq-number": "Uniq Number",
+      "student": "Student",
+      "gender": "Gender",
+      "present": "Present"
+    }
+  },
+  "assessment": {
+    "assessment": "Assessment",
+    "list": "Assessment ",
+    "education-year": "Education Year",
+    "class": "Class",
+    "table": {
+      "name": "Name",
+      "start-date": " Start Date",
+      "end-date": "End Date",
+      "class": "Class",
+      "education-year": "Education Year"
+    },
+    "tab": {
+      "basic-detail": "Basic Detail",
+      "subject": "Subjects",
+      "result": "Result"
+    },
+    "basic-detail": {
+      "name": "Name",
+      "start-date": " Start Date",
+      "end-date": "End Date",
+      "education-year": "Education Year",
+      "class": "Class",
+      "placeholder": {
+        "name": " Enter Name",
+        "start-date": " Select Start Date",
+        "end-date": "Select nd Date",
+        "education-year": "Select Education Year",
+        "class": "Select Class"
+      },
+      "errors": {
+        "name": "Name field is required",
+        "start-date": "Start Date field is required",
+        "end-date": "End Date field is required",
+        "education-year": "Education Year field is required",
+        "class": "Class field is required",
+        "invalid-date": "Date should between EducationYear's StartDate and EndDate"
+      }
+    },
+    "subject": {
+      "checkbox": "checkbox",
+      "subject": "subjects",
+      "Date": "Date",
+      "start-time": " Start Time",
+      "end-time": "End Time",
+      "total-marks": "Total Marks",
+      "cut-off-marks": "Cut Off Marks",
+      "actions": "actions",
+      "status": "status",
+      "table": {
+        "IsActive": "Select",
+        "subject": "Subjects",
+        "date": "Date",
+        "start-time": " Start Time",
+        "end-time": "End Time",
+        "total-marks": "Total Marks",
+        "cut-off-marks": "Cut Off Marks"
+      },
+      "errors": {
+        "invalid-date": "Date should between Assessment's StartDate and EndDate",
+        "negative-marks": "Marks cannot be negative",
+        "invalid-marks": "CuttOfMarks Marks should be less than TotalMarks"
+      }
+    },
+    "result": {
+      "student": " Student",
+      "checkbox": "Checkbox",
+      "subject": "Subject",
+      "total-marks": "Total Marks",
+      "cut-off-marks": "Cut Off Marks",
+      "obtained-marks": "Obtained Marks",
+      "actions": "Actions",
+      "start-time": " Start Time",
+      "end-time": "End Time",
+      "teacher": "Teacher",
+      "table": {
+        "profile": "Profile",
+        "is-active": "IsActive",
+        "student-name": "Student Name",
+        "attendance": "Attendance",
+        "obtain-marks": "Obtained Marks"
+      },
+      "errors": {
+        "invalid-marks": "Obtained Marks should be less than TotalMarks",
+        "negative-marks": "Obtained Marks cannot be negative"
+      }
+    }
+  },
+  "theme": {
+    "theme": "Theme",
+    "list": "Theme ",
+    "table": {
+      "name": "Name",
+      "code": "Code",
+      "is-active": "Is Active"
+    },
+    "tab": {
+      "overview": "Overview",
+      "theme-component": "Theme Component"
+    },
+    "overview": {
+      "name": "Name",
+      "code": "Code",
+      "default": "Is Active",
+      "placeholder": {
+        "name": "Enter Name",
+        "code": "Enter Code"
+      },
+      "errors": {
+        "name": "Name field is required",
+        "code": "Code field is required"
+      }
+    },
+    "theme-Component": {
+      "select-theme": "Select Theme",
+      "Component": "Component",
+      "Value": "Value",
+      "color-picker": "Select Color",
+      "action": "Action"
+    }
+  },
+  "theme-component": {
+    "theme-component": "Theme Component",
+    "list": "Theme Component ",
+    "table": {
+      "name": "Name",
+      "code": "Code"
+    },
+    "create": {
+      "name": "Name",
+      "code": "Code",
+      "placeholder": {
+        "name": "Enter Name",
+        "code": "Enter Code"
+      },
+      "errors": {
+        "name": "Name field is required",
+        "code": "Code field is required"
+      }
+    }
+  },
+  "master": {
+    "subject": {
+      "subject": "Subjects",
+      "list": "Subjects ",
+      "table": {
+        "name": "Name"
+      },
+      "overview": {
+        "overview": "Overview",
+        "name": "Name"
+      },
+      "placeholder": {
+        "name": "Ex: Maths , Hindi"
+      },
+      "errors": {
+        "name": "Name field is required"
+      }
+    },
+    "division": {
+      "division": "Division",
+      "list": "Division ",
+      "table": {
+        "name": "Name"
+      },
+      "overview": {
+        "overview": "Overview",
+        "name": "Name"
+      },
+      "placeholder": {
+        "name": "Ex: Primary , Secondary"
+      },
+      "errors": {
+        "name": "Name field is required"
+      }
+    },
+    "education-year": {
+      "education-year": "Education Year",
+      "list": "Education Year ",
+      "table": {
+        "name": "Year",
+        "start-date": "Start Date",
+        "end-date": "End Date",
+        "default": " Default"
+      },
+      "overview": {
+        "overview": "Overview",
+        "name": "Year",
+        "start-date": "Start Date",
+        "end-date": "End Date"
+      },
+      "placeholder": {
+        "name": "Enter Year"
+      },
+      "errors": {
+        "name": "Name field is required",
+        "start-date": "Start Date field is required",
+        "end-date": "End Date field is required"
+      }
+    },
+    "fee": {
+      "fee-components": "Fee Component",
+      "list": "Fee Component ",
+      "table": {
+        "name": "Name",
+        "amount": "Amount",
+        "required": "Required"
+      },
+      "overview": {
+        "overview": "Overview",
+        "name": "Name",
+        "amount": "Amount",
+        "required": "Required"
+      },
+      "placeholder": {
+        "name": "Enter Name",
+        "amount": "Enter Amount"
+      },
+      "errors": {
+        "name": "Name field is required",
+        "amount": "Amount field is required"
+      }
+    },
+    "stream": {
+      "stream": "Stream",
+      "list": "Stream ",
+      "table": {
+        "name": "Name"
+      },
+      "overview": {
+        "overview": "Overview",
+        "name": "Name"
+      },
+      "placeholder": {
+        "name": "Ex: Science , Arts"
+      },
+      "errors": {
+        "name": "Name field is required"
+      }
+    },
+    "medium": {
+      "medium": "Medium",
+      "list": "Medium ",
+      "table": {
+        "name": "Name"
+      },
+      "overview": {
+        "overview": "Overview",
+        "name": "Name"
+      },
+      "placeholder": {
+        "name": "Ex: Gujarati , English"
+      },
+      "errors": {
+        "name": "Name field is required"
+      }
+    },
+    "section": {
+      "section": "Section",
+      "list": "Section ",
+      "table": {
+        "name": "Name"
+      },
+      "overview": {
+        "overview": "Overview",
+        "name": "Name"
+      },
+      "placeholder": {
+        "name": "Ex: A , B , C"
+      },
+      "errors": {
+        "name": "Name field is required"
+      }
+    },
+    "shift": {
+      "shift": "Shift",
+      "list": "Shift ",
+      "table": {
+        "name": "Name",
+        "start-time": "Start Time",
+        "end-time": "End Time"
+      },
+      "overview": {
+        "overview": "Overview",
+        "name": "Name",
+        "start-time": "Start Time",
+        "end-time": "End Time"
+      },
+      "placeholder": {
+        "name": "Enter Name"
+      },
+      "errors": {
+        "name": "Name field is required",
+        "start-time": "Start Time field is required",
+        "end-time": "End Time field is required"
+      }
+    },
+    "student-fee": {
+      "student-fee": "Student Fee Collection ",
+      "list": "Student Fee Collection ",
+      "total-fees": "Total Fees",
+      "paid-fees": "Paid Fees",
+      "remaining-fees": "Remaining Fees",
+      "table": {
+        "student": "Student",
+        "class": "Class",
+        "fee-date": "Date",
+        "fee-mode": "Mode",
+        "fee-amount": "Amount",
+        "receiver-name": "Receiver Name ",
+        "fee-type": "Type"
+      },
+      "overview": {
+        "overview": "Overview",
+        "student": "Student",
+        "class": "Class",
+        "education-year": "Education Year",
+        "fee-date": "Fee date",
+        "fee-mode": "Fee Mode",
+        "fee-amount": "Fee Amount",
+        "receiver-name": "Receiver Name ",
+        "fee-type": "Fee Type",
+        "comment": "Comment",
+        "payment-id": "Payment Id",
+        "shift": "Shift",
+        "section": "Section"
+      },
+      "placeholder": {
+        "student": "Select Student",
+        "class": "Select Class",
+        "eduation-year": "Select Education Year",
+        "fee-date": "Select Fee date",
+        "fee-mode": "Select Fee Mode",
+        "fee-amount": "Enter Fee Amount",
+        "receiver-name": "Enter Receiver Name ",
+        "fee-type": "Select Fee Type",
+        "comment": "Enter Comment",
+        "payment-id": "Enter Payment Id",
+        "shift": "Select Shift",
+        "section": "Select Section"
+      },
+      "errors": {
+        "student": "Student field is required",
+        "class": "Class field is required",
+        "eduation-year": "Education field is required",
+        "fee-date": " Fee date field is required",
+        "fee-mode": " Fee Mode field is required",
+        "fee-amount": " Fee Amount field is required",
+        "receiver-name": " Receiver Name field is required",
+        "fee-type": " Fee Type field is required",
+        "comment": " Comment field is required",
+        "payment-id": " Payment Id field is required",
+        "shift": " Shift field is required",
+        "section": " Section field is required",
+        "limit-exceed": "The amount cannot exceed Remainingfees"
+      }
+    },
+    "board": {
+      "board": "Board",
+      "list": "Board ",
+      "table": {
+        "name": "Name",
+        "start-time": "Start Time",
+        "end-time": "End Time"
+      },
+      "overview": {
+        "overview": "Overview",
+        "name": "Name",
+        "start-time": "Start Time",
+        "end-time": "End Time"
+      },
+      "placeholder": {
+        "name": "Ex: GSEB , CBSE"
+      },
+      "errors": {
+        "name": "Name field is required",
+        "start-date": "Start Time field is required",
+        "end-date": "End Time field is required"
+      }
+    },
+    "notification": {
+      "notification": "Topic",
+      "list": "Topic ",
+      "table": {
+        "name": "Name"
+      },
+      "overview": {
+        "overview": "Overview",
+        "name": "Name",
+        "code": "Code"
+      },
+      "placeholder": {
+        "name": "Ex: exam-schedule",
+        "code": "Ex: EXM"
+      },
+      "errors": {
+        "name": "Name field is required",
+        "code": "Code field is required"
+      }
+    }
+  },
+  "policy": {
+    "policy": "Policy",
+    "list": "Policy ",
+    "table": {
+      "name": "Name",
+      "effictive-date": "Effective Date"
+    },
+    "overview": {
+      "overview": "Overview",
+      "name": "Name",
+      "effective-date": "Effective Date",
+      "description": "Description"
+    },
+    "placeholder": {
+      "name": " Enter Name"
+    },
+    "errors": {
+      "name": "Name field is required",
+      "effective-date": "Effective Date is required",
+      "description": "Description field is required"
+    },
+    "view": {
+      "download": "Download"
+    }
+  },
+  "holiday": {
+    "holiday": "holidays",
+    "list": "Holidays",
+    "table": {
+      "name": "Title",
+      "date": "Date",
+      "day": "Day"
+    },
+    "overview": {
+      "overview": "Overview",
+      "name": "Title",
+      "date": "Date",
+      "day": "Day"
+    },
+    "placeholder": {
+      "name": "Enter Name",
+      "date": "Enter Date",
+      "day": "Enter Day"
+    },
+    "errors": {
+      "name": "Holiday Name field is required",
+      "date": "Date field is required",
+      "day": "Date field is required"
+    }
+  },
+  "leave": {
+    "leave": "Leave",
+    "list": "Leave ",
+    "tab": {
+      "leave-application": "Leave Application",
+      "leave-dashboard": " Leave Dashboard",
+      "leave-request": "Leave Requests"
+    },
+    "dashboard": {
+      "leave-type": "Leave Type",
+      "total-leaves": "Total Leaves",
+      "used-leave": "Used Leave",
+      "pending-to-approve": "Pending To Approve",
+      "available-leave": "Available Leave"
+    },
+    "leave-application": {
+      "table": {
+        "no": " No",
+        "leave-type": " Leave Type",
+        "from": "From",
+        "to": "To",
+        "no-of-day": "No of Day",
+        "day": "Day",
+        "reason": "Reason",
+        "status": "Status",
+        "applied-on": "Applide On"
+      },
+      "model": {
+        "type": "Type",
+        "start-date": "Start Date",
+        "end-date": "End Date",
+        "days": "Days",
+        "reason": "Reason",
+        "start-date-time-slot": "Start Date Time Slot",
+        "end-date-time-slot": "End Date Time Slot",
+        "errors": {
+          "type": "Type field is required",
+          "start-date": "Start Date field is required",
+          "end-date": "End Date field is required",
+          "days": "Days field is required",
+          "reason": "Reason field is required",
+          "start-date-time-slot": "Start Date Time Slot field is required",
+          "end-date-time-slot": "End Date Time Slot field is required"
+        },
+        "placeholder": {
+          "type": "Select Type",
+          "start-date": "Select Start Date",
+          "end-date": "Select End Date",
+          "days": "Enter Days",
+          "reason": "Enter Reason"
+        }
+      }
+    },
+    "leave-application-admin": {
+      "table": {
+        "employeeName": "Employee Name",
+        "leaveName": " Leave Name",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "day": "Day",
+        "reason": "Reason",
+        "status": "Status",
+        "applied-on": "Applide On"
+      },
+      "model": {
+        "type": "Type",
+        "start-date": "Start Date",
+        "end-date": "End Date",
+        "days": "Days",
+        "reason": "Reason",
+        "start-date-time-slot": "Start Date Time Slot",
+        "end-date-time-slot": "End Date Time Slot",
+        "errors": {
+          "type": "Type field is required",
+          "start-date": "Start Date field is required",
+          "end-date": "End Date field is required",
+          "days": "Days field is required",
+          "reason": "Reason field is required"
+        },
+        "placeholder": {
+          "type": "Select Type",
+          "start-date": "Select Start Date",
+          "end-date": "Select End Date",
+          "days": "Enter Days",
+          "reason": "Enter Reason"
+        }
+      }
+    }
+  },
+  "announcement": {
+    "announcement": "Announcement",
+    "list": "Announcement ",
+    "table": {
+      "title": "Title",
+      "start-date": "Start Date",
+      "end-date": "End Date",
+      "description": "Description",
+      "image": "Image"
+    },
+    "overview": {
+      "overview": "Overview",
+      "title": "Title",
+      "start-date": "Start Date",
+      "end-date": "End Date",
+      "description": "Description",
+      "select-recepient": "Recepient",
+      "class": "Select Class"
+    },
+    "placeholder": {
+      "title": "Enter Title",
+      "start-date": "Enter Start Date",
+      "end-date": "Enter End Date",
+      "description": "Enter Description",
+      "select-recepient": "Select Recepient",
+      "class": "Select Class"
+    },
+    "errors": {
+      "title": "Title field is required",
+      "start-date": "Start Date field is required",
+      "end-date": "End Date field is required",
+      "description": "Description field is required",
+      "recepient": "Recepient field is required",
+      "class": "Class field is required"
+    }
+  },
+  "leave-type": {
+    "leave-type": "Leave Type",
+    "list": "Leave Type ",
+    "table": {
+      "name": "Name",
+      "code": "Code",
+      "count": "Count",
+      "gender": "Gender",
+      "duration": "Duration",
+      "occurrence": "Occurrence"
+    },
+    "overview": {
+      "overview": "Overview",
+      "name": "Name",
+      "code": "Code",
+      "count": "Count",
+      "gender": "Gender",
+      "duration": "Duration",
+      "occurrence": "Occurrence"
+    },
+    "placeholder": {
+      "name": "Enter Name",
+      "code": "Enter Code",
+      "count": "Enter Count",
+      "gender": "Select Gender",
+      "duration": "Select Duration",
+      "occurrence": "Enter Occurrence"
+    },
+    "errors": {
+      "name": "Name field is required",
+      "code": "Code field is required",
+      "count": "Count field is required",
+      "gender": "Gender field is required",
+      "duration": "Duration field is required",
+      "occurrence": "Occurrence field is required"
+    }
+  },
+  "attendence": {
+    "attendence": "Attendance",
+    "punch": "Punch",
+    "at": "at",
+    "punch-in-time": "Punch in time",
+    "time-span": "between 9 am to 10 am",
+    "total-working": "Total hours",
+    "hours": "8 hours",
+    "punch-in": "Punch In",
+    "punch-out": "Punch Out",
+    "statistics": "Statistics",
+    "table": {
+      "punch": "Punch",
+      "time": "Time"
+    }
+  },
+  "right-drawer": {
+    "overview": {
+      "theme-setup": "Theme Setup",
+      "theme": "Theme",
+      "default": "Default",
+      "mode": "Mode",
+      "auto": "Auto",
+      "dark": "Dark",
+      "light": "Light"
+    }
+  },
+  "payroll": {
+    "add": "Add Payroll",
+    "please-wait": "Please wait...",
+    "my-payroll": "My Payrolls",
+    "my-payroll-list": "My Payrolls List",
+    "payslip": "Payslip",
+    "payroll": "Payrolls",
+    "payee-employees": "Payee Employees",
+    "faculty": "faculty",
+    "list": "List",
+    "setting": "Settings",
+    "month": "Month",
+    "generating": "Generating Payroll for",
+    "employee": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "designation": "Designation",
+      "joining": "Date Of Joining",
+      "payment-information": "Payment Information",
+      "branch-name": "Branch Name",
+      "branch-code": "Branch Code",
+      "accountnumber": "Accountnumber",
+      "overview": {
+        "pay-employees": "Pay All Employees",
+        "re-generate": "Re-Generate Payroll",
+        "generating": "Generating Payroll",
+        "please-wait": "Please come back in a moment"
+      },
+      "list": {
+        "select": "Select",
+        "name": "Name",
+        "work-email": "Work Email",
+        "phone": "Phone",
+        "used-leaves": "Used Leaves",
+        "salary-status": "Salary Status",
+        "status": "Status"
+      }
+    },
+    "placeholder": {
+      "month": "Select Month"
+    },
+    "settings": {
+      "tab": {
+        "salary-components": "Salary Components",
+        "payroll-config": "Payroll Config",
+        "financial-year": "Financial Year"
+      },
+      "salary-components": {
+        "salary-component": "Salary Component",
+        "list": "Salary Component ",
+        "table": {
+          "component-name": "Component Name",
+          "component-type": "Component Type",
+          "base-component": "Base Component",
+          "value-type": "Value Type",
+          "value": "Value"
+        },
+        "overview": {
+          "name": "Name",
+          "component-type": "Component Type",
+          "base": "Base",
+          "value-type": "Value Type",
+          "value": "Value",
+          "sort-index": "Sort Index",
+          "code": "Code",
+          "percent": "percent",
+          "fixed": "fixed"
+        },
+        "placeholder": {
+          "name": "Enter Name",
+          "component-type": "Select Component Type",
+          "base": " Select Base",
+          "value": "Enter Value",
+          "sort-index": "Enter Sort Index",
+          "code": "Enter Code"
+        },
+        "errors": {
+          "name": "Name field is required",
+          "component-type": "Component Type field is required",
+          "base": "Base field is required",
+          "value-type": "Value Type field is required",
+          "value": "Value field is required",
+          "sort-index": "Sort Index field is required",
+          "code": "Code field is required",
+          "invalid-value": "Percentage Value cannot be greater than 100",
+          "more-than-base": "Previously added percentage combained are more than 100"
+        }
+      },
+      "payroll-config": {
+        "payroll-configuration": "Payroll Configuration",
+        "overview": {
+          "workday": "Workday",
+          "monday": "Monday",
+          "tuesday": "Tuesday",
+          "wednsday": "Wednsday",
+          "thursday": "Thursday",
+          "friday": "Friday",
+          "saturday": "Saturday",
+          "sunday": "Sunday",
+          "pay-date": "Pay Date",
+          "first-day": "First day of month",
+          "last-day": "Last day of month",
+          "custom-day": "Custom date",
+          "date-select": "Date Select"
+        }
+      },
+      "financial-year": {
+        "financial-year": "Financial Year",
+        "list": "Financial Year ",
+        "table": {
+          "name": "Name",
+          "start-date": " Start Date",
+          "end-date": "End Date"
+        },
+        "overview": {
+          "name": "Name",
+          "start-date": " Start Date",
+          "end-date": "End Date"
+        },
+        "placeholder": {
+          "name": "Enter Name",
+          "start-date": "Select Start Date",
+          "end-date": "Select End Date"
+        },
+        "errors": {
+          "name": "Name field is required",
+          "start-date": " Start Date is required",
+          "end-date": "End Date is required"
+        }
+      }
+    },
+    "table": {
+      "month": "Month",
+      "component": "Component Name",
+      "value": "Value"
+    },
+    "errors": {
+      "pay-date": "Pay Date field is required"
+    }
+  },
+  "menu": {
+    "menu": "Menu",
+    "list": "Menu ",
+    "table": {
+      "name": "Name",
+      "code": "Code",
+      "sort": "Sort"
+    },
+    "tab": {
+      "overview": "Overview",
+      "menu-item": "Menu Item",
+      "item-link": "item-link"
+    },
+    "overview": {
+      "name": "Name",
+      "code": "Code",
+      "default": "Is Default",
+      "is-clickable": "Is Clickable",
+      "label": "Label",
+      "sort": "Sort",
+      "url": "Url",
+      "icon": "Icon",
+      "placeholder": {
+        "name": "Enter Name",
+        "code": "Enter Code",
+        "label": "Enter Label",
+        "icon": "Enter Icon",
+        "url": "Enter Url",
+        "sort": "Enter Sort Index"
+      },
+      "errors": {
+        "name": "Name field is required",
+        "code": "Code field is required",
+        "label": "Label field is required",
+        "icon": "Icon filed is required",
+        "sort": "Sort field is required",
+        "url": "Url field is required"
+      }
+    }
+  },
+  "menu-item": {
+    "menu-item": "Menu Item",
+    "list": "Menu Item ",
+    "create": {
+      "name": "Name",
+      "label": "Label",
+      "sort": "Sort",
+      "url": "Url",
+      "icon": "Icon",
+      "code": "Code",
+      "placeholder": {
+        "name": "Enter Name",
+        "code": "Enter Code",
+        "lable": "Enter Label",
+        "Icon": "Enter Icon",
+        "Url": "Enter Url",
+        "Sort": "Enter Sort Index"
+      },
+      "errors": {
+        "name": "Name field is required",
+        "code": "Code field is required",
+        "label": "Label field is required",
+        "icon": "Icon filed is required",
+        "sort": "Sort field is required",
+        "url": "Url field is required"
+      }
+    }
+  },
+  "menu-component": {
+    "menu-component": "Menu Components",
+    "list": "Menu Components ",
+    "table": {
+      "name": "Name",
+      "code": "Code"
+    },
+    "create": {
+      "name": "Name",
+      "code": "Code"
+    },
+    "placeholder": {
+      "name": "Enter Name",
+      "code": "Enter Code"
+    },
+    "errors": {
+      "name": "Name field is required",
+      "code": "Code field is required"
+    }
+  },
+  "brand": {
+    "brand": "Brand",
+    "list": "Brand ",
+    "table": {
+      "name": "Name",
+      "description": "Description"
+    },
+    "overview": {
+      "overview": "Overview",
+      "name": "Name",
+      "description": "Description"
+    },
+    "placeholder": {
+      "name": "Enter Name",
+      "description": "Enter Description"
+    },
+    "errors": {
+      "name": "Name field is required",
+      "description": "Description field is required"
+    }
+  },
+  "category": {
+    "category": "Category",
+    "list": "Category ",
+    "table": {
+      "name": "Name",
+      "code": "Code",
+      "count": "Product Count"
+    },
+    "overview": {
+      "overview": "Overview",
+      "name": "Name",
+      "code": "Code"
+    },
+    "placeholder": {
+      "name": "Enter Name",
+      "code": "Enter Code"
+    },
+    "errors": {
+      "name": "Name field is required",
+      "code": "Code field is required"
+    }
+  },
+  "product": {
+    "product": "Product",
+    "list": "Product ",
+    "table": {
+      "name": "Name",
+      "serial-number": "Serial Number",
+      "brand": "Brand",
+      "category": "Category",
+      "model": "Model",
+      "status": "Status",
+      "purchase-date": "Purchase Date",
+      "health": "Health",
+      "cost": "Cost",
+      "assigned": "Assigned To"
+    },
+    "overview": {
+      "overview": "Overview",
+      "name": "Name",
+      "serial-number": "Serial Number",
+      "model": "Model",
+      "status": "Status",
+      "purchase-date": "Purchase Date",
+      "health": "Health",
+      "cost": "Cost",
+      "description": "Description",
+      "brand": "Brand",
+      "notes": "Notes",
+      "category": "Category",
+      "assigned": "Assigned To"
+    },
+    "placeholder": {
+      "name": "Enter Name",
+      "serial-number": "Enter Serial Number",
+      "model": "Enter Model",
+      "status": "Enter Status",
+      "purchase-date": "Select Purchase Date",
+      "health": "1 to 3 Red , 4 to 6 Orange , 7 to 10 Green",
+      "cost": "Enter Cost",
+      "description": "Enter Description",
+      "brand": "Select Brand",
+      "notes": "Enter Notes",
+      "category": "Select Category",
+      "assigned": "Select Employee"
+    },
+    "errors": {
+      "name": "Name field is required",
+      "serial-number": "Serial Number field is required",
+      "model": "Model field is required",
+      "status": "Status field is required",
+      "purchase-date": "Purchase Date field is required",
+      "health": "Health field is required",
+      "cost": "Cost field is required",
+      "description": "Description field is required",
+      "brand": "Brand field is required",
+      "notes": "Notes field is required",
+      "category": "Category field is required",
+      "serial-number-taken": "This serial number is already taken",
+      "assigned": "Assigned To field is required"
+    }
+  },
+  "role": {
+    "role": "Role",
+    "list": "Role ",
+    "class": "Class",
+    "table": {
+      "name": "Name"
+    },
+    "tab": {
+      "basic-detail": "Basic Detail",
+      "permissions": "Permissions"
+    },
+    "basic-detail": {
+      "name": "Name",
+      "placeholder": {
+        "name": " Enter Name"
+      },
+      "errors": {
+        "name": "Name field is required"
+      }
+    },
+    "permissions": {
+      "checkbox": "checkbox",
+      "subject": "subjects",
+      "Date": "Date",
+      "start-time": " Start Time",
+      "end-time": "End Time",
+      "total-marks": "Total Marks",
+      "cut-off-marks": "Cut Off Marks",
+      "actions": "actions",
+      "status": "status",
+      "table": {
+        "IsActive": "IsActive",
+        "subject": "Subjects",
+        "date": "Date",
+        "start-time": " Start Time",
+        "end-time": "End Time",
+        "total-marks": "Total Marks",
+        "cut-off-marks": "Cut Off Marks"
+      }
+    },
+    "result": {
+      "student": " Student",
+      "checkbox": "Checkbox",
+      "subject": "Subject",
+      "total-marks": "Total Marks",
+      "cut-off-marks": "Cut Off Marks",
+      "obtained-marks": "Obtained Marks",
+      "actions": "Actions",
+      "start-time": " Start Time",
+      "end-time": "End Time",
+      "table": {
+        "profile": "Profile",
+        "is-active": "IsActive",
+        "student-name": "Student Name",
+        "attendance": "Attendance",
+        "obtain-marks": "Obtained Marks"
+      }
+    }
+  },
+  "user-role": {
+    "role": "Role",
+    "list": "Role ",
+    "table": {
+      "name": "Name",
+      "role": "Role"
+    },
+    "detail": {
+      "name": "Name",
+      "effective-date": "Effective Date",
+      "role": "Role"
+    },
+    "placeholder": {
+      "name": " Enter Name",
+      "role": "Select Role"
+    },
+    "errors": {
+      "name": "Name field is required",
+      "role": "Role field is required"
+    }
+  },
+  "resignation": {
+    "resignation-request": "Resignation Request",
+    "greeting": "Dear Sir/Madam,",
+    "title": "I am writing to formally resign from my position. I appreciate the opportunities for growth and development during my time at this organization.",
+    "applied-on": "Applide On",
+    "under-consideration": "Resignation under Consideration",
+    "resignation-dialog": "Your resignation is under consideration. For more information, contact your supervisor.",
+    "resignation": "Resignation",
+    "last-date": "Last Date Of Work",
+    "date": "Date",
+    "reason": "Reason",
+    "warm-regards": "Warn Regards,",
+    "status-updated": "status successfully updated.",
+    "table": {
+      "name": "Name",
+      "date": "Date",
+      "reason": "Reason",
+      "last-date": "Last Working Date",
+      "remarks": "Remarks",
+      "status": "Status"
+    },
+    "placeholder": {
+      "reason": "Enter Reason",
+      "last-date": "Enter Last Working Date",
+      "remarks": "Enter your message:"
+    },
+    "errors": {
+      "date": "Date field is required",
+      "reason": "Reason field is required",
+      "last-date": " Last Working Date Field is required"
+    }
+  },
+  "user": {
+    "user": "Users",
+    "list": "Users",
+    "table": {
+      "user": "User",
+      "role": "Role",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "overview": {
+      "overview": "Overview",
+      "school": "School",
+      "employee": "Employee",
+      "student": "Student",
+      "role": "Role",
+      "email": "Email",
+      "phone": "Phone",
+      "user-name": "User Name",
+      "password": "Password",
+      "admin": "Admin"
+    },
+    "placeholder": {
+      "school": "Select School",
+      "student": "Select Student",
+      "employee": "Select Employee",
+      "role": "Select Role"
+    },
+    "errors": {
+      "employee": "Employee field is required",
+      "student": "Student field is required",
+      "no-student": "No student",
+      "email": "Please enter email",
+      "user-name": "Please enter user name",
+      "password": "Please enter password",
+      "user-length": "Minimum 5 characters are required"
+    }
+  },
+  "class-attendance-report": {
+    "reset": "Reset",
+    "apply": "Apply",
+    "applying": "Applying",
+    "title": "Class Attendance Report",
+    "overview": {
+      "report-list": "Class Attendance Report List",
+      "students": "Students",
+      "education-year": "Education Year",
+      "class": "Class",
+      "shift": "Shift",
+      "section": "Section",
+      "date": "Session Date"
+    },
+    "placeholder": {
+      "education-year": "Select Education Year",
+      "class": "Select Class",
+      "shift": "Select Shift",
+      "section": "Select Section",
+      "students": "Select Students"
+    },
+    "table": {
+      "index": "Index",
+      "profile": "Profile",
+      "class": "Class",
+      "shift": "Shift",
+      "section": "Section",
+      "student": " Student",
+      "attendance": "Attendance",
+      "date": "Date"
+    }
+  },
+  "class-fee-report": {
+    "applying": "Applying",
+    "reset": "Reset",
+    "apply": "Apply",
+    "title": "Class Fee Report",
+    "overview": {
+      "total-fees": "Total Fees",
+      "paid-fees": "Paid Fees",
+      "remaining-fees": "Remaining Fees",
+      "report-list": "Class Fee Report List",
+      "students": "Students",
+      "from-date": "From Date",
+      "to-date": "To Date",
+      "education-year": "Education Year",
+      "class": "Class",
+      "shift": "Shift",
+      "section": "Section"
+    },
+    "placeholder": {
+      "education-year": "Select Education Year",
+      "class": "Select Class",
+      "shift": "Select Shift",
+      "section": "Select Section",
+      "student": "Select Student"
+    },
+    "table": {
+      "index": "Index",
+      "profile": "Profile",
+      "education-year": "Education Year",
+      "class": "Class",
+      "shift": "Shift",
+      "section": "Section",
+      "student": " Student",
+      "attendance": "Attendance",
+      "total-fees": "Total Fees",
+      "paid-fees": "Paid Fees",
+      "remain-fees": "Remained Fees"
+    }
+  },
+  "class-student-report": {
+    "applying": "Applying",
+    "title": "Class Student Report",
+    "reset": "Reset",
+    "apply": "Apply",
+    "overview": {
+      "report-list": "Class Student Report List",
+      "students": "Students",
+      "from-date": "From Date",
+      "to-date": "To Date",
+      "gender": "Gender",
+      "cast": "Cast",
+      "category": "Category",
+      "religion": "Religion",
+      "education-year": "Education Year",
+      "class": "Class",
+      "shift": "Shift",
+      "section": "Section"
+    },
+    "placeholder": {
+      "education-year": "Select Education Year",
+      "class": "Select Class",
+      "shift": "Select Shift",
+      "section": "Select Section",
+      "student": "Select Student",
+      "gender": "Select Gender",
+      "cast": "Select Cast",
+      "category": "Select Category",
+      "religion": "Select Religion"
+    },
+    "table": {
+      "index": "Index",
+      "profile": "Profile",
+      "education-year": "Education Year",
+      "class": "Class",
+      "shift": "Shift",
+      "section": "Section",
+      "student": " Student",
+      "email": "Email",
+      "phone": "Phone",
+      "gender": "Gender",
+      "admission-date": "Admission Date"
+    }
+  },
+  "fee-report": {
+    "table": {
+      "education-year": "Education Year",
+      "class": "Class",
+      "shift": "Shift",
+      "section": "Section",
+      "student": " Student",
+      "attendance": "Attendance",
+      "date": "Date",
+      "total-fees": "Total Fees",
+      "paid-fees": "Paid Fees",
+      "pending-fees": "Remained Fees",
+      "remain-fees": "Remained Fees",
+      "student-name": "Student Name",
+      "fee-date": "Paid Date",
+      "fee-mode": "Paid Mode",
+      "fee-amount": "Paid Amount",
+      "receiver-name": "Receiver Name",
+      "fee-type": "Fee Type",
+      "comment": "Comment"
+    },
+    "fromdate": "From Date",
+    "todate": "To Date",
+    "totalfee": "Total Fee Collection",
+    "reset": "Reset",
+    "student-summary": {
+      "summary": "Summary",
+      "profile": "Profile",
+      "class": "Class",
+      "shift": "Shift",
+      "section": "Section",
+      "student-name": "Student Name",
+      "phone": "Phone",
+      "email": "Email",
+      "class-fee": "Class Fees",
+      "paid-fee": "Paid Fees",
+      "remain-fee": "Remainings Fees"
+    },
+    "student-fee-placeholder": {
+      "student": "Select Student"
+    },
+    "student-attendance": {
+      "total": "Working Day",
+      "absent": "Absent",
+      "present": "Present",
+      "student-attendance-placeholder": {
+        "to-date": "To Date",
+        "from-date": "From Date"
+      },
+      "table": {
+        "class": "Class",
+        "shift": "Shift",
+        "section": "Section",
+        "subject": "Subject",
+        "date": "Date",
+        "time": "Time",
+        "status": "Status"
+      }
+    },
+    "student-exam": {
+      "assesment": "Assesment",
+      "start-date": "Start Date",
+      "end-date": "End Date",
+      "apply": "Apply",
+      "student-exam-table": {
+        "class": "Class",
+        "shift": "Shift",
+        "section": "Section",
+        "subject": "Subject",
+        "date": "Exam Date",
+        "total-marks": "Total Marks",
+        "obtained-marks": "Obtained Marks",
+        "passing-status": "Passing Status"
+      },
+      "placeholder": {
+        "assesment": "Select Assesment",
+        "subject": "Select Subject"
+      }
+    }
+  },
+  "student-report": {
+    "student-monthly-report": "Student Monthly Report",
+    "exam-time": "Exam time",
+    "percentage": "Percentage",
+    "grade": "Grade",
+    "monthly-attendance": "Monthly Student Attendance Report",
+    "pending-exam": "Pending Exams",
+    "completed-exam": "Completed Exam",
+    "report-date": "Report Date",
+    "student-signature": "Student signature",
+    "parent-signature": "Parent Signature",
+    "over-all": "Over All Marks"
+  },
+  "visitor-book": {
+    "visitor-book": "Visitor Book",
+    "list": "Visitor Book List",
+    "date": "Date",
+    "table": {
+      "name": "Name",
+      "purpose": "Purpose",
+      "phone-number": "Phone Number",
+      "date": "Date",
+      "email": "Email",
+      "previous-school": "Previous School",
+      "in-time": "In Time",
+      "out-time": "Out Time"
+    },
+    "overview": {
+      "overview": "Overview",
+      "name": "Full Name",
+      "purpose": "Purpose",
+      "phone-number": "Phone Number",
+      "date": "Date",
+      "email": "Email",
+      "previous-school": "Previous School",
+      "in-time": "In Time",
+      "out-time": "Out Time",
+      "to-meet": "To Meet"
+    },
+    "placeholder": {
+      "name": " Enter Name",
+      "purpose": "Enter Purpose",
+      "phone-number": "Enter Phone Number",
+      "date": "Enter Date",
+      "email": "Enter Email",
+      "previous-school": "Enter Previous School",
+      "to-meet": "Enter the name of the person to meet"
+    },
+    "errors": {
+      "name": "Name field is required",
+      "date": "Date field is required",
+      "purpose": "Purpose field is required",
+      "in-time": "In Time is required"
+    }
+  },
+  "student-promotion": {
+    "header": "Student Promotion",
+    "table": {
+      "select": "Select",
+      "name": "Name",
+      "uniq-number": "Uniq Number",
+      "phone": "Phone"
+    },
+    "class": "Class",
+    "to-education-year": "Promote to Education Year",
+    "to-class": "Promote to Class",
+    "class-select": "Select Class",
+    "education-select": "Select Education Year",
+    "error": {
+      "class": "Class field is required",
+      "education": "Education field is required"
+    }
+  },
+  "notification-settings": {
+    "header": "Notification",
+    "table": {
+      "select": "Select",
+      "name": "Name"
+    }
+  },
+  "fee-report-title": {
+    "report": "Report",
+    "class-attendance": "Class Attendance Report",
+    "class-fees": "Class Fees Report",
+    "class-student": "Class Student Report",
+    "student-attendance": "Student Attendance Report",
+    "student-fees": "Student Fees Report",
+    "student-exam": "Student Exam Report",
+    "fees-collection": "Fees Collection Report"
+  }
+}

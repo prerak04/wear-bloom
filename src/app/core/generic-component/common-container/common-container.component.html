@@ -1,0 +1,20 @@
+<div class="page-header">
+  <!-- Breadcrumb ::Start -->
+  <ng-content select="[breadcrumb]"></ng-content>
+  <!-- Breadcrumb End -->
+
+  <!-- Page Title ::Start -->
+  <ng-content select="[pageTitle]"></ng-content>
+  <!-- Page Title ::End -->
+
+  <!-- Page Action Bar ::Start -->
+  <ng-content select="[actionBar]"></ng-content>
+  <!-- Page Action Bar ::End -->
+</div>
+
+<!-- Page Body ::Start -->
+<div class="page-body">
+  <ng-content listData></ng-content>
+  <ng-content detailForm></ng-content>
+</div>
+<!-- Page Body ::End -->

@@ -1,0 +1,45 @@
+.table-loader {
+
+    .table-row-loader {
+        height: 21px;
+        background-color: var(--color-black);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        animation-name: shine;
+        animation-duration: 2.4s;
+        animation-iteration-count: infinite;
+        margin-top: 0px;
+
+        td {
+            height: 21px;
+            background-color: var(--color-black);
+            border-radius: 8px;
+            margin-bottom: 16px;
+            animation-name: shine;
+            animation-duration: 2.4s;
+            animation-iteration-count: infinite;
+            margin-top: 0px;
+            padding: 0px !important;
+        }
+    }
+}
+
+/**
+    *User Profile loader
+    * Loader Style
+    * Start
+*/
+
+@keyframes shine {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.35;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

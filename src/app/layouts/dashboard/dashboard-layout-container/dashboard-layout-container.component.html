@@ -1,0 +1,13 @@
+<div class="dashboard-layout-container" [class.sidebar-open]="isSidebarOpen">
+  <app-dashboard-layout-header
+    (toggleSidebar)="isSidebarOpen = !isSidebarOpen"
+  ></app-dashboard-layout-header>
+
+  <app-dashboard-layout-sidebar
+    [isOpen]="isSidebarOpen"
+  ></app-dashboard-layout-sidebar>
+
+  <main class="dashboard-content">
+    <router-outlet></router-outlet>
+  </main>
+</div>
