@@ -14,7 +14,7 @@ export class CategoryComponent {
   clothingCategories = [
     {
       name: 'Men',
-      image: '/assets/images/men.jpg',
+      image: '/assets/images/man-home.png',
       route: 'app-men',
     },
     {

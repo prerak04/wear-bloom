@@ -13,8 +13,19 @@ export class HomeComponent {
   constructor(private router: Router) {}
 
   // Navigate to category page
-  navigateToCategory(category: any) {
-    this.router.navigate([category.route]);
+  navigateToCategory(category: string) {
+    const routeMap: Record<string, string> = {
+      Men: '/category/app-men',
+      Women: '/category/app-women',
+      Accessories: '/category/app-accessories',
+    };
+
+    const targetRoute = routeMap[category];
+    if (targetRoute) {
+      this.router.navigate([targetRoute]);
+    } else {
+      console.warn('No route defined for category:', category);
+    }
   }
 
   // Navigate to product detail page
@@ -23,6 +34,21 @@ export class HomeComponent {
       state: { image: product.image, name: product.name, price: product.price },
     });
   }
+
+  categories = [
+    {
+      name: 'Men',
+      image: 'assets/images/man-home.png',
+    },
+    {
+      name: 'Women',
+      image: 'assets/images/women.jpg',
+    },
+    {
+      name: 'Accessories',
+      image: 'assets/images/accessories-banner.jpg',
+    },
+  ];
 
   newArrivals = [
     {

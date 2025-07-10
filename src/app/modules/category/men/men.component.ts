@@ -14,7 +14,7 @@ export class MenComponent {
     {
       route: '/category/app-men-detail/1',
       label: 'Mens wear 1',
-      image: '/assets/images/men.jpg',
+      image: '/assets/images/man-home.png',
       price: 1000,
     },
     {

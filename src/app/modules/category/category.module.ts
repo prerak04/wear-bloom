@@ -37,6 +37,12 @@ const routes = [
     data: {},
   },
   {
+    path: `${Routes.Women.url}/:id`,
+    loadComponent: () =>
+      import('./women/women.component').then((m) => m.WomenComponent),
+    data: {},
+  },
+  {
     path: Routes.Kids.url,
     loadComponent: () =>
       import('./kids/kids.component').then((m) => m.KidsComponent),

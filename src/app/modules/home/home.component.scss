@@ -2,9 +2,19 @@
   font-family: "Poppins", sans-serif;
   color: #222;
   line-height: 1.6;
+  box-sizing: border-box; // Ensure padding/borders don't cause overflow
+  overflow-x: hidden; // Prevent horizontal scrolling
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit; // Apply box-sizing globally
+  }
 
   section {
     width: 100%;
+    max-width: 100%; // Ensure sections don't exceed viewport
+    overflow-x: hidden; // Prevent horizontal overflow
   }
 
   // --- Hero Banner ---
@@ -18,67 +28,68 @@
 
     .hero-text {
       background: rgba(0, 0, 0, 0.5);
-      padding: 2rem 3rem;
+      padding: 1.5rem 2rem; // Reduced padding for mobile
       color: #fff;
       border-radius: 8px;
+      max-width: 90%; // Prevent overflow on small screens
 
       h1 {
-        font-size: 3rem;
+        font-size: 2.5rem; // Smaller for mobile
         margin-bottom: 0.5rem;
         text-transform: uppercase;
         letter-spacing: 1px;
       }
 
       p {
-        font-size: 1.2rem;
+        font-size: 1rem; // Smaller for mobile
         margin-bottom: 1rem;
       }
 
       button {
         background: #f56;
         border: none;
-        padding: 0.75rem 1.5rem;
-        font-size: 1rem;
+        padding: 0.6rem 1.2rem; // Smaller for mobile
+        font-size: 0.9rem;
         font-weight: 600;
         color: #fff;
         border-radius: 4px;
         cursor: pointer;
-        transition: 0.3s;
-
-        &:hover {
-          background: #e04;
-        }
+        transition: background 0.3s; // Limit to background for performance
       }
     }
   }
 
   // --- Featured Categories ---
   .featured-categories {
-    padding: 3rem 1rem;
+    padding: 2rem 0.5rem; // Reduced padding
     text-align: center;
 
     h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
+      font-size: 1.75rem; // Smaller for mobile
+      margin-bottom: 0.75rem;
     }
 
     .category-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 1rem;
-      margin-top: 1rem;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(140px, 1fr)
+      ); // Smaller min width
+      gap: 0.75rem; // Reduced gap
+      margin-top: 0.75rem;
+      padding: 0 0.5rem; // Ensure grid fits within viewport
     }
 
     .category-card {
       position: relative;
-      height: 220px;
+      height: 180px; // Smaller for mobile
       border-radius: 8px;
       overflow: hidden;
       cursor: pointer;
-      transition: transform 0.3s;
+      transition: transform 0.2s; // Faster transition
 
       &:hover {
-        transform: translateY(-4px);
+        transform: translateY(-4px); // Retained for desktop
       }
 
       .image {
@@ -86,18 +97,18 @@
         height: 100%;
         background-size: cover;
         background-position: center;
-        filter: brightness(0.75);
+        // Removed filter for performance
       }
 
       .category-name {
         position: absolute;
-        bottom: 12px;
-        left: 12px;
-        color: #fff;
+        bottom: 8px;
+        left: 8px;
+        color: #343131;
         font-weight: 600;
-        font-size: 1.2rem;
+        font-size: 1rem; // Smaller for mobile
         letter-spacing: 0.5px;
-        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); // Lighter shadow
       }
     }
   }
@@ -106,81 +117,78 @@
   .promo-banner {
     background: #111;
     color: white;
-    padding: 3rem 1rem;
+    padding: 2rem 0.5rem; // Reduced padding
     text-align: center;
 
     h3 {
-      font-size: 2rem;
+      font-size: 1.75rem; // Smaller for mobile
       margin-bottom: 0.5rem;
     }
 
     p {
-      font-size: 1.1rem;
+      font-size: 1rem; // Smaller for mobile
     }
 
     button {
-      margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
+      margin-top: 0.75rem;
+      padding: 0.6rem 1.2rem;
       background: white;
       color: black;
       border: none;
       font-weight: 600;
       cursor: pointer;
-      transition: 0.3s;
-
-      &:hover {
-        background: #f2f2f2;
-      }
+      transition: background 0.3s;
     }
   }
 
   // --- Product Showcase ---
   .product-showcase {
-    padding: 3rem 1rem;
+    padding: 2rem 0.5rem; // Reduced padding
     text-align: center;
 
     h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
+      font-size: 1.75rem;
+      margin-bottom: 0.75rem;
     }
 
     .product-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 1.5rem;
-      margin-top: 1rem;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(140px, 1fr)
+      ); // Smaller min width
+      gap: 1rem;
+      margin-top: 0.75rem;
+      padding: 0 0.5rem; // Ensure grid fits
     }
 
     .product-card {
       background: #fff;
       border: 1px solid #eee;
-      padding: 1rem;
+      padding: 0.75rem; // Reduced padding
       border-radius: 8px;
-      transition: transform 0.3s;
-
-      &:hover {
-        transform: translateY(-5px);
-      }
+      transition: transform 0.2s;
 
       img {
         width: 100%;
-        height: 180px;
+        height: 150px; // Smaller height
         object-fit: cover;
         border-radius: 4px;
+        aspect-ratio: 1/1; // Prevent CLS
       }
 
       .info {
-        margin-top: 0.75rem;
+        margin-top: 0.5rem;
 
         h4 {
-          font-size: 1rem;
+          font-size: 0.9rem;
           margin: 0;
         }
 
         p {
           color: #f56;
           font-weight: 600;
-          margin: 0.25rem 0 0;
+          margin: 0.2rem 0 0;
         }
       }
     }
@@ -189,40 +197,37 @@
   // --- Newsletter ---
   .newsletter {
     background: #f9f9f9;
-    padding: 3rem 1rem;
+    padding: 2rem 0.5rem;
     text-align: center;
 
     h2 {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
       margin-bottom: 0.5rem;
     }
 
     p {
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
+      font-size: 0.9rem;
     }
 
     input[type="email"] {
-      padding: 0.5rem;
-      width: 240px;
-      max-width: 90%;
+      padding: 0.4rem;
+      width: 100%; // Full width for mobile
+      max-width: 300px; // Slightly larger max-width
       border: 1px solid #ccc;
       border-radius: 4px;
-      margin-right: 0.5rem;
+      margin: 0.5rem 0; // Stack vertically
     }
 
     button {
-      padding: 0.5rem 1rem;
+      padding: 0.4rem 0.8rem;
       background: #000;
       color: white;
       border: none;
       font-weight: 600;
       border-radius: 4px;
       cursor: pointer;
-      transition: 0.3s;
-
-      &:hover {
-        background: #333;
-      }
+      transition: background 0.3s;
     }
   }
 
@@ -231,11 +236,81 @@
     background: #000;
     color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem 0.5rem;
 
     p {
       margin: 0;
-      font-size: 0.9rem;
+      font-size: 0.85rem;
+    }
+  }
+
+  // Mobile-specific adjustments
+  @media (max-width: 768px) {
+    .hero-banner {
+      height: 60vh; // Shorter for mobile
+      .hero-text {
+        padding: 1rem 1.5rem;
+        h1 {
+          font-size: 1.8rem;
+        }
+        p {
+          font-size: 0.9rem;
+        }
+        button {
+          padding: 0.5rem 1rem;
+          font-size: 0.85rem;
+        }
+      }
+    }
+
+    .featured-categories,
+    .product-showcase {
+      .category-grid,
+      .product-grid {
+        grid-template-columns: repeat(
+          auto-fit,
+          minmax(120px, 1fr)
+        ); // Smaller for mobile
+        gap: 0.5rem;
+      }
+
+      .category-card,
+      .product-card {
+        height: 140px; // Smaller for mobile
+        &:hover {
+          transform: none; // Disable transform on mobile to reduce GPU load
+        }
+
+        img {
+          height: 120px; // Adjust for mobile
+        }
+
+        .category-name {
+          font-size: 0.9rem;
+          bottom: 6px;
+          left: 6px;
+        }
+      }
+    }
+
+    .promo-banner {
+      padding: 1.5rem 0.5rem;
+      h3 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+    }
+
+    .newsletter {
+      input[type="email"],
+      button {
+        display: block; // Stack vertically
+        width: 100%;
+        max-width: 100%;
+        margin: 0.5rem 0;
+      }
     }
   }
 }

@@ -14,16 +14,16 @@
     <div class="category-grid">
       <div
         class="category-card"
-        *ngFor="let cat of ['Men', 'Women', 'Accessories']"
+        *ngFor="let cat of categories"
+        (click)="navigateToCategory(cat.name)"
       >
         <div
           class="image"
           [ngStyle]="{
-            'background-image':
-              'url(assets/images/' + cat.toLowerCase() + '.jpg)'
+            'background-image': 'url(' + cat.image + ')'
           }"
         ></div>
-        <div class="category-name">{{ cat }}</div>
+        <div class="category-name">{{ cat.name }}</div>
       </div>
     </div>
   </section>
