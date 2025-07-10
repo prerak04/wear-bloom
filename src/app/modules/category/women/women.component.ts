@@ -41,21 +41,21 @@ export class WomenComponent {
       price: 1000,
     },
     {
-      route: '/category/app-men-detail/6',
+      route: '/category/app-women-detail/6',
       label: 'Womens wear 6',
       image: '/assets/images/women.jpg',
       price: 1000,
     },
     {
-      route: '/category/app-men-detail/7',
+      route: '/category/app-women-detail/7',
       label: 'Womens wear 7',
-      image: '/assets/images/men.jpg',
+      image: '/assets/images/women.jpg',
       price: 1000,
     },
     {
-      route: '/category/app-men-detail/8',
+      route: '/category/app-women-detail/8',
       label: 'Womens wear 8',
-      image: '/assets/images/men.jpg',
+      image: '/assets/images/women.jpg',
       price: 1000,
     },
   ];
