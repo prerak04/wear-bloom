@@ -37,15 +37,25 @@ const routes = [
     data: {},
   },
   {
-    path: `${Routes.Women.url}/:id`,
+    path: `${Routes.WomenDetail.url}/:id`,
     loadComponent: () =>
-      import('./women/women.component').then((m) => m.WomenComponent),
+      import('./women/women-detail/women-detail.component').then(
+        (m) => m.WomenDetailComponent
+      ),
     data: {},
   },
   {
     path: Routes.Kids.url,
     loadComponent: () =>
       import('./kids/kids.component').then((m) => m.KidsComponent),
+    data: {},
+  },
+  {
+    path: `${Routes.KidsDetail.url}/:id`,
+    loadComponent: () =>
+      import('./kids/kids-detail/kids-detail.component').then(
+        (m) => m.KidsDetailComponent
+      ),
     data: {},
   },
 ];

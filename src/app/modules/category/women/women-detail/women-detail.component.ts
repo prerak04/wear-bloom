@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
@@ -7,9 +7,9 @@ import { Subscription } from 'rxjs';
   selector: 'app-women-detail',
   imports: [CommonModule],
   templateUrl: './women-detail.component.html',
-  styleUrl: './women-detail.component.css',
+  styleUrl: './women-detail.component.scss',
 })
-export class WomenDetailComponent {
+export class WomenDetailComponent implements OnInit, OnDestroy {
   imageUrl: string = '';
   productLabel: string = '';
   productId: string | null = null;

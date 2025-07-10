@@ -35,9 +35,21 @@ export class Routes {
     url: 'app-women',
   };
 
+  static readonly WomenDetail: RouteData = {
+    name: 'women/detail',
+    icon: 'sd-home-03',
+    url: 'app-women-detail',
+  };
+
   static readonly Kids: RouteData = {
     name: 'kids',
     icon: 'sd-home-03',
     url: 'app-kids',
+  };
+
+  static readonly KidsDetail: RouteData = {
+    name: 'kids/detail',
+    icon: 'sd-home-03',
+    url: 'app-kids-detail',
   };
 }

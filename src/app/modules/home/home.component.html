@@ -1,10 +1,21 @@
 <div class="home-page">
   <!-- Hero Banner -->
-  <section class="hero-banner">
-    <div class="hero-text">
-      <h1>Own Your Vibe</h1>
-      <p>Trendy • Timeless • Tailored</p>
-      <button>Shop Now</button>
+  <section class="hero-carousel">
+    <div class="carousel-wrapper">
+      <div
+        class="carousel-slide"
+        *ngFor="let image of carouselImages; let i = index"
+        [class.active]="i === currentSlide"
+        [ngStyle]="{ 'background-image': 'url(' + image + ')' }"
+      ></div>
+    </div>
+  </section>
+
+  <!-- 🎉 Marquee Banner -->
+  <section class="marquee-banner">
+    <div class="marquee-text">
+      ✨ New Drops Every Week • Free Shipping Over ₹999 • Style That Speaks You
+      ✨
     </div>
   </section>
 
@@ -30,9 +41,10 @@
 
   <!-- Promo Banner -->
   <section class="promo-banner">
-    <div class="promo-text">
-      <h3>Up to 50% Off</h3>
-      <p>On selected summer collections</p>
+    <div class="floating-sale-tag">50% OFF</div>
+    <div class="promo-content">
+      <h3>Summer Clearance</h3>
+      <p>Heat up your style – cool down the prices!</p>
       <button>Browse Sale</button>
     </div>
   </section>
@@ -40,12 +52,22 @@
   <!-- Product Showcase -->
   <div class="product-showcase">
     <h2>New Arrivals</h2>
-    <div class="product-grid">
-      <div class="product-card" *ngFor="let product of newArrivals">
-        <img [src]="product.image" [alt]="product.name" />
-        <div class="info">
-          <h4>{{ product.name }}</h4>
-          <p>₹{{ product.price }}</p>
+    <div class="scrolling-banner">
+      <div class="scrolling-track">
+        <div class="product-card" *ngFor="let product of newArrivals">
+          <img [src]="product.image" [alt]="product.name" />
+          <div class="info">
+            <h4>{{ product.name }}</h4>
+            <p>₹{{ product.price }}</p>
+          </div>
+        </div>
+        <!-- Duplicate the products for seamless infinite loop -->
+        <div class="product-card" *ngFor="let product of newArrivals">
+          <img [src]="product.image" [alt]="product.name" />
+          <div class="info">
+            <h4>{{ product.name }}</h4>
+            <p>₹{{ product.price }}</p>
+          </div>
         </div>
       </div>
     </div>

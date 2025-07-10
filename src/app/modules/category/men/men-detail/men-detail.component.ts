@@ -7,7 +7,7 @@ import { Subscription } from 'rxjs';
   selector: 'app-men-detail',
   imports: [CommonModule],
   templateUrl: './men-detail.component.html',
-  styleUrl: './men-detail.component.css',
+  styleUrl: './men-detail.component.scss',
 })
 export class MenDetailComponent implements OnInit, OnDestroy {
   imageUrl: string = '';

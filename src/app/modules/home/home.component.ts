@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,15 +9,19 @@ import { Router } from '@angular/router';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
   constructor(private router: Router) {}
+  ngOnInit(): void {
+    setInterval(() => {
+      this.currentSlide = (this.currentSlide + 1) % this.carouselImages.length;
+    }, 4000); // Change every 4 seconds
+  }
 
-  // Navigate to category page
   navigateToCategory(category: string) {
     const routeMap: Record<string, string> = {
       Men: '/category/app-men',
       Women: '/category/app-women',
-      Accessories: '/category/app-accessories',
+      Kids: '/category/app-kids',
     };
 
     const targetRoute = routeMap[category];
@@ -28,7 +32,18 @@ export class HomeComponent {
     }
   }
 
-  // Navigate to product detail page
+  carouselImages = [
+    'aassets/images/banner-1.jpg',
+    'assets/images/banner-2.jpg',
+    'assets/images/banner-3.jpg',
+    'assets/images/banner-4.jpg',
+    'assets/images/banner-5.jpg',
+    'assets/images/banner-6.jpg',
+    'assets/images/banner-7.jpg',
+  ];
+
+  currentSlide = 0;
+
   goToProductDetail(product: any) {
     this.router.navigate([product.route, product.id], {
       state: { image: product.image, name: product.name, price: product.price },
@@ -45,8 +60,8 @@ export class HomeComponent {
       image: 'assets/images/women.jpg',
     },
     {
-      name: 'Accessories',
-      image: 'assets/images/accessories-banner.jpg',
+      name: 'Kids',
+      image: 'assets/images/kid.jpg',
     },
   ];
 
