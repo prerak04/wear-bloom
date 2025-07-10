@@ -1,2 +1,5 @@
 <app-dashboard-layout-sidebar></app-dashboard-layout-sidebar>
-<router-outlet></router-outlet>
+
+<main [@fadeInOutAnimation]="prepareRoute(outlet)">
+  <router-outlet #outlet="outlet"></router-outlet>
+</main>

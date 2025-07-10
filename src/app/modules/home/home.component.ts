@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     setInterval(() => {
       this.currentSlide = (this.currentSlide + 1) % this.carouselImages.length;
-    }, 4000); // Change every 4 seconds
+    }, 3000);
   }
 
   navigateToCategory(category: string) {

@@ -8,19 +8,19 @@ const routes = [
     path: '',
     loadComponent: () =>
       import('./category.component').then((m) => m.CategoryComponent),
-    data: {},
+    data: { animation: 'CategoryHomePage' },
   },
   {
     path: Routes.CATEGORY.url,
     loadComponent: () =>
       import('./category.component').then((m) => m.CategoryComponent),
-    data: {},
+    data: { animation: 'CategoryPage' },
   },
   {
     path: Routes.Men.url,
     loadComponent: () =>
       import('./men/men.component').then((m) => m.MenComponent),
-    data: {},
+    data: { animation: 'MenPage' },
   },
   {
     path: `${Routes.MenDetail.url}/:id`,
@@ -28,13 +28,13 @@ const routes = [
       import('./men/men-detail/men-detail.component').then(
         (m) => m.MenDetailComponent
       ),
-    data: {},
+    data: { animation: 'MenDetailPage' },
   },
   {
     path: Routes.Women.url,
     loadComponent: () =>
       import('./women/women.component').then((m) => m.WomenComponent),
-    data: {},
+    data: { animation: 'WomenPage' },
   },
   {
     path: `${Routes.WomenDetail.url}/:id`,
@@ -42,13 +42,13 @@ const routes = [
       import('./women/women-detail/women-detail.component').then(
         (m) => m.WomenDetailComponent
       ),
-    data: {},
+    data: { animation: 'WomenDetailPage' },
   },
   {
     path: Routes.Kids.url,
     loadComponent: () =>
       import('./kids/kids.component').then((m) => m.KidsComponent),
-    data: {},
+    data: { animation: 'KidsPage' },
   },
   {
     path: `${Routes.KidsDetail.url}/:id`,
@@ -56,7 +56,7 @@ const routes = [
       import('./kids/kids-detail/kids-detail.component').then(
         (m) => m.KidsDetailComponent
       ),
-    data: {},
+    data: { animation: 'KidsDetailPage' },
   },
 ];
 
