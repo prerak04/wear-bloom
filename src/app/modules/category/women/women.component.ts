@@ -11,31 +11,31 @@ import { Router } from '@angular/router';
 export class WomenComponent {
   products = [
     {
-      route: '/category/app-men-detail/1',
+      route: '/category/app-women-detail/1',
       label: 'Womens wear 1',
-      image: '/assets/images/women.png',
+      image: '/assets/images/women.jpg',
       price: 1000,
     },
     {
-      route: '/category/app-men-detail/2',
+      route: '/category/app-women-detail/2',
       label: 'Womens wear 2',
       image: '/assets/images/women.jpg',
       price: 1500,
     },
     {
-      route: '/category/app-men-detail/3',
+      route: '/category/app-women-detail/3',
       label: 'Womens wear 3',
       image: '/assets/images/women.jpg',
       price: 1000,
     },
     {
-      route: '/category/app-men-detail/4',
+      route: '/category/app-women-detail/4',
       label: 'Womens wear 4',
       image: '/assets/images/women.jpg',
       price: 1000,
     },
     {
-      route: '/category/app-men-detail/5',
+      route: '/category/app-women-detail/5',
       label: 'Womens wear 5',
       image: '/assets/images/women.jpg',
       price: 1000,
