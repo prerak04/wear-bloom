@@ -28,7 +28,7 @@ export class DashboardLayoutSidebarComponent implements OnInit {
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((event: NavigationEnd) => {
-        this.activeMenu = event.urlAfterRedirects; // Update activeMenu based on the current route
+        this.activeMenu = event.urlAfterRedirects;
       });
   }
 
@@ -37,7 +37,7 @@ export class DashboardLayoutSidebarComponent implements OnInit {
   }
 
   onMenuClick(url: string): void {
-    this.activeMenu = url; // Update activeMenu immediately
-    this.router.navigate([url]); // Navigate to the route
+    this.activeMenu = url;
+    this.router.navigate([url]);
   }
 }

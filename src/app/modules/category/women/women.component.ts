@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-women',
   imports: [],
   templateUrl: './women.component.html',
-  styleUrl: './women.component.css'
+  styleUrl: './women.component.scss',
 })
-export class WomenComponent {
-
-}
+export class WomenComponent {}

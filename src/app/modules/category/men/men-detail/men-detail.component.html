@@ -1,0 +1,26 @@
+<div class="product-detail">
+  <!-- Use lazy loading for the image -->
+  <img
+    *ngIf="imageUrl"
+    [src]="imageUrl"
+    alt="{{ productLabel }} Image"
+    class="product-detail-image"
+    loading="lazy"
+  />
+  <div *ngIf="!imageUrl" class="image-placeholder">Image not available</div>
+  <div class="product-info">
+    <h3>{{ productLabel }}</h3>
+    <p class="product-price">Price: {{ productPrice | currency : "INR" }}</p>
+    <p>For inquiries about this product, feel free to contact us:</p>
+
+    <!-- WhatsApp Link -->
+    <a [href]="generateWhatsAppLink()" target="_blank" class="btn btn-whatsapp">
+      Contact via WhatsApp
+    </a>
+
+    <!-- Email Link -->
+    <a [href]="generateEmailLink()" target="_blank" class="btn btn-email">
+      Contact via Email
+    </a>
+  </div>
+</div>

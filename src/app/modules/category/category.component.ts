@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-category',
@@ -9,37 +9,27 @@ import { Router } from '@angular/router';
   styleUrl: './category.component.scss',
 })
 export class CategoryComponent {
-  constructor(private router: Router) {}
+  constructor(private router: Router, private route: ActivatedRoute) {}
 
   clothingCategories = [
     {
       name: 'Men',
-      image: '/assets/images/categories/men.jpg',
+      image: '/assets/images/men.jpg',
       route: 'app-men',
     },
     {
       name: 'Women',
-      image: '/assets/images/categories/women.jpg',
+      image: '/assets/images/women.jpg',
       route: 'app-women',
     },
     {
       name: 'Kids',
-      image: '/assets/images/categories/kids.jpg',
+      image: '/assets/images/kid.jpg',
       route: 'app-kids',
-    },
-    {
-      name: 'Tops',
-      image: '/assets/images/categories/tops.jpg',
-      route: 'app-tops',
-    },
-    {
-      name: 'Dresses',
-      image: '/assets/images/categories/dresses.jpg',
-      route: 'app-dresses',
     },
   ];
 
   navigateToCategory(category: any) {
-    this.router.navigate([category.route]);
+    this.router.navigate([category.route], { relativeTo: this.route });
   }
 }

@@ -1,15 +1,18 @@
-<ul class="category-list">
-  <li
-    class="category-item"
-    *ngFor="let category of clothingCategories"
-    (click)="navigateToCategory(category)"
-  >
-    <img
-      [src]="category.image"
-      [alt]="category.name"
-      class="category-image"
-      (error)="category.image = '/assets/images/placeholder.jpg'"
-    />
-    <span class="category-name">{{ category.name }}</span>
-  </li>
-</ul>
+<section class="category-section">
+  <h2>Explore Categories</h2>
+  <ul class="category-list">
+    <li
+      class="category-item"
+      *ngFor="let category of clothingCategories"
+      (click)="navigateToCategory(category)"
+    >
+      <img
+        [src]="category.image"
+        [alt]="category.name"
+        class="category-image"
+        (error)="category.image = '/assets/images/placeholder.jpg'"
+      />
+      <span class="category-name">{{ category.name }}</span>
+    </li>
+  </ul>
+</section>

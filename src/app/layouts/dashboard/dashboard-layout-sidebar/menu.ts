@@ -40,7 +40,7 @@ export class Menu {
       icon: Routes.CATEGORY.icon,
       link: Routes.CATEGORY.url,
       isOpen: false,
-      Role: [Roles.MasterAdmin, Roles.Admin],
+      Role: [],
     },
   ];
 }

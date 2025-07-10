@@ -12,7 +12,7 @@ const routes = [
       import('./../../modules/home/home.module').then((m) => m.HomeModule),
   },
   {
-    path: 'Category',
+    path: 'category',
     data: { roles: [Roles.MasterAdmin, Roles.Admin] },
 
     loadChildren: () =>

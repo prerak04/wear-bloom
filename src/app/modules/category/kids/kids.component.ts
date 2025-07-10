@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-kids',
   imports: [],
   templateUrl: './kids.component.html',
-  styleUrl: './kids.component.css'
+  styleUrl: './kids.component.scss',
 })
-export class KidsComponent {
-
-}
+export class KidsComponent {}
