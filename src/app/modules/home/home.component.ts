@@ -19,9 +19,10 @@ export class HomeComponent implements OnInit {
 
   navigateToCategory(category: string) {
     const routeMap: Record<string, string> = {
-      Men: '/category/app-men',
-      Women: '/category/app-women',
-      Kids: '/category/app-kids',
+      // Men: '/category/app-men',
+      // Women: '/category/app-women',
+      // Kids: '/category/app-kids',
+      Navratri: '/category/app-navratri',
     };
 
     const targetRoute = routeMap[category];
@@ -31,6 +32,8 @@ export class HomeComponent implements OnInit {
       console.warn('No route defined for category:', category);
     }
   }
+
+  navratriImage = 'assets/images/navratri-home.jpg';
 
   carouselImages = [
     'aassets/images/banner-1.jpg',
@@ -51,18 +54,18 @@ export class HomeComponent implements OnInit {
   }
 
   categories = [
-    {
-      name: 'Men',
-      image: 'assets/images/man-home.png',
-    },
-    {
-      name: 'Women',
-      image: 'assets/images/women.jpg',
-    },
-    {
-      name: 'Kids',
-      image: 'assets/images/kid.jpg',
-    },
+    // {
+    //   name: 'Men',
+    //   image: 'assets/images/man-home.png',
+    // },
+    // {
+    //   name: 'Women',
+    //   image: 'assets/images/women.jpg',
+    // },
+    // {
+    //   name: 'Kids',
+    //   image: 'assets/images/kid.jpg',
+    // },
   ];
 
   newArrivals = [

@@ -58,6 +58,20 @@ const routes = [
       ),
     data: { animation: 'KidsDetailPage' },
   },
+  {
+    path: Routes.Navratri.url,
+    loadComponent: () =>
+      import('./navratri/navratri.component').then((m) => m.NavratriComponent),
+    data: { animation: 'NavratriPage' },
+  },
+  {
+    path: `${Routes.NavratriDetail.url}/:id`,
+    loadComponent: () =>
+      import('./navratri/navratri-detail/navratri-detail.component').then(
+        (m) => m.NavratriDetailComponent
+      ),
+    data: { animation: 'NavratriDetailPage' },
+  },
 ];
 
 @NgModule({

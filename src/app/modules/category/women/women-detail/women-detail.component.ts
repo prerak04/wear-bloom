@@ -52,7 +52,7 @@ export class WomenDetailComponent implements OnInit, OnDestroy {
       - Product Link: ${this.currentUrl}
       - Image: ${this.imageUrl}
     `;
-    return `https://wa.me/9409074902?text=${encodeURIComponent(
+    return `https://wa.me/7990551918?text=${encodeURIComponent(
       message.trim()
     )}`;
   }

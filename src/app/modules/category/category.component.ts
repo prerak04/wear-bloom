@@ -12,20 +12,25 @@ export class CategoryComponent {
   constructor(private router: Router, private route: ActivatedRoute) {}
 
   clothingCategories = [
+    // {
+    //   name: 'Men',
+    //   image: '/assets/images/man-home.png',
+    //   route: 'app-men',
+    // },
+    // {
+    //   name: 'Women',
+    //   image: '/assets/images/women.jpg',
+    //   route: 'app-women',
+    // },
+    // {
+    //   name: 'Kids',
+    //   image: '/assets/images/kid.jpg',
+    //   route: 'app-kids',
+    // },
     {
-      name: 'Men',
-      image: '/assets/images/man-home.png',
-      route: 'app-men',
-    },
-    {
-      name: 'Women',
-      image: '/assets/images/women.jpg',
-      route: 'app-women',
-    },
-    {
-      name: 'Kids',
-      image: '/assets/images/kid.jpg',
-      route: 'app-kids',
+      name: 'Navratri',
+      image: 'assets/images/navratri-cate.jpg',
+      route: 'app-navratri',
     },
   ];
 

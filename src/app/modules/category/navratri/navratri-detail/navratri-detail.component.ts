@@ -1,15 +1,15 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-kids-detail',
+  selector: 'app-navratri-detail',
   imports: [CommonModule],
-  templateUrl: './kids-detail.component.html',
-  styleUrl: './kids-detail.component.scss',
+  templateUrl: './navratri-detail.component.html',
+  styleUrl: './navratri-detail.component.scss',
 })
-export class KidsDetailComponent {
+export class NavratriDetailComponent implements OnInit, OnDestroy {
   imageUrl: string = '';
   productLabel: string = '';
   productId: string | null = null;
@@ -32,7 +32,7 @@ export class KidsDetailComponent {
         this.productPrice = +params['price'] || 0;
 
         if (this.productId) {
-          this.currentUrl = `${this.baseUrl}/category/app-kids-detail/${this.productId}`;
+          this.currentUrl = `${this.baseUrl}/category/app-navratri-detail/${this.productId}`;
         }
       }
     );

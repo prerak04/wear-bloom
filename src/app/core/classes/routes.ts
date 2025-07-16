@@ -52,4 +52,16 @@ export class Routes {
     icon: 'sd-home-03',
     url: 'app-kids-detail',
   };
+
+  static readonly Navratri: RouteData = {
+    name: 'navratri',
+    icon: 'sd-home-03',
+    url: 'app-navratri',
+  };
+
+  static readonly NavratriDetail: RouteData = {
+    name: 'navratri/detail',
+    icon: 'sd-home-03',
+    url: 'app-navratri-detail',
+  };
 }
