@@ -1,26 +1,34 @@
-<div class="product-detail">
-  <!-- Use lazy loading for the image -->
-  <img
-    *ngIf="imageUrl"
-    [src]="imageUrl"
-    alt="{{ productLabel }} Image"
-    class="product-detail-image"
-    loading="lazy"
-  />
-  <div *ngIf="!imageUrl" class="image-placeholder">Image not available</div>
+<div class="product-detail-card">
+  <!-- Product Image -->
+  <div class="image-wrapper">
+    <img
+      *ngIf="imageUrl"
+      [src]="imageUrl"
+      alt="{{ productLabel }} Image"
+      class="product-detail-image"
+      loading="lazy"
+    />
+    <div *ngIf="!imageUrl" class="image-placeholder">Image not available</div>
+  </div>
+
+  <!-- Product Info -->
   <div class="product-info">
-    <h3>{{ productLabel }}</h3>
-    <p class="product-price">Price: {{ productPrice | currency : "INR" }}</p>
-    <p>For inquiries about this product, feel free to contact us:</p>
+    <h1>{{ productLabel }}</h1>
+    <p class="product-price">{{ productPrice | currency : "INR" }}</p>
+    <p class="product-description">Need help or want to buy this product?</p>
 
-    <!-- WhatsApp Link -->
-    <a [href]="generateWhatsAppLink()" target="_blank" class="btn btn-whatsapp">
-      Contact via WhatsApp
-    </a>
-
-    <!-- Email Link -->
-    <a [href]="generateEmailLink()" target="_blank" class="btn btn-email">
-      Contact via Email
-    </a>
+    <!-- Action Buttons -->
+    <div class="button-group">
+      <a
+        [href]="generateWhatsAppLink()"
+        target="_blank"
+        class="btn btn-whatsapp"
+      >
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+      <a [href]="generateEmailLink()" target="_blank" class="btn btn-email">
+        <i class="fas fa-envelope"></i> Email
+      </a>
+    </div>
   </div>
 </div>

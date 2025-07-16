@@ -27,7 +27,15 @@ export class NavratriDetailComponent implements OnInit, OnDestroy {
     this.queryParamsSubscription = this.route.queryParams.subscribe(
       (params) => {
         // Use relative path directly for assets
-        this.imageUrl = params['image'] || '/assets/images/placeholder.jpg';
+        const imageParam = params['image'];
+        this.imageUrl = imageParam
+          ? imageParam.startsWith('http')
+            ? imageParam
+            : `${this.baseUrl}${
+                imageParam.startsWith('/') ? '' : '/'
+              }${imageParam}`
+          : `${this.baseUrl}/assets/images/placeholder.jpg`;
+
         this.productLabel = params['label'] || 'Product';
         this.productPrice = +params['price'] || 0;
 
@@ -49,10 +57,9 @@ export class NavratriDetailComponent implements OnInit, OnDestroy {
       - Product: ${this.productLabel}
       - Price: ₹${this.productPrice}
       - Product ID: ${this.productId}
-      - Product Link: ${this.currentUrl}
       - Image: ${this.imageUrl}
     `;
-    return `https://wa.me/7990551918?text=${encodeURIComponent(
+    return `https://wa.me/9409074902?text=${encodeURIComponent(
       message.trim()
     )}`;
   }
@@ -66,12 +73,11 @@ export class NavratriDetailComponent implements OnInit, OnDestroy {
       - Product: ${this.productLabel}
       - Price: ₹${this.productPrice}
       - Product ID: ${this.productId}
-      - Product Link: ${this.currentUrl}
       - Image: ${this.imageUrl}
 
       Please provide more details.
     `;
-    return `mailto:support@company.com?subject=${encodeURIComponent(
+    return `mailto:wear.bloom.mail@gmail.com?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(body.trim())}`;
   }

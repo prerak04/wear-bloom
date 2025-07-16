@@ -1,9 +1,10 @@
 .home-page {
   font-family: "Poppins", sans-serif;
-  color: #222;
+  color: #2e1a00; // Darker brown for traditional warmth
   line-height: 1.6;
   box-sizing: border-box; // Ensure padding/borders don't cause overflow
   overflow-x: hidden; // Prevent horizontal scrolling
+  background: linear-gradient(to bottom, #fff8e1, #ffebee); // Subtle festive gradient
 
   *,
   *::before,
@@ -18,18 +19,39 @@
   }
 
   .marquee-banner {
-    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    background: linear-gradient(90deg, #ff6f00, #d81b60); // Navratri orange to pink
     padding: 0.75rem 0;
     overflow: hidden;
+    position: relative;
 
     .marquee-text {
       white-space: nowrap;
       animation: marquee 15s linear infinite;
-      color: white;
-      font-weight: 600;
+      color: #fff;
+      font-weight: 700;
       font-size: 1rem;
       text-transform: uppercase;
-      letter-spacing: 1px;
+      letter-spacing: 1.5px;
+      font-family: "Cinzel", serif; // Traditional serif font
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    &::before {
+      content: "🪔";
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.5rem;
+    }
+
+    &::after {
+      content: "🪔";
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.5rem;
     }
 
     @keyframes marquee {
@@ -48,6 +70,7 @@
     width: 100%;
     position: relative;
     overflow: hidden;
+    background: url('https://via.placeholder.com/1200x600?text=NavCam') center/cover no-repeat; // Placeholder for Navratri imagery
 
     .carousel-wrapper {
       height: 100%;
@@ -66,6 +89,7 @@
       opacity: 0;
       transition: opacity 2s ease-in-out;
       animation: zoomInOut 8s ease-in-out infinite;
+      border: 3px solid #ffab00; // Golden border for festive feel
     }
 
     .carousel-slide.active {
@@ -88,35 +112,37 @@
 
   // --- Featured Categories ---
   .featured-categories {
-    padding: 2rem 0.5rem; // Reduced padding
+    padding: 2rem 0.5rem;
     text-align: center;
+    background: #fff3e0; // Light festive background
 
     h2 {
-      font-size: 1.75rem; // Smaller for mobile
+      font-size: 1.75rem;
       margin-bottom: 0.75rem;
+      font-family: "Cinzel", serif;
+      color: #b71c1c; // Deep red for Navratri
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
     }
 
     .category-grid {
       display: grid;
-      grid-template-columns: repeat(
-        auto-fit,
-        minmax(140px, 1fr)
-      ); // Smaller min width
-      gap: 0.75rem; // Reduced gap
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 0.75rem;
       margin-top: 0.75rem;
-      padding: 0 0.5rem; // Ensure grid fits within viewport
+      padding: 0 0.5rem;
     }
 
     .category-card {
       position: relative;
-      height: 180px; // Smaller for mobile
-      border-radius: 8px;
+      height: 180px;
+      border-radius: 10px;
       overflow: hidden;
       cursor: pointer;
-      transition: transform 0.2s; // Faster transition
+      transition: transform 0.2s;
+      border: 2px dashed #ff6f00; // Dashed border for traditional vibe
 
       &:hover {
-        transform: translateY(-4px); // Retained for desktop
+        transform: translateY(-4px);
       }
 
       .image {
@@ -124,18 +150,20 @@
         height: 100%;
         background-size: cover;
         background-position: center;
-        // Removed filter for performance
       }
 
       .category-name {
         position: absolute;
         bottom: 8px;
         left: 8px;
-        color: #343131;
+        color: #fff;
         font-weight: 600;
-        font-size: 1rem; // Smaller for mobile
+        font-size: 1rem;
         letter-spacing: 0.5px;
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); // Lighter shadow
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+        background: rgba(183, 28, 28, 0.7); // Deep red overlay
+        padding: 4px 8px;
+        border-radius: 4px;
       }
     }
   }
@@ -146,141 +174,140 @@
 
     &:hover {
       transform: scale(1.03);
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 8px 16px rgba(183, 28, 28, 0.2); // Reddish shadow
     }
   }
 
-    /* Add to your existing styles */
-     .navratri-collection {
-       background: linear-gradient(135deg, #fff5cc, #ffe0f0);
-       padding: 50px 20px;
-       position: relative;
-       overflow: hidden;
-  
-       // Decorative sparkles animation
-       &::before,
-       &::after {
-         content: "✨";
-         font-size: 2rem;
-         color: #ff4081;
-         position: absolute;
-         animation: floatSparkles 5s infinite alternate ease-in-out;
-       }
-  
-       &::before {
-         top: 10px;
-         left: 20px;
-       }
-  
-       &::after {
-         bottom: 20px;
-         right: 30px;
-       }
-  
-       @keyframes floatSparkles {
-         0% {
-           transform: translateY(0px) rotate(0deg);
-           opacity: 0.5;
-         }
-  
-         100% {
-           transform: translateY(-15px) rotate(20deg);
-           opacity: 1;
-         }
-       }
-  
-       h2 {
-         text-align: center;
-         font-size: 2.5rem;
-         font-weight: bold;
-         color: #b30059;
-         margin-bottom: 30px;
-         text-shadow: 1px 1px 2px #fff;
-       }
-  
-       .category-grid {
-         display: flex;
-         justify-content: center;
-       }
-  
-       .category-card {
-         position: relative;
-         width: 240px;
-         height: 300px;
-         border-radius: 15px;
-         overflow: hidden;
-         cursor: pointer;
-         transition: all 0.4s ease;
-         background: #fff;
-         border: 3px dashed #ff6600;
-  
-         .image {
-           width: 100%;
-           height: 100%;
-           background-size: cover;
-           background-position: center;
-           position: relative;
-           display: flex;
-           align-items: flex-end;
-           justify-content: center;
-  
-           .overlay {
-             content: '';
-             position: absolute;
-             top: 0;
-             left: 0;
-             height: 100%;
-             width: 100%;
-             background: linear-gradient(to top, rgba(255, 102, 0, 0.6), rgba(255, 255, 255, 0));
-             transition: background 0.3s ease-in-out;
-           }
-         }
-  
-         .category-name {
-           position: absolute;
-           bottom: 15px;
-           left: 50%;
-           transform: translateX(-50%);
-           color: #fff;
-           font-size: 1rem;
-          //  font-weight: 700;
-          //  padding: 10px 20px;
-           background: rgba(0, 0, 0, 0.65);
-           border-radius: 7px;
-           text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-         }
-  
-         &:hover {
-           transform: scale(1.05) rotate(-1deg);
-           box-shadow: 0 10px 25px rgba(255, 102, 0, 0.4);
-  
-           .overlay {
-             background: linear-gradient(to top, rgba(255, 51, 153, 0.7), rgba(255, 255, 255, 0));
-           }
-  
-           .category-name {
-             background: rgba(255, 51, 153, 0.8);
-           }
-         }
-  
-         &.highlighted {
-           border: 3px solid #e60073;
-           box-shadow: 0 8px 25px rgba(230, 0, 115, 0.4);
-         }
-       }
-     }
+  // --- Navratri Collection ---
+  .navratri-collection {
+    background: linear-gradient(135deg, #ffecb3, #ffccbc); // Warm festive gradient
+    padding: 50px 20px;
+    position: relative;
+    overflow: hidden;
+
+    &::before,
+    &::after {
+      content: "🪔";
+      font-size: 2.5rem;
+      color: #ffab00;
+      position: absolute;
+      animation: floatSparkles 5s infinite alternate ease-in-out;
+    }
+
+    &::before {
+      top: 15px;
+      left: 25px;
+    }
+
+    &::after {
+      bottom: 25px;
+      right: 35px;
+    }
+
+    @keyframes floatSparkles {
+      0% {
+        transform: translateY(0px) rotate(0deg);
+        opacity: 0.6;
+      }
+      100% {
+        transform: translateY(-15px) rotate(20deg);
+        opacity: 1;
+      }
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #b71c1c; // Deep red
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 2px #fff;
+      font-family: "Cinzel", serif;
+    }
+
+    .category-grid {
+      display: flex;
+      justify-content: center;
+    }
+
+    .category-card {
+      position: relative;
+      width: 240px;
+      height: 300px;
+      border-radius: 15px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.4s ease;
+      background: #fff;
+      border: 3px dashed #ffab00; // Golden dashed border
+
+      .image {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+
+        .overlay {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background: linear-gradient(to top, rgba(183, 28, 28, 0.6), rgba(255, 255, 255, 0));
+          transition: background 0.3s ease-in-out;
+        }
+      }
+
+      .category-name {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 10px 20px;
+        background: rgba(183, 28, 28, 0.65); // Deep red
+        border-radius: 7px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      }
+
+      &:hover {
+        transform: scale(1milliampere);
+        box-shadow: 0 10px 25px rgba(183, 28, 28, 0.4);
+
+        .overlay {
+          background: linear-gradient(to top, rgba(255, 111, 0, 0.7), rgba(255, 255, 255, 0));
+        }
+
+        .category-name {
+          background: rgba(255, 111, 0, 0.8); // Vibrant orange
+        }
+      }
+
+      &.highlighted {
+        border: 3px solid #b71c1c; // Deep red for highlight
+        box-shadow: 0 8px 25px rgba(183, 28, 28, 0.4);
+      }
+    }
+  }
 
   // --- Promo Banner ---
   .promo-banner {
     position: relative;
-    padding: 3rem 2rem; // Increased horizontal padding
+    padding: 3rem 2rem;
     text-align: center;
-    background: linear-gradient(135deg, #ff6a6a, #ffb347);
+    background: linear-gradient(135deg, #d81b60, #ffab00); // Navratri pink to golden
     color: #fff;
     overflow: hidden;
     border-radius: 12px;
     margin: 2rem auto;
-    max-width: 1200px; // Keeps it centered and not full width
+    max-width: 1200px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 
     .promo-content {
@@ -291,6 +318,8 @@
         font-size: 2.5rem;
         font-weight: 700;
         margin-bottom: 0.5rem;
+        font-family: "Cinzel", serif;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
       }
 
       p {
@@ -302,7 +331,7 @@
       button {
         padding: 0.8rem 1.6rem;
         background: #fff;
-        color: #ff4c4c;
+        color: #d81b60; // Festive pink
         font-weight: 700;
         border: none;
         border-radius: 30px;
@@ -311,7 +340,7 @@
         transition: all 0.3s ease;
 
         &:hover {
-          background: #ffecec;
+          background: #ffebee;
           transform: scale(1.05);
           box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
         }
@@ -321,9 +350,9 @@
     .floating-sale-tag {
       position: absolute;
       top: 0;
-      left: 1rem; // Keeps it inside visible padding
+      left: 1rem;
       background: #fff;
-      color: #ff4c4c;
+      color: #d81b60;
       padding: 1rem;
       font-weight: 900;
       font-size: 1.2rem;
@@ -348,10 +377,13 @@
   .product-showcase {
     text-align: center;
     padding: 2rem 1rem;
+    background: #fff8e1; // Light festive background
 
     h2 {
       font-size: 2rem;
       margin-bottom: 1rem;
+      font-family: "Cinzel", serif;
+      color: #b71c1c;
     }
 
     .scrolling-banner {
@@ -370,7 +402,7 @@
         max-width: 200px;
         margin: 0 1rem;
         background: #fff;
-        border: 1px solid #eee;
+        border: 2px dashed #ffab00; // Golden dashed border
         border-radius: 8px;
         overflow: hidden;
         flex-shrink: 0;
@@ -388,10 +420,11 @@
           h4 {
             font-size: 1rem;
             margin: 0.5rem 0 0;
+            color: #2e1a00;
           }
 
           p {
-            color: #f56;
+            color: #d81b60; // Festive pink
             font-weight: 600;
             margin: 0.25rem 0 0;
           }
@@ -411,44 +444,51 @@
 
   // --- Newsletter ---
   .newsletter {
-    background: #f9f9f9;
+    background: #ffecb3; // Warm yellow
     padding: 2rem 0.5rem;
     text-align: center;
 
     h2 {
       font-size: 1.5rem;
       margin-bottom: 0.5rem;
+      font-family: "Cinzel", serif;
+      color: #b71c1c;
     }
 
     p {
       margin-bottom: 0.75rem;
       font-size: 0.9rem;
+      color: #2e1a00;
     }
 
     input[type="email"] {
       padding: 0.4rem;
-      width: 100%; // Full width for mobile
-      max-width: 300px; // Slightly larger max-width
-      border: 1px solid #ccc;
+      width: 100%;
+      max-width: 300px;
+      border: 1px solid #ffab00;
       border-radius: 4px;
-      margin: 0.5rem 0; // Stack vertically
+      margin: 0.5rem 0;
     }
 
     button {
       padding: 0.4rem 0.8rem;
-      background: #000;
+      background: #d81b60; // Festive pink
       color: white;
       border: none;
       font-weight: 600;
       border-radius: 4px;
       cursor: pointer;
       transition: background 0.3s;
+
+      &:hover {
+        background: #b71c1c; // Darker red
+      }
     }
   }
 
   // --- Footer ---
   .site-footer {
-    background: #000;
+    background: #2e1a00; // Dark brown for elegance
     color: white;
     text-align: center;
     padding: 1rem 0.5rem;
@@ -461,43 +501,28 @@
 
   // Mobile-specific adjustments
   @media (max-width: 768px) {
-    .hero-banner {
-      height: 60vh; // Shorter for mobile
-      .hero-text {
-        padding: 1rem 1.5rem;
-        h1 {
-          font-size: 1.8rem;
-        }
-        p {
-          font-size: 0.9rem;
-        }
-        button {
-          padding: 0.5rem 1rem;
-          font-size: 0.85rem;
-        }
-      }
+    .hero-carousel {
+      height: 60vh;
     }
 
     .featured-categories,
     .product-showcase {
       .category-grid,
       .product-grid {
-        grid-template-columns: repeat(
-          auto-fit,
-          minmax(120px, 1fr)
-        ); // Smaller for mobile
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
         gap: 0.5rem;
       }
 
       .category-card,
       .product-card {
-        height: 140px; // Smaller for mobile
+        height: 140px;
+
         &:hover {
-          transform: none; // Disable transform on mobile to reduce GPU load
+          transform: none;
         }
 
         img {
-          height: 120px; // Adjust for mobile
+          height: 120px;
         }
 
         .category-name {
@@ -521,7 +546,7 @@
     .newsletter {
       input[type="email"],
       button {
-        display: block; // Stack vertically
+        display: block;
         width: 100%;
         max-width: 100%;
         margin: 0.5rem 0;

@@ -1,73 +1,215 @@
-.product-detail {
+.product-detail-card {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 2rem;
+    background: linear-gradient(to bottom, #ffecd2, #fceabb);
+    /* Navratri-inspired warm gradient */
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(183, 28, 28, 0.15);
+    /* Reddish festive shadow */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
     text-align: center;
-    padding: 20px;
+    position: relative;
+    border: 2px dashed #ffab00;
+    /* Golden dashed border for traditional look */
+
+    &::before {
+        content: "🪔";
+        /* Diya for festive touch */
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 2rem;
+        opacity: 0.2;
+    }
+
+    &::after {
+        content: "🪔";
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        font-size: 2rem;
+        opacity: 0.2;
+    }
+}
+
+.image-wrapper {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(183, 28, 28, 0.1);
+    /* Reddish shadow */
+    border: 2px solid rgba(255, 171, 0, 0.3);
+    /* Golden border */
 }
 
 .product-detail-image {
     width: 100%;
-    max-width: 500px;
-    /* Adjust this as needed */
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 20px;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    border-radius: 12px;
+
+    &:hover {
+        transform: scale(1.05);
+        /* Enhanced zoom effect */
+    }
 }
 
-.product-info {
-    padding: 20px;
+.image-placeholder {
+    width: 100%;
+    height: 300px;
+    background: #fff3e0;
+    /* Light festive color */
+    color: #d81b60;
+    /* Festive pink */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    border-radius: 12px;
+    font-family: "Cinzel", serif;
+    /* Traditional font */
 }
 
-.product-info h3 {
-    margin: 20px 0;
-    font-size: 24px;
-    font-weight: bold;
+.product-info h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2e1a00;
+    /* Dark brown for traditional look */
+    margin-bottom: 10px;
+    font-family: "Cinzel", serif;
+    /* Traditional font */
 }
 
-.product-info p {
-    margin: 10px 0;
-    font-size: 18px;
+.product-price {
+    font-size: 1.6rem;
+    color: #d81b60;
+    /* Festive pink */
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.product-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .btn {
-    display: inline-block;
-    padding: 12px 20px;
-    margin: 10px;
-    text-decoration: none;
-    color: white;
-    border-radius: 6px;
-    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(183, 28, 28, 0.3);
+    /* Reddish shadow */
 }
 
 .btn-whatsapp {
-    background-color: #25d366;
-    /* WhatsApp green color */
-}
+    background: linear-gradient(135deg, #ff6f00, #b71c1c);
+    /* Navratri orange to red */
 
-.btn-whatsapp:hover {
-    background-color: #128c7e;
+    &:hover {
+        background: linear-gradient(135deg, #b71c1c, #ff6f00);
+        /* Reverse gradient */
+        transform: scale(1.05);
+        box-shadow: 0 6px 18px rgba(183, 28, 28, 0.4);
+    }
 }
 
 .btn-email {
-    background-color: #0072ff;
-    /* Email blue color */
+    background: linear-gradient(135deg, #ffab00, #d81b60);
+    /* Golden to pink */
+
+    &:hover {
+        background: linear-gradient(135deg, #d81b60, #ffab00);
+        /* Reverse gradient */
+        transform: scale(1.05);
+        box-shadow: 0 6px 18px rgba(183, 28, 28, 0.4);
+    }
 }
 
-.btn-email:hover {
-    background-color: #005bb5;
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+    .product-detail-card {
+        max-width: 500px;
+        /* Narrower width for mobile */
+        margin: 20px auto;
+        /* Center horizontally */
+        padding: 1.5rem;
+    }
+
+    .image-wrapper {
+        max-width: 400px;
+    }
+
+    .product-info h1 {
+        font-size: 1.8rem;
+    }
+
+    .product-price {
+        font-size: 1.4rem;
+    }
+
+    .product-description {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
 }
 
-.btn-upi {
-    background-color: #4caf50;
-    /* Green color */
-    color: white;   
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
+@media (max-width: 480px) {
+    .product-detail-card {
+        max-width: 90%;
+        /* Use percentage for better centering */
+        margin: 10px auto;
+        /* Center horizontally */
+        padding: 1rem;
+    }
 
-.btn-upi:hover {
-    background-color: #45a049;
+    .image-wrapper {
+        max-width: 300px;
+        height: 250px;
+    }
+
+    .product-info h1 {
+        font-size: 1.5rem;
+    }
+
+    .product-price {
+        font-size: 1.2rem;
+    }
+
+    .product-description {
+        font-size: 0.85rem;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
 }

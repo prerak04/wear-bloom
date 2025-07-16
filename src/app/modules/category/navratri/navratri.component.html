@@ -1,14 +1,14 @@
 <div class="product-container">
   <div class="product-card" *ngFor="let product of products">
-    <img
-      [src]="product.image"
-      alt="{{ product.label }}"
-      class="product-image"
-    />
+    <div class="image-wrapper">
+      <img [src]="product.image" alt="{{ product.label }}" loading="lazy" />
+    </div>
     <div class="product-info">
       <h3>{{ product.label }}</h3>
-      <h4>Price: {{ product.price | currency : "INR" }}</h4>
-      <button (click)="goToProductDetail(product)">View Details</button>
+      <h4>{{ product.price | currency : "INR" }}</h4>
+      <button (click)="goToProductDetail(product)">
+        <i class="fas fa-eye"></i> View Details
+      </button>
     </div>
   </div>
 </div>
