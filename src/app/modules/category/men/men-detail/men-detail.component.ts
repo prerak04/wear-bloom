@@ -71,7 +71,7 @@ export class MenDetailComponent implements OnInit, OnDestroy {
 
       Please provide more details.
     `;
-    return `mailto:support@company.com?subject=${encodeURIComponent(
+    return `mailto:wear.bloom.mail@gmail.com?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(body.trim())}`;
   }

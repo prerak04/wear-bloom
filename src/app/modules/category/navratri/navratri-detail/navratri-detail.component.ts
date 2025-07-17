@@ -59,7 +59,7 @@ export class NavratriDetailComponent implements OnInit, OnDestroy {
       - Product ID: ${this.productId}
       - Image: ${this.imageUrl}
     `;
-    return `https://wa.me/9409074902?text=${encodeURIComponent(
+    return `https://wa.me/7990551918?text=${encodeURIComponent(
       message.trim()
     )}`;
   }
