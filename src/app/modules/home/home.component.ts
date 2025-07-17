@@ -36,13 +36,11 @@ export class HomeComponent implements OnInit {
   navratriImage = 'assets/images/navratri-home.jpg';
 
   carouselImages = [
-    'aassets/images/banner-1.jpg',
-    'assets/images/banner-2.jpg',
-    'assets/images/banner-3.jpg',
-    'assets/images/banner-4.jpg',
-    'assets/images/banner-5.jpg',
-    'assets/images/banner-6.jpg',
-    'assets/images/banner-7.jpg',
+    'assets/images/choli-1.jpg',
+    'assets/images/choli-2.jpg',
+    'assets/images/choli-3.jpg',
+    'assets/images/choli-4.jpg',
+    'assets/images/choli-5.jpg',
   ];
 
   currentSlide = 0;
@@ -70,22 +68,19 @@ export class HomeComponent implements OnInit {
 
   newArrivals = [
     {
-      name: 'Oversized Tee',
-      price: 899,
-      image:
-        'assets/images/pngtree-clothes-jacket-clip-art-png-image_5851859.jpg',
+      name: '',
+      price: 3499,
+      image: 'assets/images/choli-3.jpg',
     },
     {
-      name: 'Summer Dress',
-      price: 1499,
-      image:
-        'assets/images/pngtree-clothing-sweater-clothes-clothing-mens-clothing-spring-clothes-foreign-trade-tailor-png-image_2611494.jpg',
+      name: '',
+      price: 3499,
+      image: 'assets/images/choli-2.jpg',
     },
     {
-      name: 'Denim Jacket',
-      price: 1999,
-      image:
-        'assets/images/pngtree-original-hand-drawn-cartoon-clothing-green-coat-png-image_4082057.png',
+      name: '',
+      price: 3499,
+      image: 'assets/images/choli-1.jpg',
     },
   ];
 }
