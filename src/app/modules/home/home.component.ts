@@ -41,6 +41,21 @@ export class HomeComponent implements OnInit {
     'assets/images/choli-3.jpg',
     'assets/images/choli-4.jpg',
     'assets/images/choli-5.jpg',
+    'assets/images/1150.jpg',
+    'assets/images/a950.jpg',
+    'assets/images/a1000.jpg',
+    'assets/images/a1250.jpg',
+    'assets/images/a1400.jpg',
+    'assets/images/a1500.jpg',
+    'assets/images/a1600.jpg',
+    'assets/images/a1700.jpg',
+    'assets/images/a2000.jpg',
+    'assets/images/a2200.jpg',
+    'assets/images/b950.jpg',
+    'assets/images/b1000.jpg',
+    'assets/images/b2000.jpg',
+    'assets/images/c950.jpg',
+    'assets/images/400-pp.jpg',
   ];
 
   currentSlide = 0;
@@ -69,18 +84,81 @@ export class HomeComponent implements OnInit {
   newArrivals = [
     {
       name: '',
-      price: 3499,
       image: 'assets/images/choli-3.jpg',
     },
     {
       name: '',
-      price: 3499,
       image: 'assets/images/choli-2.jpg',
     },
     {
       name: '',
-      price: 3499,
       image: 'assets/images/choli-1.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/choli-4.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/choli-5.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/a1700.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/a2000.jpg',
+    },
+
+    {
+      name: '',
+      image: 'assets/images/b1000.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/b2000.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/c950.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/400-pp.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/650.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/1500.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/1650.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/1750.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/b1200.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/c1000.jpg',
+    },
+    {
+      name: '',
+      image: 'assets/images/d1000.jpg',
+    },
+
+    {
+      name: '',
+      image: 'assets/images/550.jpg',
     },
   ];
 }
